@@ -25,7 +25,7 @@ html{
 
 @font-face {
     font-family: 'silverlining';
-    src: url('./fonts/silverlining.ttf');
+    src: url('/fonts/silverlining.ttf');
 }
 
 @font-face {
@@ -74,16 +74,19 @@ main {
 
 main section {
     background: 
-        linear-gradient(to right, #592B8D, #592B8D, #592B8D), 
-        url('./gfx/purplegrid.png');
-    background-blend-mode: multiply; 
-    margin-bottom: 20px; 
-    max-width: 800px; 
-    padding: 20px; 
+        linear-gradient(to right, #592B8D, #592B8D, #592B8D), /* Gradient layer */
+        url('/gfx/purplegrid.png'); /* Image layer */
+    background-blend-mode: multiply; /* Blend mode */
+    margin-bottom: 20px; /* Margin */
+    max-width: 800px; /* Max width */
+    padding: 20px; /* Padding */
     border: 1px solid #F7F33A;
     outline: 1.5px dashed #EA44C3;
     outline-offset:3px;
     border-radius: 10px;
+    /* border-width:7px;
+    border-style:solid;
+    border-image: url('pinkborder.png') 7 fill round; */
     }
 
 .topbar, .navbar, footer {
@@ -246,7 +249,7 @@ u{
 
 h2 {
     font-size: 25px;
-    background: url('./gfx/interestheader.png');
+    background: url('/gfx/interestheader.png');
     background-size:700px;
     border: #C74BDA solid 1px;
     outline: #5CE073 dashed 1px;
