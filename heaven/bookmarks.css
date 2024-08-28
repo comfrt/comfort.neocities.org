@@ -1,0 +1,228 @@
+@font-face {
+    font-family: 'spirit';
+    src: url('https://comfort.neocities.org/fonts/spirit.ttf');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://comfort.kayla.care/gfx/bmbg.png);
+    font-family: 'ms gothic';
+    font-size: 1em;
+	-webkit-font-smoothing: none;
+}
+
+a{
+    font-weight:bold;
+    background-color:#C8A9E0;
+    color: #ffffff;
+    padding:2px 0px 2px 2px;
+    text-decoration-style: dashed;
+    text-decoration-thickness: 1px;
+    transition: all ease-in-out 0.3s;
+}
+
+a:hover{
+    color:#A781BA;
+    text-decoration-style: solid;
+}
+
+.main{
+    max-width:60%;
+    position:static;
+    background-color:white;
+    padding:1.5em;
+    margin-left:20%;
+}
+
+#bear{
+max-width: 100%;
+margin:1em 0.2em;
+height:auto;
+}
+
+#bear img {
+ width:206px;
+ margin-left:30px;
+}
+
+.layout {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid:
+      "sidebar body aside" 1fr
+      / 15% 50% 15%;
+    gap: 15px;
+    justify-content: center;
+  }
+  
+  .sidebar { 
+    grid-area: sidebar;
+ }
+
+  .body { grid-area: body; }
+  
+  .aside {
+    grid-area: aside; 
+  }
+
+  .content{
+    padding: 1em 1.5em;
+    margin: 0.5em 0;
+    max-width: none;
+    border: thin solid #C8A9E0;
+    box-shadow: none;
+    background-color: white;
+  }
+  
+  .content:first-child{
+    margin:1.5em;
+  }
+
+  .container {
+    overflow: hidden;
+  }
+  
+
+  h2{
+    text-align:center;
+    text-shadow: 2px 1px 1px #ecdbf1; 
+    font-family:'spirit';
+    font-size:1.2em;
+    font-weight:500;
+    color:#C8A9E0;
+  }
+
+  h2::before{
+    content:url('https://comfort.kayla.care/gfx/bmpixel.gif'); 
+    position:relative; /*or absolute*/
+    z-index:100000; 
+    right:10px;
+    bottom:-2px;
+  }
+  
+  h2::after{
+    content:url('https://comfort.kayla.care/gfx/bmpixel.gif'); 
+    position:relative; /*or absolute*/
+    z-index:100000; 
+    left:10px;
+    bottom:-2px;
+  }
+  .item {
+    background-color: #ecdbf1;
+    margin: 1em 0;
+    padding: 0.5em;
+    display: none; /* Hidden by default */
+  }
+  
+  /* The "show" class is added to the filtered elements */
+  .show {
+    display: block;
+  }
+  
+  /* Style the buttons */
+  .btn {
+    border: 1px dotted #A781BA;
+    outline: none;
+    background-color: #ecdbf1;
+    color: #603852;
+    padding: 2px 5px;
+    margin:0.3em;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #D0B4DC; 
+  }
+
+
+  .btn.active {
+    background-color: #C8A9E0;
+    color: white;
+  }
+
+  button {
+    background: rgb(255,221,221);
+    border: 1px dotted #D0B4DC;
+    font-family: "ms gothic";
+    color: #603852;
+    padding: 2px 5px;
+    margin:0.3em;
+    cursor: pointer;
+}
+
+.mobile {
+    display: none;
+}
+@media only screen and (min-width:1001px) {
+  .layout{
+    position:relative;
+  }
+
+  .sidebar{
+    position:sticky;
+    top:0em;
+    align-self: flex-start;
+  }
+
+  .aside{
+    position:sticky;
+    top:13em;
+    align-self: flex-start;
+  }
+
+}
+
+@media only screen and (max-width:1000px) {
+
+    #bear{
+        display:none;
+    }
+
+    body{
+        font-size:1.2em;
+    }
+    .layout{
+        display:flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        max-width:100%;
+        position:static;
+    }
+
+    h2{
+        display:none;
+    }
+    .sidebar{
+        padding-left:1.5em;
+        padding-right:1.5em;
+        padding-top:1.5em;
+        top:0;
+        width:100%;
+    }
+    .main{
+        width:100%;
+    }
+
+    .aside{
+        display:none;
+    }
+
+    button {
+        background: rgb(255,221,221);
+        border: 1px dotted palevioletred;
+        font-family: "ms gothic";
+        color: #603852;
+        padding: 1px 5px;
+        margin: 2px 0;
+        cursor: pointer;
+        font-size:1em;
+    }
+    .mobile{
+        display: inline-block;
+    }
+}

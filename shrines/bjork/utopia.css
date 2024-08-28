@@ -1,0 +1,20 @@
+:root{
+    --underline: #EA866F;
+    --mainbg: #A3BEB2;
+    --headerimg: url("bjork/utopiaheader.jpg");
+    --bgcolor: #F4D2C5;
+    --nav: #60BB9E;
+}
+
+nav a{
+    color:#60BB9E;
+}
+
+#theme-links a{
+    color:#60BB9E;
+    font-weight:bold;
+}
+
+.b1{
+    color:#EA866F;
+mix-blend-mode: multiply;}

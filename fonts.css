@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'rainyhearts';
+    src: url('fonts/rainyhearts.ttf');
+}
+
+@font-face {
+    font-family: 'spirit';
+    src: url('fonts/spirit.ttf');
+}
+
+@font-face {
+    font-family: 'cherish';
+    src: url('fonts/cherish.ttf');
+}
+
+@font-face {
+    font-family: 'hearts';
+    src: url('fonts/hearts.ttf');
+}
+
+    @font-face{
+      font-family: 'emoji';
+      src: url('fonts/emfont.ttf');}
+	  
+	 @font-face{
+      font-family: 'lovesong';
+      src: url('fonts/lovesong.ttf');}
+	  
+	  	 @font-face{
+      font-family: 'silverlining';
+      src: url('fonts/silverlining.ttf');}
+      
+      	  	 @font-face{
+      font-family: 'gothic';
+      src: url('fonts/gothic.ttf');}

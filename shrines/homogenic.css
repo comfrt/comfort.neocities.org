@@ -1,0 +1,20 @@
+:root{
+    --underline: #86051B;
+    --mainbg: #7E7586;
+    --headerimg: url("https://www.bjork.fr/IMG/moton48.jpg");
+    --bgcolor: #86808E;
+    --nav: #5C4E68;
+}
+
+nav a{
+    color:#86051B;
+}
+
+#theme-links a{
+    color:#86051B;
+    font-weight:bold;
+}
+
+.b1{
+    color:#86051B;
+mix-blend-mode: overlay;}

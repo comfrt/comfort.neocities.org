@@ -1,0 +1,1949 @@
+<!DOCTYPE html><script>var __pbpa = true;</script><script>var translated_warning_string = 'Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?';</script><script type="text/javascript" language="javascript" src="https://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=b9f848c06fcba7eaf305d4a7cb7a1b98"></script><!---
+ 
+theme basecode by @kicksnames.
+heavy modifications done by me.
+do not steal anything from this theme.
+ 
+--->
+ 
+<!DOCTYPE html>
+ 
+<title>🎔</title>
+<style>figure{margin:0}.tmblr-iframe{position:absolute}.tmblr-iframe.hide{display:none}.tmblr-iframe--amp-cta-button{visibility:hidden;position:fixed;bottom:10px;left:50%;transform:translateX(-50%);z-index:100}.tmblr-iframe--amp-cta-button.tmblr-iframe--loaded{visibility:visible;animation:iframe-app-cta-transition .2s ease-out}</style><link rel="stylesheet" media="screen" href="https://assets.tumblr.com/client/prod/standalone/blog-network-npf/index.build.css?_v=e0efa3027622701bf9d237179df74f24"><link rel="shortcut icon" href="https://64.media.tumblr.com/5254e1de6208e70bc15cba1289f93890/065ab5af53fd4db0-27/s128x128u_c1/54505db60c594d093d268fb97892d1f9666cfc44.pnj">
+<link rel="alternate" type="application/rss+xml" href="https://lovecide.tumblr.com/rss">
+<meta name="description" content="𝙸 𝙰𝙼 𝙰 𝙻𝙾𝚅𝙴𝙰𝙱𝙻𝙴 𝙾𝙱𝙹𝙴𝙲𝚃." />
+ 
+<html>
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
+
+<!--- SCRIPTS --->
+ 
+ <script src="//pull.cappuccicons.com/cpf.js"></script>
+ 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+ 
+<script src="https://static.tumblr.com/iuw14ew/VSQma1786/jquery.style-my-tooltips.js"></script>
+ 
+<script> (function($){ $(document).ready(function(){ $("a[title]").style_my_tooltips({ tip_follows_cursor:true, tip_delay_time:0, tip_fade_speed:0, attribute:"title" }); }); })(jQuery); </script>
+ 
+ 
+<script type="text/javascript"
+src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
+<script>
+$(document).ready(function() {
+//
+$('a.poplight[href^=#]').click(function() {
+var popID = $(this).attr('rel'); //Get Popup Name
+var popURL = $(this).attr('href'); //Get Popup href to define size
+var query= popURL.split('?');
+var dim= query[1].split('&');
+var popWidth = dim[0].split('=')[1]; //Gets the first query string value
+$('#' + popID).fadeIn().css({ 'width': Number( popWidth ) }).prepend('<a href="#" class="close"></a>');
+var popMargTop = ($('#' + popID).height() + 80) / 2;
+var popMargLeft = ($('#' + popID).width() + 80) / 2;
+//Apply Margin to Popup
+$('#' + popID).css({
+'margin-top' : -popMargTop,
+'margin-left' : -popMargLeft
+});
+$('body').append('<div id="fade"></div>');
+$('#fade').css({'filter' : 'alpha(opacity=80)'}).fadeIn(); //Fade in the fade layer - .css({'filter' : 'alpha(opacity=80)'})
+return false;
+});
+$('a.close, #fade').live('click', function() {
+$('#fade , .popup_block , .question_block').fadeOut(function() {
+$('#fade, a.close').remove(); //fade them both out
+});
+return false;
+});
+});
+</script>
+
+<!---------------------TABBED POP UP------------------->
+
+<script>
+ 
+$(document).ready(function(){
+    $("ul#tabs li").click(function(e){
+        if (!$(this).hasClass("active")) {
+            var tabNum = $(this).index();
+            var nthChild = tabNum+1;
+            $("ul#tabs li.active").removeClass("active");
+            $(this).addClass("active");
+            $("ul#tab li.active").removeClass("active");
+            $("ul#tab li:nth-child("+nthChild+")").addClass("active");
+        }
+    });
+});
+</script>
+  
+<!---------------------DROP DOWN VERSES ------------------->
+
+<script type="text/javascript" src="https://static.tumblr.com/3ikgvxs/0TGl4zgpu/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+$(".links_body").hide();
+$(".links_head").click(function(){
+$(this).next(".links_body").slideToggle('fast');
+}); }); </script>
+ 
+	<link href="https://static.tumblr.com/kgaecjk/jFqr432fi/hover-min.css" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+<link href="//fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+
+<script src="https://static.tumblr.com/2pnwama/DLppehqvd/feathericons.js"></script>
+
+ <script src="//pull.cappuccicons.com/cpf.js"></script>
+
+<!-------MUSIC PLAYER BY GLENTHEMES------->
+<script src="//glenthemes.github.io/-music-/glenplayer06.js"></script>
+<link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=lovecide" /><link rel="alternate" href="ios-app://305343404/tumblr/x-callback-url/blog?blogName=lovecide" /><script
+    defer
+    type="application/javascript"
+    id="bilmur"
+    data-provider="tumblr.com"
+    data-service="blognetwork"
+    data-customproperties='{"theme": ""}'
+    nonce="mygABJGm0hIkSpP6364aauqRt4"
+    src="https://s0.wp.com/wp-content/js/bilmur.min.js?m=202302"
+  ></script><script src="https://assets.tumblr.com/assets/scripts/tumblelog_post_message_queue.js?_v=a8fadfa499d8cb7c3f8eefdf0b1adfdd"></script><link rel="stylesheet" type="text/css" href="https://assets.tumblr.com/fonts/gibson/stylesheet.css?v=3"><meta name="keywords" content="🎔,death note rp,anime rp,animanga rp,video game rp" /><!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. --><!-- Read more: http://ogp.me/ --><meta property="fb:app_id" content="48119224995" /><meta property="og:site_name" content="Tumblr" /><meta property="og:title" content="🎔" /><meta property="og:url" content="https://lovecide.tumblr.com/?og=1" /><meta property="og:description" content="𝙸 𝙰𝙼 𝙰 𝙻𝙾𝚅𝙴𝙰𝙱𝙻𝙴 𝙾𝙱𝙹𝙴𝙲𝚃." /><meta property="og:type" content="profile" /><meta property="og:image" content="https://64.media.tumblr.com/5254e1de6208e70bc15cba1289f93890/065ab5af53fd4db0-27/s128x128u_c1/54505db60c594d093d268fb97892d1f9666cfc44.pnj" /><meta property="al:ios:url" content="tumblr://x-callback-url/blog?blogName=lovecide" /><meta property="al:ios:app_name" content="Tumblr" /><meta property="al:ios:app_store_id" content="305343404" /><meta property="al:android:url" content="tumblr://x-callback-url/blog?blogName=lovecide" /><meta property="al:android:app_name" content="Tumblr" /><meta property="al:android:package" content="com.tumblr" /><!-- END TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- TWITTER TAGS --><meta charset="utf-8"><meta name="twitter:site" content="tumblr" /><meta name="twitter:card" content="summary" /><meta name="twitter:description" content="𝙸 𝙰𝙼 𝙰 𝙻𝙾𝚅𝙴𝙰𝙱𝙻𝙴 𝙾𝙱𝙹𝙴𝙲𝚃." /><meta name="twitter:title" content="🎔" /><meta name="twitter:app:name:iphone" content="Tumblr" /><meta name="twitter:app:name:ipad" content="Tumblr" /><meta name="twitter:app:name:googleplay" content="Tumblr" /><meta name="twitter:app:id:iphone" content="305343404" /><meta name="twitter:app:id:ipad" content="305343404" /><meta name="twitter:app:id:googleplay" content="com.tumblr" /><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=lovecide&amp;referrer=twitter-cards" /><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=lovecide&amp;referrer=twitter-cards" /><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=lovecide&amp;referrer=twitter-cards" /><!-- GOOGLE CAROUSEL --><script type="application/ld+json">
+	{"@type":"ItemList","url":"https:\/\/lovecide.tumblr.com","itemListElement":[{"@type":"ListItem","position":1,"url":"https:\/\/lovecide.tumblr.com\/post\/656979392934871041\/%F0%9D%96%8B%F0%9D%96%94%F0%9D%96%97-%F0%9D%96%9C%F0%9D%96%94%F0%9D%96%92%F0%9D%96%8A%F0%9D%96%93-%F0%9D%96%9C%F0%9D%96%8D%F0%9D%96%94"},{"@type":"ListItem","position":2,"url":"https:\/\/lovecide.tumblr.com\/post\/683019117524107264\/sadprosed-%F0%9D%91%AB%F0%9D%91%B0%F0%9D%91%A8%F0%9D%91%B3%F0%9D%91%B6%F0%9D%91%AE%F0%9D%91%BC%F0%9D%91%AC-%F0%9D%91%B7%F0%9D%91%B9%F0%9D%91%B6%F0%9D%91%B4%F0%9D%91%B7%F0%9D%91%BB%F0%9D%91%BA-the"},{"@type":"ListItem","position":3,"url":"https:\/\/lovecide.tumblr.com\/post\/682995245082869760\/erm-starter-call-3"},{"@type":"ListItem","position":4,"url":"https:\/\/lovecide.tumblr.com\/post\/682981727998820352"},{"@type":"ListItem","position":5,"url":"https:\/\/lovecide.tumblr.com\/post\/682981639619493888"},{"@type":"ListItem","position":6,"url":"https:\/\/lovecide.tumblr.com\/post\/682981513397190656\/this-may-become-a"},{"@type":"ListItem","position":7,"url":"https:\/\/lovecide.tumblr.com\/post\/675315164502982656\/feels-blind-bikini-killginger"},{"@type":"ListItem","position":8,"url":"https:\/\/lovecide.tumblr.com\/post\/674376038112952320"},{"@type":"ListItem","position":9,"url":"https:\/\/lovecide.tumblr.com\/post\/674019875240411136"},{"@type":"ListItem","position":10,"url":"https:\/\/lovecide.tumblr.com\/post\/673406327534518272\/updated-misas-music-player-give-it-a-look-3"},{"@type":"ListItem","position":11,"url":"https:\/\/lovecide.tumblr.com\/post\/673315809766113280\/pre-established-relationship-meme-send-a-and"}],"@context":"http:\/\/schema.org"}</script><link rel="canonical" href="https://lovecide.tumblr.com" /></head>
+<style type="text/css">
+ 
+ /*-------MUSIC PLAYER BY GLENTHEMES-------*/
+:root {
+   --Music-Player-Vinyl:#ff478d;
+   --Vinyl-Icon-Size:17px;
+   --Vinyl-Spin-Speed:3.5s;
+   --Music-Controls:#ffc0d5;
+   --Music-Controls-Size:14px;
+   --Music-Title-Font-Size:11px;
+}
+.glenjams-06 {
+   display:none;
+   position:fixed;
+   bottom:0;margin-bottom:10px;
+   left:0;margin-left:10px;
+}
+
+.pasta {
+   display:flex;
+   align-items:center;
+}
+
+.vinyl-spin {
+   animation:recordspin var(--Vinyl-Spin-Speed) linear infinite;
+   -webkit-animation:recordspin var(--Vinyl-Spin-Speed) linear infinite;
+   -moz-animation:recordspin var(--Vinyl-Spin-Speed) linear infinite;
+   -o-animation:recordspin var(--Vinyl-Spin-Speed) linear infinite;
+}
+
+.vinyl-pause {
+   animation-play-state:paused;
+   -webkit-animation-play-state:paused;
+   -moz-animation-play-state:paused;
+   -o-animation-play-state:paused;
+}
+
+@-webkit-keyframes recordspin {
+   from {
+       -webkit-transform:rotate(0deg);
+       -o-transform:rotate(0deg);
+       transform:rotate(0deg);
+   }
+   to {
+       -webkit-transform:rotate(360deg);
+       -o-transform:rotate(360deg);
+       transform:rotate(360deg);
+   }
+}
+
+@keyframes recordspin {
+   from {
+       -ms-transform:rotate(0deg);
+       -moz-transform:rotate(0deg);
+       -webkit-transform:rotate(0deg);
+       -o-transform:rotate(0deg);
+       transform:rotate(0deg);
+   }
+   to {
+       -ms-transform:rotate(360deg);
+       -moz-transform:rotate(360deg);
+       -webkit-transform:rotate(360deg);
+       -o-transform:rotate(360deg);
+       transform:rotate(360deg);
+   }
+}
+
+.vinyl, .vinyl svg {
+   width:var(--Vinyl-Icon-Size);
+   height:var(--Vinyl-Icon-Size);
+}
+
+.music-controls {
+   margin-left:10px;
+   width:var(--Music-Controls-Size);
+   overflow:hidden;
+   cursor:pointer;
+   margin-top:5px;
+}
+
+.music-controls svg {
+   width:var(--Music-Controls-Size);
+   height:var(--Music-Controls-Size);
+   color:var(--Music-Controls);
+   stroke-width:1.5px;
+}
+
+.pausee {display:none;}
+
+.beff {display:none;}
+.aff {display:block;}
+
+.music-title {
+   margin-left:8px;
+   font-family:work sans;
+   font-size:var(--Music-Title-Font-Size);
+   color:var(--Music-Title-Color);
+}
+
+/* CUSTOM FONTS */
+
+  @font-face { font-family: "pixel"; src: url('https://static.tumblr.com/5fd89aw/aFUlmf7ca/04b03.ttf'); }
+ @font-face { font-family: "oldenglish"; src: url('https://dl.dropboxusercontent.com/s/yj80wvmnf30pojl/old-english-five.regular.ttf'); }
+ 
+/*   HERE STARTS THE CSS / EDIT YOUR LOOKS HERE  */
+ 
+::-webkit-scrollbar {
+width:0px; }
+ 
+::-webkit-scrollbar-thumb:vertical {
+background:transparent;
+height:auto; }
+ 
+ 
+ 
+/*  TOOLTIPS  */
+ 
+#s-m-t-tooltip {
+max-width:150px;
+padding:5px 10px 5px 10px;
+margin:20px 14px 7px 10px;
+background-color:#1b1b1b;
+font-family:"pixel";
+font-style: normal;
+font-size:8px;
+line-height:11px;
+letter-spacing:1px;
+text-transform:uppercase;
+color:#fff5f7;
+z-index:999999; 
+border: solid 1px #fff5f7;
+outline: dashed 1px #ff478d;
+outline-offset: 2px;
+}
+ 
+#s-m-t-tooltip:outline {
+    animation: spin 2s linear infinite;
+}
+ @keyframes spin { 
+  100% { 
+    transform: rotateZ(360deg);
+  }
+}
+ 
+/*  HERE STARTS YOUR BODY DESIGNS   */
+ 
+body {
+background:#151515 url('https://static.tumblr.com/4x9xrfl/KS7r5mlte/misa_theme.png')
+no-repeat fixed top center;
+font-family:'Georgia', serif;
+font-size:10px;
+line-height:17px;
+word-break:break-word;
+-webkit-font-smoothing:antialiased;
+font-smoothing:antialiased;
+text-align:justify;
+color:#fff5f7;
+font-weight:100%;
+    min-width: 100vw; max-width: 100vw; min-height: 100vh; max-height: 100vh;
+            overflow-x:hidden;
+    overflow-y:hidden;}
+}
+ 
+ 
+ 
+/*  HERE ARE YOUR TEXT DESIGNS  */
+
+blockquote {
+    margin-right:1px;
+border-left: 1px dashed #ff478d;
+border-radius: 5px;
+padding-left:15px;
+margin:3px 0 3px 8px;
+} 
+
+a {
+text-decoration: none;
+color: #ff478d;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+    -moz-transition: all 0.7s ease;
+    -o-transition: all 0.7s ease;
+}
+ 
+ a:hover { 
+     text-shadow: 0px 0px 3px #ff478d;
+ }
+     small, sup, sub, small sub, sub small {
+font-size:10px; }
+ 
+ 
+b, big, bold, strong {
+line-height:-1em;
+font-size:11px;
+font-weight:600;
+color:#151515;
+-webkit-font-smoothing:antialiased;
+font-smoothing:antialiased;
+text-shadow: 0px 0px 2px #ff478d;
+text-shadow: -1px 0 #ff478d, 0 1px #ff478d, 1px 0 #ff478d, 0 -1px #ff478d,  0px 0px 3px #ff478d;
+font-family: "oldenglish";
+text-transform:lowercase;
+}
+ 
+b i, i b {
+color:#ff478d;text-transform:italic; }
+ 
+italic, i, em {
+color:#ffc0d5;
+font-size:10px;
+letter-spacing:1px;
+text-transform:lowercase;
+font-family: georgia;
+text-shadow:0 0 3px #ffc0d5; }
+ 
+ strike, del {
+   text-decoration: #ffc0d5 line-through;
+     text-shadow: 0px 0px 2px #ffc0d5 ;
+ } 
+   
+   u{
+       text-decoration: #7ab6c8 underline;
+       text-shadow: 0px 0px 2px #ff478d;
+   }
+   
+h1 {
+text-transform:uppercase;
+font-family:"oldenglish";
+letter-spacing:2px;
+font-size:12px; }
+ 
+h2 {
+text-align:center;
+font-family:"oldenglish";
+color:#ff478d;
+text-shadow: 0px 0px 2px #ff478d;
+letter-spacing:2px;
+font-weight:800;
+font-size:15px; }
+ 
+pre {
+padding-top:5px;
+padding:3px;
+width:auto;
+text-align: left;
+word-wrap: break-word;
+color:#ffc0d5;
+text-shadow:0 0 4px #ffc0d5;
+text-transform:uppercase;
+font-family: "pixel";
+letter-spacing:1px;
+font-size:8px; }
+ 
+ 
+pre::before {
+content: "☠";
+margin-right:10px;
+font-size:12px;
+border-left: 1px dashed #ffc0d5;
+border-radius: 3px;
+padding-left:5px;
+}
+
+.post li {
+    list-style: none;
+}
+    
+ .post li:before {
+        content: "☠";
+        padding-right: 8px;
+        font-size:17px;
+        color:#ff478d;
+        text-shadow: 0px 0px 3px #ff478d;
+    }
+ 
+ ::selection { 
+        color: #1b1b1b;
+text-shadow: -1px 0 #ff478d, 0 1px #ff478d, 1px 0 #ff478d, 0 -1px #ff478d,  0px 0px 3px #ff478d, 0px 0px 3px #ff478d;
+}
+
+::-moz-selection {
+   color: #1b1b1b;
+text-shadow: -1px 0 #ff478d, 0 1px #ff478d, 1px 0 #ff478d, 0 -1px #ff478d,  0px 0px 3px #ff478d, 0px 0px 3px #ff478d;
+}
+
+
+/*  HERE STARTS YOUR POST DESIGNS   */
+ 
+ #entries {
+width:540px;
+height:700px;
+overflow:auto;
+overflow-y:scroll;
+  scrollbar-width: thin;
+  scrollbar-color: #ffc0d5 #151515 ;
+overflow-x:hidden;
+-webkit-mask-image: -webkit-gradient( /* GRADIENT ON THE BOTTOM */
+    linear, center 82%, center bottom,
+from(rgba(0,0,0,20)),
+to(rgba(20,0,0,0)));
+opacity:1; 
+-webkit-transition: all 0.9s ease-out;
+-moz-transition: all 0.9s ease-out;
+transition: all 0.9s ease-out; 
+    position:relative;
+    margin:0 auto;
+    z-index:9999;
+top:-16px;
+left:-90px;
+
+}
+
+#entries:hover {
+opacity:1;
+-webkit-transition: all 0.9s ease-out;
+-moz-transition: all 0.9s ease-out;
+transition: all 0.9s ease-out; } 
+
+
+.post {
+width:540px;
+position:relative;
+word-wrap:break-word;
+margin-top:50px;
+margin-bottom:20px;
+color:#fff5f7;
+}
+ 
+ .textpost {
+     color:#fff5f7 !important;
+ }
+ .textpost img {
+     text-align: center;
+ }
+ 
+.textpost a {
+color: #ffc0d5 ;  
+text-shadow: 0px 0px 3px #ffc0d5 ;
+font-family:"pixel";
+text-transform:uppercase;
+font-size:8px;
+font-weight:0;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+    -moz-transition: all 0.7s ease;
+    -o-transition: all 0.7s ease;
+    text-decoration:underline;
+}
+ 
+ .textpost a:hover { 
+      letter-spacing:1px;
+      text-decoration:none;
+      color:#ff478d;
+     text-shadow: 0px 0px 3px #ff478d;
+}
+
+.title {
+display:block;
+letter-spacing:2px;
+word-spacing:3px;
+display:block;
+text-align:center;
+text-transform:lowercase;
+font:14px "oldenglish";
+font-weight:700;
+margin-bottom:10px;
+color:#1b1b1b;
+text-shadow: -1px 0 #ff478d, 0 1px #ff478d, 1px 0 #ff478d, 0 -1px #ff478d,  0px 0px 3px #ff478d;
+}
+ 
+ 
+/*  QUOTE DESIGNS   */
+ 
+#quote{
+text-align:center;
+font:20px "oldenglish";
+text-transform:lowercase;
+font-weight:700;
+color:#1b1b1b;
+text-shadow: -1px 0 #ff478d, 0 1px #ff478d, 1px 0 #ff478d, 0 -1px #ff478d,  0px 0px 3px #ff478d;
+}
+ 
+#source {
+letter-spacing:1px;
+word-spacing:3px; 
+display:block;
+text-align:center;
+text-transform:uppercase;
+font:8px "pixel";
+margin-bottom:10px; }
+ 
+#source a {
+    text-shadow: 0px 0px 3px #ff478d;
+        -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+    -moz-transition: all 0.7s ease;
+    -o-transition: all 0.7s ease;
+}
+
+#source a:hover {
+      letter-spacing:1px;
+      text-decoration:none;
+      color:#ff478d;
+     text-shadow: 0px 0px 3px #ff478d;
+}
+ 
+#link {
+display:block;
+padding:10px;
+margin-top:5px;
+font:16px "oldenglish";
+font-weight:700;
+text-align:center;
+text-transform:lowercase;
+text-decoration:none;
+color:#1b1b1b;
+text-shadow: -1px 0 #ff478d, 0 1px #ff478d, 1px 0 #ff478d, 0 -1px #ff478d,  0px 0px 3px #ff478d;
+}
+ 
+ #link a {
+      text-decoration-line: none;
+  text-decoration-style: none;
+ }
+ 
+/* CHAT DESIGNS */
+ 
+.chat li {
+list-style-type:none;
+margin-left:-40px;
+margin-top:4px;
+margin-bottom:2px; }
+ 
+.chat li::before {
+content: "»";
+margin-right:4px;
+font-size:20px;
+color:#1b1b1b;
+text-shadow: -1px 0 #ff478d, 0 1px #ff478d, 1px 0 #ff478d, 0 -1px #ff478d,  0px 0px 3px #ff478d;
+}
+ 
+/* ASK DESIGNS */
+ 
+.asker {
+text-align:center;
+font-family:"oldenglish";
+text-transform:lowercase;
+font-size:14px;
+font-weight: 700;
+text-shadow: -1px 0 #ff478d, 0 1px #ff478d, 1px 0 #ff478d, 0 -1px #ff478d;
+    color:#1b1b1b;
+}
+
+ .asked {
+     font-family:"pixel"; text-align:center;font-size:8px; text-transform:uppercase; letter-spacing:1px;margin-top:2px;}
+ 
+.question {
+margin-top:5px;
+text-align:center;
+border-top: dashed 1px #ffc0d5;
+border-bottom: dashed 1px #ffc0d5;
+padding-top:5px;
+padding-bottom:5px;
+margin-left:10px;
+    font-size:12px;
+    color:#fff5f7;
+    text-shadow: 0px 0px 3px #fff5f7;
+    font-style:italic;
+}
+ 
+ 
+/* PERMALINK DESIGNS */
+ 
+.permalinks{
+background-image:url('https://static.tumblr.com/4x9xrfl/U1or5mnbe/permalink.png');
+background-repeat:repeat;
+margin-left:-6px;
+margin-top:-1px;
+width:520px;
+border: solid 1px #fff5f7;
+outline: dashed 1px #ff478d;
+outline-offset: 2px;
+padding:5px;
+display:block;
+height:10px;
+text-align:left;
+color:#403939;
+text-transform:uppercase;
+font:8px "pixel"; 
+word-spacing: 3px;
+}
+ 
+.permalinksa{
+background-image:url('https://static.tumblr.com/4x9xrfl/U1or5mnbe/permalink.png');
+background-repeat:repeat;
+margin-left:-6px;
+margin-top:-1px;
+width:520px;
+border: solid 1px #fff5f7;
+outline: dashed 1px #ff478d ;
+outline-offset: 2px;
+padding:5px;
+display:block;
+height:10px;
+text-align:left;
+color:#403939;
+text-transform:uppercase;
+font:8px "pixel"; 
+word-spacing: 3px;
+}
+ 
+.permalinks a {
+word-spacing: 3px;
+color:#ff478d ;
+text-shadow:1px  1px 1px #1b1b1b,
+1px -1px 1px #1b1b1b,
+-1px  1px 1px #1b1b1b,
+-1px -1px 1px #1b1b1b;
+font-family:8px "pixel"; 
+}
+ 
+ .permaline {
+margin-left:5px;
+width:298px;
+background:transparent;
+display:block;
+padding:5px;
+height:28px;
+text-align:center;
+font-family:8px "pixel"; 
+ }
+
+@font-face { font-family:"avant"; src: url('https://dl.dropboxusercontent.com/s/11icl382vxmy46n/avant_pixel.ttf?dl=1'); format(“truetype”);}
+@font-face{font-family:"all things new";src:url('https://static.tumblr.com/it5srtk/l3Torvvt9/kgallthingsnew.ttf');}
+@font-face { font-family: "sweet pea"; src: url('https://dl.dropboxusercontent.com/s/djpkl58kejckcb5/Sweet%20Pea_2.ttf?dl=0'); format("truetype");}
+
+
+ 
+ 
+.tags {
+text-align:center;
+margin-top:5px;
+}
+ 
+ 
+.tags a {
+font-family:"pixel";
+border:none;
+font-size:8px;
+letter-spacing:1px;
+display:inline;
+    text-transform: uppercase;
+}
+ 
+ 
+/* PAGINATION DESIGNS */
+ 
+#pagintion {
+font-family:arial;
+font-size:36px;
+width:40px;
+color: #1b1b1b;
+text-shadow:1px 1px #ffc0d5,            
+                    1px -1px #ffc0d5,            
+                    1px 0px #ffc0d5,            
+                    0px 1px #ffc0d5,            
+                    0px -1px #ffc0d5,            
+                   -1px 1px #ffc0d5,            
+                   -1px 0px #ffc0d5,            
+                   -1px -1px #ffc0d5;
+                   0px 0px 2px #ffc0d5;
+                   position:fixed;
+margin-left:210px;
+margin-top:650px;
+}
+
+#pagintion a {
+    color:#1b1b1b;
+}
+ 
+#pagintion2 {
+font-family:arial;
+font-size:36px;
+width:40px;
+position:fixed;
+margin-left:204px;
+margin-top:104px;
+color: #1b1b1b;
+text-shadow:1px 1px #ffc0d5,            
+                    1px -1px #ffc0d5,            
+                    1px 0px #ffc0d5,            
+                    0px 1px #ffc0d5,            
+                    0px -1px #ffc0d5,            
+                   -1px 1px #ffc0d5,            
+                   -1px 0px #ffc0d5,            
+                   -1px -1px #ffc0d5;
+                   0px 0px 2px #ffc0d5;
+}
+ 
+#pagintion2 a {
+color:#1b1b1b; }
+ 
+ 
+ #pagination {
+font-family:arial;
+font-size:36px;
+position:fixed;
+width:100px;
+top:40px;
+left:50%;
+margin-left:290px;
+color: #1b1b1b;
+text-shadow:1px 1px #ffc0d5,            
+                    1px -1px #ffc0d5,            
+                    1px 0px #ffc0d5,            
+                    0px 1px #ffc0d5,            
+                    0px -1px #ffc0d5,            
+                   -1px 1px #ffc0d5,            
+                   -1px 0px #ffc0d5,            
+                   -1px -1px #ffc0d5,
+                   0px 0px 2px #ffc0d5;
+}
+
+#pagination a {
+    color:#1b1b1b;
+    text-shadow:0px 0px 3px #ffc0d5;
+}
+
+#pagination i {
+    color: #1b1b1b;
+text-shadow:1px 1px #ffc0d5,            
+                    1px -1px #ffc0d5,            
+                    1px 0px #ffc0d5,            
+                    0px 1px #ffc0d5,            
+                    0px -1px #ffc0d5,            
+                   -1px 1px #ffc0d5,            
+                   -1px 0px #ffc0d5,            
+                   -1px -1px #ffc0d5,
+                   0px 0px 5px #ffc0d5;
+                   font-size: 36px;
+                       -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+    -moz-transition: all 0.7s ease;
+    -o-transition: all 0.7s ease;
+}
+
+#pagination i:hover {
+    font-size:36px;
+    color: #1b1b1b;
+text-shadow:1px 1px #ff478d,            
+                    1px -1px #ff478d,            
+                    1px 0px #ff478d,            
+                    0px 1px #ff478d,            
+                    0px -1px #ff478d,            
+                   -1px 1px #ff478d,            
+                   -1px 0px #ff478d,            
+                   -1px -1px #ff478d,
+                   0px 0px 5px #ff478d;
+}
+ 
+#pagination2 {
+font-family:arial;
+font-size:36px;
+position:fixed;
+top:40px;
+left:50%;
+margin-left:230px;
+color: #1b1b1b;
+text-shadow:1px 1px #ffc0d5,            
+                    1px -1px #ffc0d5,            
+                    1px 0px #ffc0d5,            
+                    0px 1px #ffc0d5,            
+                    0px -1px #ffc0d5,            
+                   -1px 1px #ffc0d5,            
+                   -1px 0px #ffc0d5,            
+                   -1px -1px #ffc0d5;
+                   0px 0px 2px #ffc0d5;
+}
+ 
+#pagination2 a {
+color:#1b1b1b; }
+ 
+ #pagination2 i {
+    color: #1b1b1b;
+text-shadow:1px 1px #ffc0d5,            
+                    1px -1px #ffc0d5,            
+                    1px 0px #ffc0d5,            
+                    0px 1px #ffc0d5,            
+                    0px -1px #ffc0d5,            
+                   -1px 1px #ffc0d5,            
+                   -1px 0px #ffc0d5,            
+                   -1px -1px #ffc0d5,
+                   0px 0px 5px #ffc0d5;
+                   font-size: 36px;
+                       -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+    -moz-transition: all 0.7s ease;
+    -o-transition: all 0.7s ease;
+}
+
+#pagination2 i:hover {
+    font-size:36px;
+    color: #1b1b1b;
+text-shadow:1px 1px #ff478d,            
+                    1px -1px #ff478d,            
+                    1px 0px #ff478d,            
+                    0px 1px #ff478d,            
+                    0px -1px #ff478d,            
+                   -1px 1px #ff478d,            
+                   -1px 0px #ff478d,            
+                   -1px -1px #ff478d,
+                   0px 0px 5px #ff478d;
+}
+/* NOTES DESIGNS */  
+ 
+ol.notes{
+list-style-type:none !important;
+padding:8px; }
+ 
+ol.notes li.note {
+top:0;
+padding-bottom:10px; }
+ 
+.pnotes img.avatar {
+float:left;
+margin-right:10px; }
+ 
+.pnotes a {
+font-family:"pixel";
+text-transform:uppercase; }
+ 
+ 
+/*  DESCRIPTION DESIGN */
+ 
+.description {
+position:fixed;
+width:300px;
+left:50%;
+margin-left:120px;
+margin-top:740px;
+text-align:center;
+font-family:blanka;
+font-size:16px;
+letter-spacing:2px;
+word-spacing:4px;
+padding:5px;
+border-top:1px dashed #444; }
+ 
+ 
+/*  POPUP DESIGNS */
+ 
+.popup_block{
+display:none;
+position:fixed;
+left:50%;
+margin-left:-200px;
+margin-top:200px;
+width:330px;
+height:750px;
+padding:10px;
+z-index: 99999; }
+ 
+*html #fade {position: absolute;}
+*html .popup_block {position: absolute;}
+#fade {
+display:none;
+position:fixed;
+left:0px;
+top:0px;
+width:100%;
+height:100%;
+z-index:9999;  
+background:#000;
+opacity:0; }
+ 
+.question_block{
+height:300px;
+display: none;
+float: left;
+position: fixed;
+top: 50%; left: 50%;
+z-index: 999999999999;
+}
+
+img.btn_close {float: right;}
+#ask_form {height:250px;}
+ 
+ 
+/*  TABS DESIGNS */ 
+ 
+ul#tabs {
+width:50px;
+margin-top:585px;
+margin-left:362px; 
+list-style-type: none;
+text-align:justify;
+font-size:12px;
+font-family: 'oldenglish', serif;
+letter-spacing:1px;
+font-weight:700;
+text-transform:lowercase;
+}
+ 
+ul#tabs li {
+width:50px;
+height:auto;
+display:inline-block;
+cursor: pointer;
+padding:5px 5px 5px;
+font-size:10px;
+letter-spacing:1px;
+text-transform:uppercase;
+text-align:center;
+line-height:200%;
+margin-bottom:5px;
+font-family: 'oldenglish', serif;
+letter-spacing:1px;
+font-weight:700;
+text-transform:lowercase;
+color: #fff5f7;
+text-shadow: 0px 0px 3px #fff5f7;
+-webkit-transition: all 0.9s ease-out;
+-moz-transition: all 0.9s ease-out;
+transition: all 0.9s ease-out;  }
+ 
+ul#tabs li:hover {
+-webkit-transition: all 0.9s ease-out;
+-moz-transition: all 0.9s ease-out;
+transition: all 0.9s ease-out; 
+color:#ffc0d5; }
+ 
+ul#tabs li.active {
+display: inline-block;
+padding: 5px 5px 5px;
+font-size:10px;
+-webkit-transition: all 0.9s ease-out;
+-moz-transition: all 0.9s ease-out;
+transition: all 0.9s ease-out; 
+font-family: 'oldenglish', serif;
+letter-spacing:1px;
+font-weight:700;
+text-transform:lowercase;
+color: #ff5193;
+text-shadow: 0px 0px 3px #ff5193;}
+ 
+ul#tab {
+list-style-type: none;
+margin: 0;
+padding: 0; }
+ 
+ul#tab li {
+display: none; }
+ 
+ul#tab li.active {
+display: block; }  
+    
+    
+/* POPUP CONTENT DESIGN */ 
+
+#tabcontent { 
+background-color:#1b1b1b; 
+width:540px; 
+height:750px; 
+margin-left:-162px; 
+margin-top:-350px; 
+position:fixed; 
+overflow:scroll; 
+padding:10px;
+       -webkit-mask-image: -webkit-gradient( /* GRADIENT ON THE BOTTOM */
+    linear, center 95%, center bottom,
+from(rgba(0,0,0,20)),
+to(rgba(20,0,0,0)));
+opacity:1; }
+
+
+/* DROP DOWN INFORMATIONS */ 
+
+.links_list {
+margin:0px;
+padding:0px;
+width:100%; }
+   
+.links_head {
+    height:auto;
+padding:5px;
+margin-bottom:15px;
+margin: 5px 0px 0px;
+background-image:url('https://static.tumblr.com/4x9xrfl/U1or5mnbe/permalink.png');
+background-repeat:repeat;
+border: solid 1px #fff5f7;
+outline: dashed 1px #ff478d ;
+outline-offset: 2px;
+display:block;
+padding:5px;
+padding-left:10px;
+padding-right:10px;
+height:10px;
+text-align:center;
+color:#1b1b1b;
+text-transform:uppercase;
+font:8px "pixel"; 
+color:#ffffff ;
+text-shadow:1px  1px 1px #1b1b1b,
+1px -1px 1px #1b1b1b,
+-1px  1px 1px #1b1b1b,
+-1px -1px 1px #1b1b1b;
+font-family:8px "pixel"; 
+}
+   
+.links_body {
+padding:10px;
+text-align:justify;
+display:none; }
+
+
+ 
+/*  UPDATE TAB DESIGN */
+ 
+#updates {
+font-size:10px;
+text-align:center;
+height:88px;
+width:183px;
+padding:4px;
+top:15px;
+left:20px;
+z-index:10;
+border: solid 1px #fff5f7;
+outline: dashed 1px #ff478d ;
+outline-offset: 2px;
+position:fixed;
+overflow:hidden;
+-webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+    background-color:#1b1b1b;
+}
+ 
+#updates:hover {
+height:137px;
+-webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out; }
+ 
+#updatestitle {
+font-size:10px;
+text-transform:uppercase;
+font-family:arial;
+font-weight:bold;
+text-shadow: 0 0 7px #ff478d;
+color:#ff478d; }  
+ 
+ m12 {
+     text-align:left;
+ }
+     
+     spas15 {
+  text-align: right;
+     }
+ 
+/* LINKS DESIGNS */
+
+
+#link1 {
+position:fixed;
+top:638px;
+left:50%;
+margin-left:250px;
+text-shadow:2px 1px 2px transparent;
+text-transform:lowercase;
+text-align:none;
+font-style:none;
+font-family:'Karma', serif;
+font-size:56px;
+border-bottom:none;
+line-height:0%;
+    transform: rotate(0deg); }
+   
+#link1 a{
+margin-right:0px;
+color:#7ab6c8;
+border:none;
+font-size:42;
+text-shadow:2px 1px 2px transparent;
+-webkit-transition: all 0.9s ease-out;
+-moz-transition: all 0.9s ease-out;
+transition: all 0.9s ease-out;
+text-shadow: 0px 0px 2px #7ab6c8;}
+   
+#link1 a:hover {
+color:#7ab6c8;
+text-shadow: #555 0 0 7px;
+-webkit-transition: all 0.9s ease-out;
+-moz-transition: all 0.9s ease-out;
+transition: all 0.9s ease-out; }          
+   
+        
+#link2 {
+position:fixed;
+left:54%;
+top:240px;
+margin-left:-555px;
+text-shadow:2px 1px 2px transparent;
+text-transform:lowercase;
+text-align:none;
+font-style:none;
+border:none;
+font-family:'Karma', serif;
+font-size:50px;
+line-height:0%;
+transform: rotate(0deg); }
+  
+#link2 a{
+margin-right:0px;
+border:none;
+color:#7ab6c8;
+text-shadow:0px 0px 7px transparent;
+-webkit-transition: all 0.9s ease-out;
+-moz-transition: all 0.9s ease-out;
+transition: all 0.9s ease-out;
+    text-shadow: 0px 0px 2px #7ab6c8;
+}
+   
+#link2 a:hover {
+color:#7ab6c8;
+text-shadow: #555 0 0 4px;
+-webkit-transition: all 0.9s ease-out;
+-moz-transition: all 0.9s ease-out;
+transition: all 0.9s ease-out;  }       
+      
+#link3 {
+position:fixed;
+left:54%;
+top:450px;
+margin-left:-555px;
+text-transform:lowercase;
+text-align:none;
+font-style:none;
+font-family:'Karma', serif;
+font-size:53px;
+line-height:0%;
+-webkit-transition: all 0.9s ease-out;
+-moz-transition: all 0.9s ease-out;
+transition: all 0.9s ease-out;
+ transform: rotate(-40deg);
+}
+
+   
+#link3 a{
+margin-right:0px;
+color:#7ab6c8;
+border:none;
+text-shadow: 0 0 7px transparent;
+-webkit-transition: all 0.9s ease-out;
+-moz-transition: all 0.9s ease-out;
+transition: all 0.9s ease-out;
+    text-shadow: 0px 0px 2px #7ab6c8;
+}
+   
+#link3 a:hover {
+color:#7ab6c8;
+text-shadow:0px 0px 7px #555;
+-webkit-transition: all 0.9s ease-out;
+-moz-transition: all 0.9s ease-out;
+transition: all 0.9s ease-out; }
+
+iframe, img, embed, object, video {
+   max-width: 100%;
+   text-align:center;
+}
+img {
+   height: auto;
+   width: auto;
+}
+
+#credit {
+    position:fixed; right:10px; bottom:10px; font-size:18px;
+}
+
+#credit i { font-size:18px;}
+</style>
+</head>
+ 
+<!--- HERE STARTS YOUR HTML // EDIT YOUR CONTENT HERE --->  
+ 
+<body>
+
+<!-------MUSIC PLAYER BY GLENTHEMES------->
+<div class="glenjams-06">
+<div class="pasta">
+   <div class="vinyl"></div>
+   <div class="music-controls">
+       <div class="playy"><i data-feather="play"></i></div>
+       <div class="pausee"><i data-feather="pause"></i></div>
+   </div>
+
+   <audio id="audio" src="https://cdn.discordapp.com/attachments/802429553611767808/931722183674322964/her_the_re-up.mp3" type="audio"></audio>
+</div><!--pasta-->
+</div><!--glenjams-06-->
+<!----end music player---->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script>
+// minimal soundcloud player © shythemes.tumblr
+$(document).ready(function(){
+   var color = '#ff478d '; // color of play button (hex)
+   $('.soundcloud_audio_player').each(function(){
+       $(this).attr({ src: $(this).attr('src').split('&')[0] + '&amp;liking=false&amp;sharing=false&amp;auto_play=false&amp;show_comments=false&amp;continuous_play=false&amp;buying=false&amp;show_playcount=false&amp;show_artwork=true&amp;origin=tumblr&amp;color=' + color.split('#')[1], height: 20, width: '100%' });
+   });
+});
+</script>
+
+<!-- UPDATE TAB CONTENT -->
+ 
+<div id="updates">
+<div id="updatestitle" class="hvr-grow-rotate"><img src="https://static.tumblr.com/4x9xrfl/FUAr5mrug/pursey.png"></div>
+<p>for women who are<br>
+<i>difficult</i>&nbsp; to &nbsp;<a href="https://luvs.crd.co" style="text-decoration: underline; color: #ff5193">love.</a></p>
+</div></div>
+ 
+ 
+
+
+
+<!--- LINKS CONTENT --->
+
+<div id="link3"><a href="#?w=500" rel="question" class="poplight hvr-grow-rotate" title="Message."><img src="https://static.tumblr.com/4x9xrfl/b9nr5mmsk/6575.png">️</a></div>
+
+<div id="link2"><a href="/" title="refresh." class="hvr-grow-rotate"><img src="https://static.tumblr.com/4x9xrfl/lDer5mmr1/324.png">️</a></div>
+
+<div id="link1"><a href="#?w=343" rel="navigation" class="poplight hvr-grow-rotate" title="atlas."><img src="https://static.tumblr.com/4x9xrfl/U71r5mmpx/5654.png"></a></div>
+
+ 
+ 
+<!---  POP UPS CONTENT ---> 
+ 
+<div id="question" class="question_block" style="height:250px; padding:0px; overflow-x:hidden;">
+<iframe frameborder="0" height="200" id="ask_form" scrolling="yes" src="https://www.tumblr.com/ask_form/lovecide.tumblr.com" width="100%"></iframe>
+</div></div></div>
+
+
+
+
+<div id="navigation" class="popup_block">
+<div id="popuptabs"><p>
+<ul id="tabs">
+    
+<li class="active hvr-grow">CODEX.</li>
+<li class="hvr-grow">ABOUT.</li>
+<li class="hvr-grow">VERSES.</li>
+<li class="hvr-grow">LINKS.</li>
+
+    
+</ul></div>
+ 
+<!--- EDIT YOUR POP UPS HERRE ----> 
+ 
+<ul id="tab"><div id="tabcontent">
+
+
+<li class="active">
+
+<!--- HERE ARE YOUR RULES ---> 
+    
+<h2>rules and regulations. </h2>
+
+<pre> 001. material </pre>
+<p>trigger warning for content involving mental illness, death, exploitation, psychological abuse, etc. death note is super heavy and i want no one getting hurt. triggering subject matter will be tagged when at all possible.
+    
+<pre> 002. ETIQUETTE </pre>
+<p>i ask you do not steal or take inspiration from this blog and its contents. i make all my graphics, bar my psd, which was made by 666psds on deviantart. if you want help with graphics, just ask. i love to help. furthermore, i heavily format my posts and sometimes use double small text. if this is an accessibility concern for you, i will gladly avoid it in our interactions. that being said, i absolutely do not expect my partners to match my amount of writing nor formatting.
+
+<pre> 003. writing </pre>
+<p>my preference firstly is for other death note blogs, but i am very open to crossovers. writing comes easiest to me with characters and scenarios i'm familiar with from death note, but i will do my best to branch.
+    
+<pre> 004. interactions </pre>
+<p>i love building relationships between muses, be it platonic, romantic, familial, or adversarial. misa is lovesick and easily attached, but please don't mistake this for me forcing ships in any shape or form. also, if it makes you uncomfortable, please let me know ooc. furthermore, as i am an adult, sexual themes may appear on this blog. these will not occur with muns or muses under the age of 18 under any circumstances.
+
+
+<pre> 005. out of character </pre>
+<p>thank you for reading my rules! my name is eden, i'm 18+, my pronouns are she/her, and i am in est. discord is available upon request for mutuals. i do not claim to own misa or the death note franchise. this blog is no place for bigots, btw! <3
+    
+</li><li>    
+
+
+
+
+
+
+
+ 
+<!-- HERE COMES YOUR ABOUT -->
+<center>
+
+<h2>  to defeat evil, there must be sacrifices. </center></h2>
+
+<p><blockquote><p><i>name:</i> misa amane<br><i>gender:</i> cis female<br><i>orientation:</i> bisexual<br><i>affiliation:</i> her love and savior<br><i>age:</i> 19 years old <br><i>mentality:</i> borderline personality disorder, attention deficit hyperactive disorder, anorexia nervosa <br><i>mbti:</i> esfp<br><i>enneagram:</i> 2w3</p></blockquote>
+
+<p>it begins with a beautiful, young woman, left abandoned by the world with the sudden killing of her parents. there was little hope left, especially with the public outcry of the perpetrator perchance being falsely accused. it only gets worse with the taking off of her modelling career, too. some fucking sicko with a knife stalking her… for real? for serious? she tried her best to let him down nicely, say she wasn’t interested, but he was having no part in it.
+
+<p>he attacked her, trying to kill her. perhaps she was meant to die, and perhaps she wanted to. without her family, what use was there to live?
+
+<p>but he wouldn’t allow it. he being the kind, loving shinigami named gelus that had been watching over misa from the shinigami realm. he loved misa, truly, he did. thus, despite it taking his life, he had no qualms with writing her assailant’s name in the death note, killing both gelus and the assailant.
+
+<p>another shinigami, rem, delivered gelus’s death note to misa in the human world, finding it to be the right thing to do.
+
+<p>though she has the death note in her possession, misa has some more… important things to worry about, such as a new borderline personality disorder diagnosis, and getting a totes cute boyfriend to get all the media talking. hopefully there’s nothing that necessitates using the notebook…?<br><br><center><i><a href="https://luvs.crd.co/">carrd available here.</a></center></i>
+</li>
+
+
+<!--- HERE COMES YOUR VERSES  --->
+
+<li>
+<div class="links_list">
+<div class="links_head">death note (main)</div>
+<div class="links_body">
+<p>though she has the death note in her possession, misa has some more… important things to worry about, such as a new borderline personality disorder diagnosis, and getting a totes cute boyfriend to get all the media talking. hopefully there’s nothing that necessitates using the notebook…?
+</blockquote><br>
+<p><p><p></div>
+
+<p>
+
+
+<div class="links_list">
+<div class="links_head">tba</div>
+<div class="links_body">
+<p>. . .
+</blockquote><br>
+<p><p><p></div>
+
+<p>
+
+
+<div class="links_list">
+<div class="links_head">tba</div>
+<div class="links_body">
+<p>. . .
+</blockquote><br>
+<p><p><p></div>
+
+</li>
+
+
+
+<li>
+<div class="links_head">navigation.</div>
+<p><p>
+<h2><a href="https://lovecide.tumblr.com/tagged/%E2%95%B0%20%C2%A0%20%C2%A0%20%C2%A0%E2%99%A1%20%C2%A0%20%C2%A0%20%C2%A0%E0%AD%A8%E0%AD%A7%20%C2%A0%20%C2%A0%20%C2%A0countenance%20%C2%A0%20%C2%A0%20%C2%A0%E2%95%B1%20%C2%A0%20%C2%A0%20%C2%A0for%20beauty%20is%20nothing%20but%20the%20onset%20of%20terror%20." style="text-transform:lowercase;color:#1b1b1b;
+text-shadow: -1px 0 #ff478d, 0 1px #ff478d, 1px 0 #ff478d, 0 -1px #ff478d,  0px 0px 3px #ff478d;">countenance</a>
+<br><a href="https://lovecide.tumblr.com/tagged/%E2%95%B0%20%C2%A0%20%C2%A0%20%C2%A0%E2%99%A1%20%C2%A0%20%C2%A0%20%C2%A0%E0%AD%A8%E0%AD%A7%20%C2%A0%20%C2%A0%20%C2%A0introspection%20%C2%A0%20%C2%A0%20%C2%A0%E2%95%B1%20%C2%A0%20%C2%A0%20%C2%A0i%20am%20a%20loveable%20object%20." style="text-transform:lowercase;color:#1b1b1b; text-shadow: -1px 0 #ff478d, 0 1px #ff478d, 1px 0 #ff478d, 0 -1px #ff478d,  0px 0px 3px #ff478d;">introspection</a>
+<br><a href="https://lovecide.tumblr.com/tagged/%E2%95%B0%20%C2%A0%20%C2%A0%20%C2%A0%E2%99%A1%20%C2%A0%20%C2%A0%20%C2%A0%E0%AD%A8%E0%AD%A7%20%C2%A0%20%C2%A0%20%C2%A0aesthetic%20%C2%A0%20%C2%A0%20%C2%A0%E2%95%B1%20%C2%A0%20%C2%A0%20%C2%A0falsehood%20is%20a%20beautiful%20twilight%20that%20enhances%20every%20object%20." style="text-transform:lowercase;color:#1b1b1b; text-shadow: -1px 0 #ff478d, 0 1px #ff478d, 1px 0 #ff478d, 0 -1px #ff478d,  0px 0px 3px #ff478d;">aesthetic</a>
+<br><a href="https://lovecide.tumblr.com/tagged/%E2%95%B0%20%C2%A0%20%C2%A0%20%C2%A0%E2%99%A1%20%C2%A0%20%C2%A0%20%C2%A0%E0%AD%A8%E0%AD%A7%20%C2%A0%20%C2%A0%20%C2%A0delineation%20%C2%A0%20%C2%A0%20%C2%A0%20%E2%95%B1%20%C2%A0%20%C2%A0%20%C2%A0that%E2%80%99s%20all%20your%20display%20of%20love%20is%20%3A%20a%20saccharine%20facade%20." style="text-transform:lowercase;color:#1b1b1b; text-shadow: -1px 0 #ff478d, 0 1px #ff478d, 1px 0 #ff478d, 0 -1px #ff478d,  0px 0px 3px #ff478d;">delineation</a>
+<br><a href="https://lovecide.tumblr.com/tagged/%E2%95%B0%20%C2%A0%20%C2%A0%20%C2%A0%E2%99%A1%20%C2%A0%20%C2%A0%20%C2%A0%E0%AD%A8%E0%AD%A7%20%C2%A0%20%C2%A0%20%C2%A0light%20%C2%A0%20%C2%A0%20%C2%A0%E2%95%B1%20%C2%A0%20%C2%A0%20%C2%A0you%20love%20me%20like%20a%20vulture%20loves%20the%20careless%20deer%20at%20the%20roadside%20." style="text-transform:lowercase;color:#1b1b1b; text-shadow: -1px 0 #ff478d, 0 1px #ff478d, 1px 0 #ff478d, 0 -1px #ff478d,  0px 0px 3px #ff478d;">light</a>
+<br><a href="https://lovecide.tumblr.com/tagged/%E2%95%B0%20%C2%A0%20%C2%A0%20%C2%A0%E2%99%A1%20%C2%A0%20%C2%A0%20%C2%A0%E0%AD%A8%E0%AD%A7%20%C2%A0%20%C2%A0%20%C2%A0rem%20%C2%A0%20%C2%A0%20%C2%A0%E2%95%B1%20%C2%A0%20%C2%A0%20%C2%A0she%20would%20have%20swallowed%20the%20sun%20to%20make%20you%20warm%20enough%20." style="text-transform:lowercase;color:#1b1b1b; text-shadow: -1px 0 #ff478d, 0 1px #ff478d, 1px 0 #ff478d, 0 -1px #ff478d,  0px 0px 3px #ff478d;">rem</a></h2>
+
+</li>
+ 
+</div></div></div></div></div>
+</div></div></div></div></div> </div>
+ 
+ 
+<!--- POST CONTENTS --->
+ 
+<div id="entries">
+ 
+
+ 
+
+ 
+
+
+
+<div class="post">
+
+
+<div class="textpost">
+<p><a class="tumblr_blog" href="https://www.tumblr.com/artistastudios/682807530635870208/its-got-your-name-on-it">artistastudios</a>:</p><blockquote><div class="npf_row"><div class="npf_col"><figure class="tmblr-full"><a class="post_media_photo_anchor" data-big-photo="https://64.media.tumblr.com/97222d0752f54b441287d66a3b003ca3/14c3701ebcc6a3a9-47/s1280x1920/8f01b0b72033e24d5c83c9d1cba9e36288ff83e2.png" data-big-photo-height="1625" data-big-photo-width="1222"><img class="post_media_photo image" src="https://64.media.tumblr.com/97222d0752f54b441287d66a3b003ca3/14c3701ebcc6a3a9-47/s500x750/b72b24d10bf2f6505bfa2477887374932876d2d7.png" alt="image"></a></figure></div></div><p><i>it’s got your name on it </i></p></blockquote></div>
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+<!--- PERMALINK CONTENT --->
+ 
+
+ 
+ 
+<div class="permaline">
+<div class="permalinks">
+<div style="margin-top:3px;">
+<a href="https://lovecide.tumblr.com/post/682981727998820352" title="8 months ago"> 30  April  2022</a>
+<div style="text-align:right; margin-top:-14px; font-size:16px;">
+<a href="https://lovecide.tumblr.com/post/682981727998820352" title="997 notes"> ♥ </a>
+<a href="https://www.tumblr.com/reblog/lovecide/682981727998820352/qTLHWvhT" title="share."> ↺ </a>
+</div></div></div></div>
+ 
+ 
+
+<div class="tags">
+<a href="https://lovecide.tumblr.com/tagged/%E2%95%B0%20%C2%A0%20%C2%A0%20%C2%A0%E2%99%A1%20%C2%A0%20%C2%A0%20%C2%A0%E0%AD%A8%E0%AD%A7%20%C2%A0%20%C2%A0%20%C2%A0countenance%20%C2%A0%20%C2%A0%20%C2%A0%E2%95%B1%20%C2%A0%20%C2%A0%20%C2%A0for%20beauty%20is%20nothing%20but%20the%20onset%20of%20terror%20.">#╰ &nbsp; &nbsp; &nbsp;♡ &nbsp; &nbsp; &nbsp;୨୧ &nbsp; &nbsp; &nbsp;countenance &nbsp; &nbsp; &nbsp;╱ &nbsp; &nbsp; &nbsp;for beauty is nothing but the onset of terror .</a>
+</div>
+
+ 
+
+ 
+
+ 
+</div>
+
+<div class="post">
+
+
+<div class="textpost">
+<p><a class="tumblr_blog" href="https://dollheartangel.tumblr.com/post/671965036930105344">dollheartangel</a>:</p><blockquote><div class="npf_row"><div class="npf_col"><figure class="tmblr-full"><a class="post_media_photo_anchor" data-big-photo="https://64.media.tumblr.com/d5a592eced4cb7ac24bec5a166e0c46b/a4384e75861d94f4-7a/s1280x1920/34e347239e6dd5c35da1c1ad70eb09a754029bd4.jpg" data-big-photo-height="400" data-big-photo-width="1917"><img class="post_media_photo image" src="https://64.media.tumblr.com/d5a592eced4cb7ac24bec5a166e0c46b/a4384e75861d94f4-7a/s500x750/cdd5a0862ec49c867f0e427b901093eb2e522211.jpg" alt="image"></a></figure></div><div class="npf_col"><figure class="tmblr-full"><a class="post_media_photo_anchor" data-big-photo="https://64.media.tumblr.com/c42a81e987180282ebd3b5fa5be63eb3/a4384e75861d94f4-22/s1280x1920/536200e9eb75b9142eb0140c8e191bd8c319755a.jpg" data-big-photo-height="400" data-big-photo-width="1917"><img class="post_media_photo image" src="https://64.media.tumblr.com/c42a81e987180282ebd3b5fa5be63eb3/a4384e75861d94f4-22/s500x750/c373f0d6ac558242e99a92c119fa7d0994534cda.jpg" alt="image"></a></figure></div></div><div class="npf_row"><div class="npf_col"><figure class="tmblr-full"><a class="post_media_photo_anchor" data-big-photo="https://64.media.tumblr.com/1af744e36c161d07313ff055eb8d8736/a4384e75861d94f4-3a/s1280x1920/8e8c1ce9b142c1ec4e14d8fe686a0ad660e64f36.jpg" data-big-photo-height="400" data-big-photo-width="1917"><img class="post_media_photo image" src="https://64.media.tumblr.com/1af744e36c161d07313ff055eb8d8736/a4384e75861d94f4-3a/s500x750/e10db9554b1b3c71d8b79ed9a1f0d2bec2b00dcc.jpg" alt="image"></a></figure></div><div class="npf_col"><figure class="tmblr-full"><a class="post_media_photo_anchor" data-big-photo="https://64.media.tumblr.com/ebadaa5a69593021e66866c1e87fac48/a4384e75861d94f4-ac/s1280x1920/d162b852ad09f11ece1dde97d596170eedc41f41.jpg" data-big-photo-height="400" data-big-photo-width="1917"><img class="post_media_photo image" src="https://64.media.tumblr.com/ebadaa5a69593021e66866c1e87fac48/a4384e75861d94f4-ac/s500x750/60126671161bae6185a822df3d41a77dc81cc59c.jpg" alt="image"></a></figure></div></div></blockquote></div>
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+<!--- PERMALINK CONTENT --->
+ 
+
+ 
+ 
+<div class="permaline">
+<div class="permalinks">
+<div style="margin-top:3px;">
+<a href="https://lovecide.tumblr.com/post/682981639619493888" title="8 months ago"> 30  April  2022</a>
+<div style="text-align:right; margin-top:-14px; font-size:16px;">
+<a href="https://lovecide.tumblr.com/post/682981639619493888" title="70 notes"> ♥ </a>
+<a href="https://www.tumblr.com/reblog/lovecide/682981639619493888/lvGxa9xe" title="share."> ↺ </a>
+</div></div></div></div>
+ 
+ 
+
+<div class="tags">
+<a href="https://lovecide.tumblr.com/tagged/%E2%95%B0%20%C2%A0%20%C2%A0%20%C2%A0%E2%99%A1%20%C2%A0%20%C2%A0%20%C2%A0%E0%AD%A8%E0%AD%A7%20%C2%A0%20%C2%A0%20%C2%A0introspection%20%C2%A0%20%C2%A0%20%C2%A0%E2%95%B1%20%C2%A0%20%C2%A0%20%C2%A0i%20am%20a%20loveable%20object%20.">#╰ &nbsp; &nbsp; &nbsp;♡ &nbsp; &nbsp; &nbsp;୨୧ &nbsp; &nbsp; &nbsp;introspection &nbsp; &nbsp; &nbsp;╱ &nbsp; &nbsp; &nbsp;i am a loveable object .</a>
+</div>
+
+ 
+
+ 
+
+ 
+</div>
+
+<div class="post">
+
+ 
+ 
+
+<a href="https://lovecide.tumblr.com/image/682981513397190656">
+<div class="photopost">
+<div align="center">
+<img class="photo" src="https://64.media.tumblr.com/73d445b3ab567a833107007f5a7de1f8/3a29d12cf7124c2d-6d/s500x750/f6291148c6983a7d69c09faf46aa5876d0132b03.png">
+</div></div></a>
+
+<div class="textpost">
+<p><small><sup>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href="https://href.li/?https://www.deviantart.com/apocalypseresources/art/Template-026-Paper-Strips-905373930" title="">t</a>his may become a little <b>brutal</b> if i&rsquo;m <strike>honest</strike><b><i> !!</i></b></sup></small><br /></p><p><small><sup><i>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;highly private mis.a ama.ne of death note. loved by eden.</i></sup></small></p></div>
+
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+<!--- PERMALINK CONTENT --->
+ 
+
+ 
+ 
+<div class="permaline">
+<div class="permalinks">
+<div style="margin-top:3px;">
+<a href="https://lovecide.tumblr.com/post/682981513397190656/this-may-become-a" title="8 months ago"> 30  April  2022</a>
+<div style="text-align:right; margin-top:-14px; font-size:16px;">
+<a href="https://lovecide.tumblr.com/post/682981513397190656/this-may-become-a" title="9 notes"> ♥ </a>
+<a href="https://www.tumblr.com/reblog/lovecide/682981513397190656/SbhVT0LK" title="share."> ↺ </a>
+</div></div></div></div>
+ 
+ 
+
+<div class="tags">
+<a href="https://lovecide.tumblr.com/tagged/death%20note%20rp">#death note rp</a>
+<a href="https://lovecide.tumblr.com/tagged/anime%20rp">#anime rp</a>
+<a href="https://lovecide.tumblr.com/tagged/animanga%20rp">#animanga rp</a>
+<a href="https://lovecide.tumblr.com/tagged/video%20game%20rp">#video game rp</a>
+</div>
+
+ 
+
+ 
+
+ 
+</div>
+
+<div class="post">
+
+
+<div class="textpost">
+<p><a href="https://mud-nostalgia.tumblr.com/post/631377945857048576/feels-blind-bikini-killginger" class="tumblr_blog">mud-nostalgia</a>:</p><blockquote><figure class="tmblr-full" data-orig-height="84" data-orig-width="395"><img src="https://64.media.tumblr.com/1c4d9a3dfffb97385693323382e12b33/2c7cf278f21a25bb-94/s400x600/bf4fc4cd0a1bda99c4a6d0e0d1b1f3a6035d5bf7.png" data-orig-height="84" data-orig-width="395" width="395" height="84" alt="image" /></figure><figure class="tmblr-full" data-orig-height="166" data-orig-width="300"><img src="https://64.media.tumblr.com/141491f684461cda336de4c68ad93ba1/2c7cf278f21a25bb-2c/s400x600/edb63c6f7a20d0ddc3a4d207bc6e6dfbcd448cd7.png" data-orig-height="166" data-orig-width="300" width="300" height="166" alt="image" /></figure><figure class="tmblr-full" data-orig-height="82" data-orig-width="327"><img src="https://64.media.tumblr.com/1b990f4ed026b65b241f1548cf51fe2b/2c7cf278f21a25bb-eb/s400x600/bdf61f0efeff0283b23e01c35fd1fa3d8e572ebd.png" data-orig-height="82" data-orig-width="327" width="327" height="82" alt="image" /></figure><figure class="tmblr-full" data-orig-height="510" data-orig-width="975"><img src="https://64.media.tumblr.com/98c4c953b6643280bbe5ac162fb846e6/2c7cf278f21a25bb-3d/s500x750/f411abce63b7e884ee0674f9e110c340c99a2dd8.png" data-orig-height="510" data-orig-width="975" width="500" height="262" alt="image" /></figure><figure data-orig-height="119" data-orig-width="290"><img src="https://64.media.tumblr.com/f2a667de0974c611cc380d7008924a48/2c7cf278f21a25bb-ca/s400x600/d9ee083697fe38bdea6562e2042b3940a0200b3a.png" data-orig-height="119" data-orig-width="290" width="290" height="119" alt="image" /></figure><figure class="tmblr-full" data-orig-height="253" data-orig-width="423"><img src="https://64.media.tumblr.com/92b378caf028d22e6604aa76e24b0cf8/2c7cf278f21a25bb-50/s500x750/8207e37a74ced55258e2cba0b3f80ab2af88c10f.png" data-orig-height="253" data-orig-width="423" width="423" height="253" alt="image" /></figure><figure class="tmblr-full" data-orig-height="91" data-orig-width="311"><img src="https://64.media.tumblr.com/0634201810293154ff7165844b51fb0f/2c7cf278f21a25bb-a8/s400x600/72dd7574a0af8078535db39eb26b649bee5b75bd.png" data-orig-height="91" data-orig-width="311" width="311" height="91" alt="image" /></figure><figure class="tmblr-full" data-orig-height="891" data-orig-width="1600"><img src="https://64.media.tumblr.com/8d0f4818c92cb756cc067da40ab03fc6/2c7cf278f21a25bb-26/s500x750/b68ff7c461ee10a503304c9fa9e4e3778ba62475.png" data-orig-height="891" data-orig-width="1600" width="500" height="278" alt="image" /></figure><figure class="tmblr-full" data-orig-height="59" data-orig-width="363"><img src="https://64.media.tumblr.com/6748395ec59f114f3da3ddbb21e275ae/2c7cf278f21a25bb-e7/s400x600/47e3ba5a46fc87a2ff31603c5eba39b806dc8403.png" data-orig-height="59" data-orig-width="363" width="363" height="59" alt="image" /></figure><p>Feels Blind-Bikini Kill//Ginger Snaps//Violet-Hole//Jennifer&rsquo;s Body//Mean-Nicole Dollanganger//Buffy the Vampire Slayer//Mean-Nicole Dollanganger//Carrie//Alligator Blood- Nicole Dollanganger</p></blockquote></div>
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+<!--- PERMALINK CONTENT --->
+ 
+
+ 
+ 
+<div class="permaline">
+<div class="permalinks">
+<div style="margin-top:3px;">
+<a href="https://lovecide.tumblr.com/post/675315164502982656/feels-blind-bikini-killginger" title="11 months ago"> 4  February  2022</a>
+<div style="text-align:right; margin-top:-14px; font-size:16px;">
+<a href="https://lovecide.tumblr.com/post/675315164502982656/feels-blind-bikini-killginger" title="1,907 notes"> ♥ </a>
+<a href="https://www.tumblr.com/reblog/lovecide/675315164502982656/OZ7deDIl" title="share."> ↺ </a>
+</div></div></div></div>
+ 
+ 
+
+<div class="tags">
+<a href="https://lovecide.tumblr.com/tagged/%E2%95%B0%20%C2%A0%20%C2%A0%20%C2%A0%E2%99%A1%20%C2%A0%20%C2%A0%20%C2%A0%E0%AD%A8%E0%AD%A7%20%C2%A0%20%C2%A0%20%C2%A0introspection%20%C2%A0%20%C2%A0%20%C2%A0%E2%95%B1%20%C2%A0%20%C2%A0%20%C2%A0i%20am%20a%20loveable%20object%20.">#╰ &nbsp; &nbsp; &nbsp;♡ &nbsp; &nbsp; &nbsp;୨୧ &nbsp; &nbsp; &nbsp;introspection &nbsp; &nbsp; &nbsp;╱ &nbsp; &nbsp; &nbsp;i am a loveable object .</a>
+</div>
+
+ 
+
+ 
+
+ 
+</div>
+
+<div class="post">
+
+
+<div class="textpost">
+<p><a class="tumblr_blog" href="https://www.tumblr.com/dreamypng/671475430042337280">dreamypng</a>:</p><blockquote><div class="npf_row"><div class="npf_col"><figure class="tmblr-full"><a class="post_media_photo_anchor" data-big-photo="https://64.media.tumblr.com/cb2a8bbed8ba03ffda3bc235be24cba6/3f55aa4317acf140-22/s1280x1920/a3579593176a36e5ce8e417ed81bfb10c0729bcc.jpg" data-big-photo-height="592" data-big-photo-width="750"><img class="post_media_photo image" src="https://64.media.tumblr.com/cb2a8bbed8ba03ffda3bc235be24cba6/3f55aa4317acf140-22/s500x750/8a3f65ebb8e1fa179b0a0359b74809f4b3e97197.jpg" alt="image"></a></figure></div></div></blockquote></div>
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+<!--- PERMALINK CONTENT --->
+ 
+
+ 
+ 
+<div class="permaline">
+<div class="permalinks">
+<div style="margin-top:3px;">
+<a href="https://lovecide.tumblr.com/post/674376038112952320" title="11 months ago"> 25  January  2022</a>
+<div style="text-align:right; margin-top:-14px; font-size:16px;">
+<a href="https://lovecide.tumblr.com/post/674376038112952320" title="856 notes"> ♥ </a>
+<a href="https://www.tumblr.com/reblog/lovecide/674376038112952320/3bLpEgi9" title="share."> ↺ </a>
+</div></div></div></div>
+ 
+ 
+
+<div class="tags">
+<a href="https://lovecide.tumblr.com/tagged/%E2%95%B0%20%C2%A0%20%C2%A0%20%C2%A0%E2%99%A1%20%C2%A0%20%C2%A0%20%C2%A0%E0%AD%A8%E0%AD%A7%20%C2%A0%20%C2%A0%20%C2%A0aesthetic%20%C2%A0%20%C2%A0%20%C2%A0%E2%95%B1%20%C2%A0%20%C2%A0%20%C2%A0falsehood%20is%20a%20beautiful%20twilight%20that%20enhances%20every%20object%20.">#╰ &nbsp; &nbsp; &nbsp;♡ &nbsp; &nbsp; &nbsp;୨୧ &nbsp; &nbsp; &nbsp;aesthetic &nbsp; &nbsp; &nbsp;╱ &nbsp; &nbsp; &nbsp;falsehood is a beautiful twilight that enhances every object .</a>
+</div>
+
+ 
+
+ 
+
+ 
+</div>
+
+<div class="post">
+
+
+<div class="textpost">
+<p><a class="tumblr_blog" href="https://www.tumblr.com/dreamypng/672124819460014080">dreamypng</a>:</p><blockquote><div class="npf_row"><div class="npf_col"><figure class="tmblr-full"><a class="post_media_photo_anchor" data-big-photo="https://64.media.tumblr.com/bda1872e38eb29060f3f60adc69483ae/f1cb287fdef90af0-91/s1280x1920/c8d381651c2edf3311ea92097dfc9a6c2a0bdfab.jpg" data-big-photo-height="" data-big-photo-width=""><img class="post_media_photo image" src="https://64.media.tumblr.com/bda1872e38eb29060f3f60adc69483ae/f1cb287fdef90af0-91/s500x750/68d97c2e4c13ddbc111ed1f5b9c00fbb21e4c411.jpg" alt="image"></a></figure></div></div></blockquote></div>
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+<!--- PERMALINK CONTENT --->
+ 
+
+ 
+ 
+<div class="permaline">
+<div class="permalinks">
+<div style="margin-top:3px;">
+<a href="https://lovecide.tumblr.com/post/674019875240411136" title="11 months ago"> 21  January  2022</a>
+<div style="text-align:right; margin-top:-14px; font-size:16px;">
+<a href="https://lovecide.tumblr.com/post/674019875240411136" title="619 notes"> ♥ </a>
+<a href="https://www.tumblr.com/reblog/lovecide/674019875240411136/5iIxVcjh" title="share."> ↺ </a>
+</div></div></div></div>
+ 
+ 
+
+<div class="tags">
+<a href="https://lovecide.tumblr.com/tagged/%E2%95%B0%20%C2%A0%20%C2%A0%20%C2%A0%E2%99%A1%20%C2%A0%20%C2%A0%20%C2%A0%E0%AD%A8%E0%AD%A7%20%C2%A0%20%C2%A0%20%C2%A0introspection%20%C2%A0%20%C2%A0%20%C2%A0%E2%95%B1%20%C2%A0%20%C2%A0%20%C2%A0i%20am%20a%20loveable%20object%20.">#╰ &nbsp; &nbsp; &nbsp;♡ &nbsp; &nbsp; &nbsp;୨୧ &nbsp; &nbsp; &nbsp;introspection &nbsp; &nbsp; &nbsp;╱ &nbsp; &nbsp; &nbsp;i am a loveable object .</a>
+<a href="https://lovecide.tumblr.com/tagged/%E2%95%B0%20%C2%A0%20%C2%A0%20%C2%A0%E2%99%A1%20%C2%A0%20%C2%A0%20%C2%A0%E0%AD%A8%E0%AD%A7%20%C2%A0%20%C2%A0%20%C2%A0aesthetic%20%C2%A0%20%C2%A0%20%C2%A0%E2%95%B1%20%C2%A0%20%C2%A0%20%C2%A0falsehood%20is%20a%20beautiful%20twilight%20that%20enhances%20every%20object%20.">#╰ &nbsp; &nbsp; &nbsp;♡ &nbsp; &nbsp; &nbsp;୨୧ &nbsp; &nbsp; &nbsp;aesthetic &nbsp; &nbsp; &nbsp;╱ &nbsp; &nbsp; &nbsp;falsehood is a beautiful twilight that enhances every object .</a>
+</div>
+
+ 
+
+ 
+
+<div class="post">
+
+
+<div class="textpost">
+<p><a href="https://fairyslaughter.tumblr.com/post/183568995095" class="tumblr_blog">fairyslaughter</a>:</p><blockquote><figure class="tmblr-full"><a class="post_media_photo_anchor" data-big-photo="https://64.media.tumblr.com/a611e089bd34575f79daf61aed91a409/tumblr_pomnurwlXB1ucuc4j_1280.jpg" data-big-photo-height="233" data-big-photo-width="1280"><img class="post_media_photo image" src="https://64.media.tumblr.com/a611e089bd34575f79daf61aed91a409/tumblr_pomnurwlXB1ucuc4j_500.jpg" alt="image"></a></figure></blockquote></div>
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+<!--- PERMALINK CONTENT --->
+ 
+
+ 
+ 
+<div class="permaline">
+<div class="permalinks">
+<div style="margin-top:3px;">
+<a href="https://lovecide.tumblr.com/post/673312216059166720" title="12 months ago"> 13  January  2022</a>
+<div style="text-align:right; margin-top:-14px; font-size:16px;">
+<a href="https://lovecide.tumblr.com/post/673312216059166720" title="1,346 notes"> ♥ </a>
+<a href="https://www.tumblr.com/reblog/lovecide/673312216059166720/eudn5APU" title="share."> ↺ </a>
+</div></div></div></div>
+ 
+ 
+
+<div class="tags">
+<a href="https://lovecide.tumblr.com/tagged/%E2%95%B0%20%C2%A0%20%C2%A0%20%C2%A0%E2%99%A1%20%C2%A0%20%C2%A0%20%C2%A0%E0%AD%A8%E0%AD%A7%20%C2%A0%20%C2%A0%20%C2%A0introspection%20%C2%A0%20%C2%A0%20%C2%A0%E2%95%B1%20%C2%A0%20%C2%A0%20%C2%A0i%20am%20a%20loveable%20object%20.">#╰ &nbsp; &nbsp; &nbsp;♡ &nbsp; &nbsp; &nbsp;୨୧ &nbsp; &nbsp; &nbsp;introspection &nbsp; &nbsp; &nbsp;╱ &nbsp; &nbsp; &nbsp;i am a loveable object .</a>
+<a href="https://lovecide.tumblr.com/tagged/%E2%95%B0%20%C2%A0%20%C2%A0%20%C2%A0%E2%99%A1%20%C2%A0%20%C2%A0%20%C2%A0%E0%AD%A8%E0%AD%A7%20%C2%A0%20%C2%A0%20%C2%A0light%20%C2%A0%20%C2%A0%20%C2%A0%E2%95%B1%20%C2%A0%20%C2%A0%20%C2%A0you%20love%20me%20like%20a%20vulture%20loves%20the%20careless%20deer%20at%20the%20roadside%20.">#╰ &nbsp; &nbsp; &nbsp;♡ &nbsp; &nbsp; &nbsp;୨୧ &nbsp; &nbsp; &nbsp;light &nbsp; &nbsp; &nbsp;╱ &nbsp; &nbsp; &nbsp;you love me like a vulture loves the careless deer at the roadside .</a>
+</div>
+
+ 
+
+ 
+
+ 
+</div>
+
+<div class="post">
+
+
+<div class="textpost">
+<p><a class="tumblr_blog" href="https://rageagainststormy.tumblr.com/post/642318175845990400/hole-jennifers-body">rageagainststormy</a>:</p><blockquote><figure data-npf="{&quot;type&quot;:&quot;audio&quot;,&quot;provider&quot;:&quot;spotify&quot;,&quot;url&quot;:&quot;https://open.spotify.com/track/6wAdJF85cna96BwQn2Pg8c?si=ePtUMEt7RpeYRddHgdL3Qw&quot;,&quot;title&quot;:&quot;Jennifer's Body&quot;,&quot;artist&quot;:&quot;Hole&quot;,&quot;album&quot;:&quot;Live Through This&quot;,&quot;poster&quot;:[{&quot;media_key&quot;:&quot;5fee45c0572b8224fe3f89d8d5446aa3:4259bf63f1ba66e1-03&quot;,&quot;type&quot;:&quot;image/jpeg&quot;,&quot;width&quot;:640,&quot;height&quot;:640}],&quot;attribution&quot;:{&quot;type&quot;:&quot;app&quot;,&quot;url&quot;:&quot;https://open.spotify.com/track/6wAdJF85cna96BwQn2Pg8c?si=ePtUMEt7RpeYRddHgdL3Qw&quot;,&quot;app_name&quot;:&quot;spotify&quot;,&quot;display_text&quot;:&quot;Listen on Spotify&quot;},&quot;embed_html&quot;:&quot;&lt;iframe class=\&quot;spotify_audio_player\&quot; src=\&quot;https://open.spotify.com/embed?uri=https%3A%2F%2Fopen.spotify.com%2Ftrack%2F6wAdJF85cna96BwQn2Pg8c%3Fsi%3DePtUMEt7RpeYRddHgdL3Qw&amp;amp;view=coverart\&quot; frameborder=\&quot;0\&quot; allowtransparency=\&quot;true\&quot; width=\&quot;500\&quot; height=\&quot;580\&quot;&gt;&lt;/iframe&gt;&quot;}"><iframe class="spotify_audio_player" src="https://open.spotify.com/embed?uri=https%3A%2F%2Fopen.spotify.com%2Ftrack%2F6wAdJF85cna96BwQn2Pg8c%3Fsi%3DePtUMEt7RpeYRddHgdL3Qw&amp;view=coverart" frameborder="0" width="500" height="360"></iframe></figure></blockquote></div>
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+<!--- PERMALINK CONTENT --->
+ 
+
+ 
+ 
+<div class="permaline">
+<div class="permalinks">
+<div style="margin-top:3px;">
+<a href="https://lovecide.tumblr.com/post/673275790068187136" title="12 months ago"> 13  January  2022</a>
+<div style="text-align:right; margin-top:-14px; font-size:16px;">
+<a href="https://lovecide.tumblr.com/post/673275790068187136" title="26 notes"> ♥ </a>
+<a href="https://www.tumblr.com/reblog/lovecide/673275790068187136/Z1MT18hO" title="share."> ↺ </a>
+</div></div></div></div>
+ 
+ 
+
+<div class="tags">
+<a href="https://lovecide.tumblr.com/tagged/%E2%95%B0%20%C2%A0%20%C2%A0%20%C2%A0%E2%99%A1%20%C2%A0%20%C2%A0%20%C2%A0%E0%AD%A8%E0%AD%A7%20%C2%A0%20%C2%A0%20%C2%A0introspection%20%C2%A0%20%C2%A0%20%C2%A0%E2%95%B1%20%C2%A0%20%C2%A0%20%C2%A0i%20am%20a%20loveable%20object%20.">#╰ &nbsp; &nbsp; &nbsp;♡ &nbsp; &nbsp; &nbsp;୨୧ &nbsp; &nbsp; &nbsp;introspection &nbsp; &nbsp; &nbsp;╱ &nbsp; &nbsp; &nbsp;i am a loveable object .</a>
+</div>
+ 
+
+ 
+</div>
+</div>
+</div>
+ 
+
+ 
+</div>
+
+ 
+</div>
+
+ 
+
+ 
+
+ 
+
+ 
+</div>
+
+ 
+ 
+ 
+<!--  -->
+ 
+</div>
+ 
+<div id="credit">
+<a href="https://lovecide.tumblr.com" title="theme by me ^_^" class="hvr-wobble-skew"><i class="cp cp-strawberries-o"></i></a></div>
+ 
+ 
+<!--- PAGINATION CONTENT --->
+
+<div id="pagination2" class="hvr-wobble-skew">
+
+<a href="/page/1" title="Raise."><i class="cp cp-broken-heart"></i></a>
+ </div>
+ 
+ 
+<div id="pagination" class="hvr-wobble-skew">
+
+<a href="/page/3" title="Fall."><i class="cp cp-heart"></i></a>
+ </div>
+
+
+     <script>
+      feather.replace()
+    </script>
+
+<iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://assets.tumblr.com/analytics.html?_v=9f5febfd57a8a649c598d888f2d9e062#" +
+                              "https://lovecide.tumblr.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/?route=%2F'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+    })();
+</script></body>
+</html>

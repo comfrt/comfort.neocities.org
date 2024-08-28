@@ -1,0 +1,30 @@
+:root{
+    --underline: #806E56;
+    --mainbg: #80365e;
+    --headerimg: url("https://www.bjork.fr/IMG/moton1.jpg");
+    --bgcolor: #570430;
+    --nav:#806E56;
+}
+
+nav input[type="radio"]:checked + label {
+    text-decoration: underline var(--nav);
+    color: #000000;
+}
+
+nav a{
+    color:#806E56;
+}
+
+#theme-links a{
+    color:#806E56;
+    font-weight:bold;
+}
+
+.b1{
+    color:#806E56;
+mix-blend-mode: multiply;}
+
+#theme-image{
+    filter:hue-rotate(-20deg) grayscale(0.2);
+    width:335px;
+}

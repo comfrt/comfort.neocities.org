@@ -1,0 +1,22 @@
+:root{
+    --underline: #70CDBA;
+    --mainbg: #EF7BA9;
+    --headerimg: url("bjork/postheader.jpg");
+    --bgcolor: #EC91B4;
+    --nav: #ec5688;
+}
+
+
+nav a{
+    color:#70CDBA;
+}
+
+#theme-links a{
+    color:#70CDBA;
+    font-weight:bold;
+}
+
+
+.b1{
+    color:#70CDBA;
+mix-blend-mode: hue;}

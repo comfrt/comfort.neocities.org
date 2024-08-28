@@ -1,0 +1,25 @@
+:root{
+    --underline: #F65C20;
+    --mainbg: #000000;
+    --headerimg: url("bjork/biophiliaheader.jpg");
+    --bgcolor: #0C0C0C;
+    --nav: #F65C20;
+}
+
+body{
+    color:#ffffff;
+}
+
+nav input[type="radio"]:checked + label {
+    text-decoration: underline var(--nav);
+    color: #ffffff;
+}
+
+#theme-links a{
+    color:#F65C20;
+    font-weight:bold;
+}
+
+.b1{
+    color:#F65C20;
+mix-blend-mode: difference;}

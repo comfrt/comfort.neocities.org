@@ -1,0 +1,433 @@
+<!--
+    .--,.-,
+   /.-',\:.\  .===.    ,;;,;;,
+  /;    \\:.\/    _)  ;;;;;;;;;
+  |'     \\:(  _,`'>   ';;;;;'
+  |;      \\(_/ ._=      ';'
+  |;       ;/ /`|\
+  /,      _/  |-' `\                    spread love and be kind
+ /;    __//(  \_,;;,;;,                   you are not alone<3
+|;  __/  /  \  /);;;;;;)
+| _/|/  /    \/`';;;;;'    ,;;,;;,
+|/     /      (   ';'     ;;;;;;;;;
+      (    .-, \           ';;;;;'
+       )  /`\ ) \            ';'
+      '._/|/| |.'
+        _//  \|
+       | /   ||
+       |/   / |
+            `\|
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cherchez la femme</title>
+    <link rel="icon" type="image/x-icon" href="widowmaker/bullet.png">
+	<script src="heaven/jQuery.js"></script>
+	<script src="/heaven/tooltips.js"></script>
+	<script src="/heaven/cursor.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+	<script src="https://kit.fontawesome.com/f936906ae0.js" crossorigin="anonymous"></script>
+	<script> function emotions() {var audio = new Audio('widowmaker/your emotions make you vulnerable.ogg'); audio.play();}</script>
+	<script> function tragedy() {var audio = new Audio('widowmaker/and your tragedy begins.ogg'); audio.play();}</script>
+	<script> function game() {var audio = new Audio('widowmaker/if loves a game.ogg'); audio.play();}</script>
+	<script> (function($){ $(document).ready(function(){ $("[title]").style_my_tooltips({ tip_follows_cursor:true, tip_delay_time:0, tip_fade_speed:0, attribute:"title" }); }); })(jQuery); </script>
+	<style>
+	body{
+	    background-image: url('https://blizzardwatch.com/wp-content/uploads/2018/10/cg-2b.jpg');
+    background-repeat: repeat;
+    font-family: ms gothic;
+    font-size: 0.9em;
+	-webkit-font-smoothing: none;
+}
+
+@font-face {
+    font-family: 'gothic';
+    src: url('/fonts/gothic.ttf');
+}
+
+html {
+	overflow-x:hidden;
+}
+
+html, body{
+	  height:100vh;
+  width:100vw;
+  margin: 0;
+padding: 0;
+     overflow: hidden;}
+	 
+
+#comfort {
+    height: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    padding: 20px 20px 20px 30px;
+    position: fixed;
+	left:18%;
+    scrollbar-color: #232a3b transparent;
+    scrollbar-width: thin;
+}
+
+::-webkit-scrollbar {
+width:7px; }
+ 
+::-webkit-scrollbar-thumb:vertical {
+background:#232a3b;
+height:10px; }
+
+::-webkit-scrollbar-track{
+    background:transparent;
+}
+
+.fairyland {
+	border-image: url('widowmaker/widowborder.png') 7 fill round; border-style: solid; border-width: 7px; margin-bottom: 45px; padding-left: 10px; padding-right: 10px; padding-bottom: 10px; padding-top: 10px;
+width:75%;
+}
+
+.fairyland p{
+max-width:100%;}
+
+::selection {
+	background-color:#233142;
+	color:#e3323c;
+	text-shadow: 0px 0px 1px #e3323c;}
+	
+	    #musicplayer{
+        background: transparent; /* background color of player */
+        border:0px solid transparent; /* border around player */
+        width:200px; /* width of the player */
+    }
+
+    .controls{
+        font-size:16px !important; /* size of controls */
+        background-color: transparent; /* background color of controls */
+        text-align:center;
+        width:100%;
+    }
+
+    .controls td{
+        padding:8px 5px 0px 5px; /* padding around controls */
+    }
+
+    .current-time{
+        padding-right:5px;
+    }
+
+    .total-duration{
+        padding-left:5px;
+    }
+
+    i.fas:hover{
+        cursor:pointer;
+    }
+
+    i.fas.fa-pause, i.fas.fa-play, i.fas.fa-forward, i.fas.fa-backward{
+        	color:#e3323c;
+text-shadow: -1px 0 #1a1a1a, 0 1px #1a1a1a, 1px 0 #1a1a1a, 0 -1px #1a1a1a, 0 0 2px #1a1a1a; /* color of controls */
+    }
+   h2{
+	font-family:gothic;
+text-align:center;
+	color: #e3323c;
+	text-shadow: -1px 0 #39383e, 0 1px #39383e, 1px 0 #39383e, 0 -1px #39383e, 0 0 2px #39383e;
+	font-size:2em;
+}
+
+h2::before{
+  content:url('widowmaker/visor.png'); 
+  position:relative; /*or absolute*/
+  z-index:100000; 
+  right:10px;
+  top:0px;
+}
+
+h2::after{
+  content:url('widowmaker/visor.png'); 
+  position:relative; /*or absolute*/
+  z-index:100000; 
+  left:8px;
+  top:0px;
+}
+
+ul{
+list-style:none;}
+
+li{
+list-style: url('widowmaker/bullet.png');
+padding-right:5px;
+padding-top:3px;}
+
+i{
+text-shadow: 0 0 2px #1b202c;
+font-family: spirit;
+margin-left:2px;}
+	</style>
+  </head>
+  <body>
+
+<div id="comfort">
+<div class="fairyland">
+<center><div id="musicplayer">
+        <div>
+            <p class="songtitle" style="display:none;"></p>
+        </div>
+
+        <table class="controls">
+            <tr>
+                <td>
+                    <div class="prev-track" onclick="prevTrack()"><i class="fas fa-backward"></i></div>
+                </td>
+                <td>
+                    <div class="playpause-track" onclick="playpauseTrack()" ><i class="fas fa-play"></i></div>
+                </td>
+                <td>
+                    <div class="next-track" onclick="nextTrack()"><i class="fas fa-forward"></i></div>
+                </td>
+            </tr>
+        </table>
+
+        <div class="seeking" style="display:none;">
+            <div class="current-time">00:00</div>
+
+            <input type="range" min="1" max="100" value="0" class="seek_slider" onchange="seekTo()">
+
+            <div class="total-duration">0:00</div>
+        </div>
+
+        <audio id="music" src=""></audio> 
+    </div></center>  <br>
+<center>
+<img src="widowmaker/widow1.png" title="click me!" style="cursor:pointer;" onclick="emotions()">
+<h2>Widowmaker</h2>
+<p>Widowmaker is the perfect assassin, armed with a precise rifle, venom mines, and the ability to grapple to sniping spots in the blink of an eye.</p></center>
+<ul>
+<li><i>Damage</i></li>
+<li><i>Annecy, France</i></li>
+<li><i>November 19th (Age: 35)</i></li></ul>
+<center>
+<img src="widowmaker/widow2.png" title="click me!" style="cursor:pointer;" onclick="tragedy()">
+<h2>Biography</h2>
+<p>In her former life, Amélie Lacroix loved only two things: her husband and ballet. Growing up in her family’s ancestral seat of Chateau Guillard in rural France,
+ dance became Amélie’s only escape from the crumbling manor and her conservative family, who had always urged her to follow the aristocracy’s tenets of decorum and tradition.</p>
+<p>Her path would take a more interesting turn when she married the great love of her life, Gérard Lacroix, an Overwatch agent spearheading operations against the
+ Talon terrorist organization. Amélie gave little thought to her husband’s career outside the interesting topic it made for dinner parties; she could hardly have
+ guessed at the danger his job put her in.</p>
+<p>After several unsuccessful attempts to eliminate Gérard, Talon decided to change its focus to his wife. In the dead of night, Talon operatives kidnapped Amélie
+ and subjected her to an intense program of neural reconditioning, in effect creating a sleeper agent. Gerard devoted Overwatch’s every resource to recovering his
+ bride, and it wasn’t long before the operation produced results. His agents saved Amélie, and a medical and psychological evaluation after the kidnapping found 
+ her to be apparently no worse for wear. Their official assessment proved fatally inaccurate two weeks later . . . when they discovered she had killed Gérard in his sleep.</p>
+<p>Overwatch had never truly rescued Amélie Lacroix. They had merely delivered Widowmaker to her first victim.</p>
+<p>Afterward, Amélie was hunted by police and Overwatch alike, but more than that, she was haunted by the way murdering her husband had made her feel. The moment
+ of the kill was the most alive Amélie had ever felt.</p>
+<p>With few other options left, Amélie returned to Talon, chasing the high that had both thrilled and terrified her. At her behest, she was given extensive 
+training in the covert arts and agreed to participate in an experimental marksman program. Talon’s geneticist, Moira O’Deorain, altered Amélie’s physiology
+ to improve her aim, drastically slowing her heart, which turned her skin cold and blue, and numbed her ability to experience human emotion. It dulled the
+ pain of what she’d done, while heightening the charge she felt on the hunt.</p>
+<p>Now as Widowmaker, she is Talon's most effective assassin. She shot (and had presumably killed) Captain Ana Amari—then the second in command of Overwatch—during
+ a mission in Poland. Shortly after, she assisted the Reaper and Sombra in securing Dr. Siebren de Kuiper for Talon’s ends. More recently she was sighted at the
+ Overwatch Museum in New York, attempting to steal the Doomfist gauntlet; in Russia, at the near-assassination of the head of Volskaya Industries; and in Venice,
+ where her handiwork was apparent amid the murders of Augusto Vialli and his associates.</p>
+<p>But Widowmaker is perhaps most notorious for her assassination of the Shambali leader, Tekhartha Mondatta at a rally for peace in King’s Row. Though she was
+ intercepted by former Overwatch agent, Tracer, even the hero couldn’t keep Widowmaker from claiming her prize.</p>
+<p>An unstoppable killer, Widowmaker’s crosshairs are perhaps the most dangerous place in the world.</p>
+<img src="widowmaker/widow3.png" title="click me!" style="cursor:pointer;" onclick="game()">
+<h2>Voice Lines</h2>
+</center>
+<ul>
+<li><i>"A single death can change everything."</i></li>
+<li><i>"Encore?"</i></li>
+<li><i>"Let them eat cake."</i></li>
+<li><i>"Cherchez la femme."</i></li>
+<li><i>"Magnifique."</i></li>
+<li><i>"Une balle, un mort."</i></li>
+<li><i>"Ouh la la.."</i></li>
+<li><i>"Rude."</i></li>
+<li><i>"'Step into my parlor,' said the spider to the fly."</i></li>
+<li><i>"Et c'est comme ca."</i></li>
+<li><i>"A la vie, a la mort."</i></li>
+<li><i>"Huh, what's an aimbot?"</i></li>
+<li><i>"A perfect ten."</i></li>
+<li><i>"Dame chance."</i></li>
+<li><i>"I don't miss."</i></li>
+<li><i>"The countess was feared by all. Rightfully."</i></li>
+<li><i>"In your dreams."</i></li>
+<li><i>"Araignée du matin, chagrin. Araignée du soir, cauchemar."</i></li>
+<li><i>"The party is over."</i></li>
+<li><i>"I have no use for cookies."</i></li>
+<li><i>"Ah, exquisite!"</i></li>
+<li><i>"Joyeux Noel."</i></li>
+<li><i>"Bonne fetes de fin d'annee."</i></li>
+<li><i>"You're barking up the wrong tree."</i></li>
+<li><i>"You have my attention."</i></li>
+<li><i>"Chasseurs toujours."</i></li>
+<li><i>"The night holds many surprises."</i></li>
+<li><i>"The performance is about to begin."</i></li>
+<li><i>"Your emotions make you vulnerable."</i></li>
+<li><i>"Better to be lucky and good."</i></li>
+<li><i>"Desolee."</i></li>
+<li><i>"Tout le plaisir est pour moi."</i></li>
+<li><i>"Ah, what a bore."</i></li>
+<li><i>"Sometimes it's six shots, one kill."</i></li>
+<li><i>"Drift into the void."</i></li>
+<li><i>"You will be your own gravestone."</i></li>
+<li><i>"Do you really want to be with me? I can be ... dangerous."</i></li>
+<li><i>"We are simply on different levels."</i></li>
+<li><i>"You're a joke."</i></li>
+<li><i>"I'm out for blood."</i></li>
+<li><i>"Justice delivered."</i></li>
+</div></div>
+
+  </div>
+</body>
+
+<script>
+// initiate variables
+        let track_name = document.querySelector(".songtitle");
+
+        let playpause_btn = document.querySelector(".playpause-track");
+        let next_btn = document.querySelector(".next-track");
+        let prev_btn = document.querySelector(".prev-track");
+
+        let seek_slider = document.querySelector(".seek_slider");
+        let curr_time = document.querySelector(".current-time");
+        let total_duration = document.querySelector(".total-duration");
+
+        let track_index = 0;
+        let isPlaying = false;
+        let updateTimer;
+        
+        // create new audio element
+        let curr_track = document.getElementById("music");
+        
+        //
+        // DEFINE YOUR SONGS HERE!!!!!
+        // MORE THAN FOUR SONGS CAN BE ADDED!!
+        // JUST ADD ANOTHER BRACKET WITH NAME AND PATH
+        // CATBOX.MOE IS RECOMMENDED FOR UPLOADING MP3 FILES
+        let track_list = [
+            {
+                name:"my immortal - evanescence (music box)",
+                path:"widowmaker/my immortal music box.mp3"
+            },
+            {
+                name:"lithium - evanescence (music box)",
+                path:"widowmaker/lithim music box.mp3"
+            },
+            {
+                name:"going under - evanescence (music box)",
+                path:"widowmaker/going under music box.mp3"
+            },
+        ];
+        //
+        //
+        //
+        //
+        //
+
+         function loadTrack(track_index) {
+            clearInterval(updateTimer);
+            resetValues();
+
+            // load a new track
+            curr_track.src = track_list[track_index].path;
+            curr_track.load();
+            
+            // update details of the track
+            track_name.textContent = "";
+
+
+            // set an interval of 1000 milliseconds for updating the seek slider
+            updateTimer = setInterval(seekUpdate, 1000);
+            
+            // move to the next track if the current one finishes playing 
+            curr_track.addEventListener("ended", nextTrack);
+        }
+
+        // reset values
+        function resetValues() {
+            curr_time.textContent = "0:00";
+            total_duration.textContent = "0:00";
+            seek_slider.value = 0;
+        }
+
+        // checks if song is playing
+        function playpauseTrack() {
+            if (!isPlaying) playTrack();
+            else pauseTrack();
+        }
+
+        // plays track when play button is pressed
+        function playTrack() {
+            curr_track.play();
+            isPlaying = true;
+            
+            // replace icon with the pause icon
+            playpause_btn.innerHTML = '<i class="fas fa-pause"></i>';
+        }
+
+        // pauses track when pause button is pressed
+        function pauseTrack() {
+            curr_track.pause();
+            isPlaying = false;
+            
+            // replace icon with the play icon
+            playpause_btn.innerHTML = '<i class="fas fa-play"></i>';
+        }
+
+        // moves to the next track
+        function nextTrack() {
+            if (track_index < track_list.length - 1)
+                track_index += 1;
+            else track_index = 0;
+            loadTrack(track_index);
+            playTrack();
+        }
+
+        // moves to the previous track
+        function prevTrack() {
+            if (track_index > 0)
+                track_index -= 1;
+            else track_index = track_list.length;
+            loadTrack(track_index);
+            playTrack();
+        }
+
+        // seeker slider
+        function seekTo() {
+            seekto = curr_track.duration * (seek_slider.value / 100);
+            curr_track.currentTime = seekto;
+        }
+
+        function seekUpdate() {
+            let seekPosition = 0;
+            
+            // check if the current track duration is a legible number
+            if (!isNaN(curr_track.duration)) {
+                seekPosition = curr_track.currentTime * (100 / curr_track.duration);
+                seek_slider.value = seekPosition;
+                
+            // calculate the time left and the total duration
+            let currentMinutes = Math.floor(curr_track.currentTime / 60);
+            let currentSeconds = Math.floor(curr_track.currentTime - currentMinutes * 60);
+            let durationMinutes = Math.floor(curr_track.duration / 60);
+            let durationSeconds = Math.floor(curr_track.duration - durationMinutes * 60);
+                
+            // adding a zero to the single digit time values
+            if (currentSeconds < 10) { currentSeconds = "0" + currentSeconds; }
+            if (durationSeconds < 10) { durationSeconds = "0" + durationSeconds; }
+            if (currentMinutes < 10) { currentMinutes = currentMinutes; }
+            if (durationMinutes < 10) { durationMinutes = durationMinutes; }
+
+            curr_time.textContent = currentMinutes + ":" + currentSeconds;
+            total_duration.textContent = durationMinutes + ":" + durationSeconds;
+          }
+        }
+        
+        // load the first track in the tracklist
+        loadTrack(track_index);
+		</script>
+</html>

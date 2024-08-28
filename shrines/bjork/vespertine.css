@@ -1,0 +1,26 @@
+:root{
+    --underline: #ffffff;
+    --mainbg: #D1D1D1;
+    --headerimg: url("bjork/vespertineheader.jpg");
+    --bgcolor: #E5E5E5;
+    --nav:#ffffff;
+}
+
+nav input[type="radio"]:checked + label {
+    text-decoration: underline var(--nav);
+    color: #000000;
+}
+
+#theme-links a{
+    color:#fff;
+    font-weight:bold;
+    mix-blend-mode:difference;
+}
+
+.b1{
+    color:#D1D1D1;
+mix-blend-mode: hard-light;}
+
+#theme-image{
+    width:400px;
+}

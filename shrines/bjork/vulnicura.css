@@ -1,0 +1,38 @@
+:root{
+    --underline: #C7A4CE;
+    --mainbg: #EBE886;
+    --headerimg: url("bjork/vulnicuraheader.jpg");
+    --bgcolor: #D0B4D3;
+    --navlink: #EBE8CD;
+    --nav: #EBE886;
+}
+
+* {
+    scrollbar-color: var(--mainbg) var(--bgcolor);
+    scrollbar-width: thin;
+}
+::-webkit-scrollbar {
+    width: thin;
+  }
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--mainbg);
+  }
+  
+::-webkit-scrollbar-track {
+    background-color: var(--bgcolor);
+  }
+
+  nav input[type="radio"]:checked + label {
+    text-decoration: underline var(--nav);
+    color: #EBE8CD;
+}
+
+#theme-links a{
+    color:#EBE886;
+    font-weight:bold;
+}
+
+.b1{
+    color:#EBE886;
+mix-blend-mode: lighten;}

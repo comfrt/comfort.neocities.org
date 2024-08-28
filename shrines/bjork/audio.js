@@ -1,0 +1,12 @@
+function saint() {var audio = new Audio('bjork/favesaint.ogg'); audio.play();}
+function aifol() {var audio = new Audio('bjork/faveaifol.ogg'); audio.play();}
+function ctmdl() {var audio = new Audio('bjork/favectmdl.ogg'); audio.play();}
+function iry() {var audio = new Audio('bjork/faveiry.ogg'); audio.play();}
+function pp() {var audio = new Audio('bjork/favepp.ogg'); audio.play();}
+function pp2() {var audio = new Audio('bjork/favepp2.ogg'); audio.play();}
+function bm() {var audio = new Audio('bjork/favebm.ogg'); audio.play();} 
+function ff() {var audio = new Audio('bjork/faveff.ogg'); audio.play();}
+function bl() {var audio = new Audio('bjork/favebl.ogg'); audio.play();}
+function ctmvl() {var audio = new Audio('bjork/ctmvl.ogg'); audio.play();}
+function enjoy() {var audio = new Audio('bjork/faveenjoy.ogg'); audio.play();}
+function dc() {var audio = new Audio('bjork/favedc'); audio.play();}

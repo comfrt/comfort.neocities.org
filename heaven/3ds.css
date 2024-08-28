@@ -1,0 +1,221 @@
+@font-face {
+    font-family: 'spirit';
+    src: url('https://comfort.neocities.org/fonts/spirit.ttf');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://64.media.tumblr.com/149420ed401364bcab6f23a82759b22e/tumblr_inline_mqijksYTyD1qz4rgp.png);
+    font-family: 'ms gothic';
+    font-size: 1em;
+	-webkit-font-smoothing: none;
+}
+
+a{
+    font-weight:bold;
+    background-color:#28554F;
+    color: #FFDDDD;
+    padding:2px 0px 2px 2px;
+    text-decoration-style: dashed;
+    text-decoration-thickness: 1px;
+    transition: all ease-in-out 0.3s;
+}
+
+a:hover{
+    color:#e29dab;
+    text-decoration-style: solid;
+}
+
+.main{
+    max-width:60%;
+    position:static;
+    background-color:white;
+    padding:1.5em;
+    margin-left:20%;
+}
+
+#chiaki{
+max-width: 100%;
+margin:1em 0.2em;
+height:auto;
+}
+
+#chiaki img {
+ width:220px;
+}
+
+.layout {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid:
+      "sidebar body aside" 1fr
+      / 15% 50% 15%;
+    gap: 15px;
+    justify-content: center;
+  }
+  
+  .sidebar { 
+    grid-area: sidebar;
+ }
+
+  .body { grid-area: body; }
+  
+  .aside {
+    grid-area: aside; 
+  }
+
+  .content{
+    padding: 1em 1.5em;
+    margin: 0.5em 0;
+    max-width: none;
+    border: thin solid #e29dab;
+    box-shadow: none;
+    background-color: white;
+  }
+  
+  .content:first-child{
+    margin:1.5em;
+  }
+
+  .container {
+    overflow: hidden;
+  }
+  
+
+  h2{
+    text-align:center;
+    text-shadow: 2px 1px 1px pink;
+    font-family:'spirit';
+    font-size:1.2em;
+    font-weight:500;
+    color:#28554F;
+  }
+
+  h2::before{
+    content:url('https://64.media.tumblr.com/8b75b797782bbb742d9bc2788e3fa47b/cc1d616953d07164-1a/s75x75_c1/558118e8d57d02261cfe44d1a088f3d4b4d73f42.gif'); 
+    position:relative; /*or absolute*/
+    z-index:100000; 
+    right:10px;
+    bottom:-2px;
+  }
+  
+  h2::after{
+    content:url('https://64.media.tumblr.com/8b75b797782bbb742d9bc2788e3fa47b/cc1d616953d07164-1a/s75x75_c1/558118e8d57d02261cfe44d1a088f3d4b4d73f42.gif'); 
+    position:relative; /*or absolute*/
+    z-index:100000; 
+    left:10px;
+    bottom:-2px;
+  }
+  .item {
+    background-color: #FFDDDD;
+    margin: 1em 0;
+    padding: 0.5em;
+    display: none; /* Hidden by default */
+  }
+  
+  /* The "show" class is added to the filtered elements */
+  .show {
+    display: block;
+  }
+  
+  /* Style the buttons */
+  .btn {
+    border: 1px dotted #F3BEC9;
+    outline: none;
+    background-color: #FFDDDD;
+    color: #603852;
+    padding: 2px 5px;
+    margin:0.3em;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #E8B9C1;
+  }
+
+
+  .btn.active {
+    background-color: #F3BEC9;
+    color: white;
+  }
+
+  button {
+    background: rgb(255,221,221);
+    border: 1px dotted #F3BEC9;
+    font-family: "ms gothic";
+    color: #603852;
+    padding: 2px 5px;
+    margin:0.3em;
+    cursor: pointer;
+}
+
+@media only screen and (min-width:1001px) {
+  .layout{
+    position:relative;
+  }
+
+  .sidebar{
+    position:sticky;
+    top:0em;
+    align-self: flex-start;
+  }
+
+  .aside{
+    position:sticky;
+    top:13em;
+    align-self: flex-start;
+  }
+
+}
+
+@media only screen and (max-width:1000px) {
+
+    #chiaki{
+        display:none;
+    }
+
+    body{
+        font-size:1.2em;
+    }
+    .layout{
+        display:flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        max-width:100%;
+        position:static;
+    }
+
+    h2{
+        display:none;
+    }
+    .sidebar{
+        padding-left:1.5em;
+        padding-right:1.5em;
+        padding-top:1.5em;
+        top:0;
+        width:100%;
+    }
+    .main{
+        width:100%;
+    }
+
+    .aside{
+        display:none;
+    }
+
+    button {
+        background: rgb(255,221,221);
+        border: 1px dotted palevioletred;
+        font-family: "ms gothic";
+        color: #603852;
+        padding: 1px 5px;
+        margin: 2px 0;
+        cursor: pointer;
+        font-size:1em;
+    }
+}

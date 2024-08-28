@@ -1,0 +1,25 @@
+:root{
+    --underline: #8A7251;
+    --mainbg: #B19C7F;
+    --headerimg: url("bjork/debutheader.jpg");
+    --bgcolor: #D4C3A9;
+    --nav: #B19C7F;
+}
+
+nav a{
+    color:#8A7251;
+}
+
+#theme-links a{
+    color:#B19C7F;
+    font-weight:bold;
+}
+
+.b1{
+    color:#EDE7D4;
+    mix-blend-mode: multiply;
+}
+
+#theme-image{
+    filter: sepia(1);
+}

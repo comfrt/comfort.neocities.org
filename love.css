@@ -1,0 +1,464 @@
+ :root {
+ --bg1: #ffecf1;
+ --accent1:#ffb2cc;
+ --accentbg:url('https://64.media.tumblr.com/55c07e1f5a12993033a0d067aafd37c0/tumblr_inline_mlmi2l0c1g1qz4rgp.gif')}
+
+body {
+    background-color: var(--bg1);
+    background-image: url('');
+    background-repeat: repeat;
+    font-family: ms gothic;
+    font-size: 0.9em;
+	-webkit-font-smoothing: none;
+}
+
+html {
+    scrollbar-color: #ffbdcf #ffe2ea;
+    scrollbar-width: thin;
+}
+
+html, body{
+	  height:100vh;
+  width:100vw;
+  margin: 0;
+padding: 0;
+overflow:hidden;
+}
+
+::-webkit-scrollbar {
+width:7px; }
+ 
+::-webkit-scrollbar-thumb:vertical {
+background:#ffbdcf;
+height:10px; }
+
+::-webkit-scrollbar-track{
+    background:#ffe2ea;
+}
+
+
+#safety {
+    height: 100%;
+    left: 0;
+    top: 0;
+	text-align:center;
+    position: fixed;
+}
+#safety-nav{
+margin-left:7px;}
+
+#safety a {
+    color: #ffffff;
+    font-family: cherish;
+    font-size: 2em;
+    text-decoration: none;
+    text-shadow: -1px 0 var(--accent1), 0 1px var(--accent1), 1px 0 var(--accent1), 0 -1px var(--accent1), 0 0 4px #fff;
+    text-transform: uppercase;
+    transition: 0.4s;
+}
+
+#safety a:hover {
+    color: var(--accent1);
+    letter-spacing: 1px;
+    text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff, 0 0 4px #fff;
+}
+
+#safety a::before{
+  content:url('gfx/itty.gif'); 
+  position:relative; /*or absolute*/
+  z-index:100000; 
+  right:5px;
+  bottom:5px;
+}
+
+#safety a::after{
+  content:url('gfx/itty.gif'); 
+  position:relative; /*or absolute*/
+  z-index:100000; 
+  left:3px;
+  bottom:5px;
+}
+
+#comfort {
+    height: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    padding: 75px 20px 20px 30px;
+    position: fixed;
+    left: 222px;
+    scrollbar-color: #fcdce5 var(--bg1);
+    scrollbar-width: thin;
+}
+
+.fairyland {
+	border-image: url('gfx/border2.png') 7 fill round; border-style: solid; border-width: 7px; margin-bottom: 145px; padding-left: 10px; padding-right: 10px; padding-bottom: 10px;
+}
+
+.fairyland p{
+max-width: 75%;}
+
+
+.lace {
+    background-image: url("gfx/frill.png");
+    background-position: top left;
+    background-repeat: repeat-x;
+    height: 57px;
+    left: 229px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.frill {
+    background-image: url("gfx/lace.png");
+    background-position: bottom left;
+    background-repeat: repeat-x;
+    bottom: 0;
+    height: 57px;
+    left: 229px;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+h1 {
+    background-image: var(--accentbg);
+    border-image: url('gfx/border3.png') 7 fill round;
+    border-style: solid;
+    border-width: 7px;
+    font-family: spirit;
+    font-size: 1em;
+	font-weight: normal;
+    padding: 5px;
+    text-align: center;
+}
+
+h2{
+	font-family:rainyhearts;
+text-align:center;
+	color: #fff;
+	text-shadow: -1px 0 var(--accent1), 0 1px var(--accent1), 1px 0 var(--accent1), 0 -1px var(--accent1), 0 0 2px var(--accent1);
+	font-size:2em;
+}
+
+h2::before{
+  content:url('gfx/leftwing.png'); 
+  position:relative; /*or absolute*/
+  z-index:100000; 
+  right:10px;
+  bottom:0px;
+}
+
+h2::after{
+  content:url('gfx/rightwing.png'); 
+  position:relative; /*or absolute*/
+  z-index:100000; 
+  left:10px;
+  bottom:0px;
+}
+
+h3{
+	font-family:hearts;
+text-align:center;
+	color: #fff;
+	text-shadow: -1px 0 var(--accent1), 0 1px var(--accent1), 1px 0 var(--accent1), 0 -1px var(--accent1), 0 0 2px var(--accent1);
+	font-size:1.1em;
+}
+
+h3::before{
+  content:url('https://64.media.tumblr.com/181ea9d9c44074e906f21b6db82821e8/tumblr_inline_p7tnzpJK9l1qk1or3_75sq.gif'); 
+  position:relative; /*or absolute*/
+  z-index:100000; 
+  right:10px;
+  bottom:-5px;
+}
+
+h3::after{
+  content:url('https://64.media.tumblr.com/73833217af7b6b132d40e3d78bbf25a5/tumblr_inline_p7tnzo9Z6L1qk1or3_75sq.gif'); 
+  position:relative; /*or absolute*/
+  z-index:100000; 
+  left:10px;
+  bottom:-5px;
+}
+
+::selection {
+	background-color:var(--accent1);
+	color:#fff;
+	text-shadow: 0px 0px 1px #fff;}
+
+blockquote {
+	border-left: 3px double var(--accent1);
+	border-right: 3px double var(--accent1);
+border-radius:10px;
+padding-left:5px;
+padding-right:5px;
+	quotes: "❝" "❞";
+max-width:800px;}
+
+blockquote:before {
+	content: open-quote;
+	font-size: 1.8em;
+	margin-right: 0.15em;
+	color: #FFECF1;
+	text-shadow: -1px 0 var(--accent1), 0 1px var(--accent1), 1px 0 var(--accent1), 0 -1px var(--accent1), 0 0 2px var(--accent1);}
+	
+	mark{
+background-color:var(--accent1);}
+
+b{
+	color: #fff;
+	text-shadow: -1px 0 var(--accent1), 0 1px var(--accent1), 1px 0 var(--accent1), 0 -1px var(--accent1), 0 0 4px var(--accent1);}
+
+i{
+text-shadow: 0 0 3px var(--accent1);
+margin-left:-4px;
+font-family: spirit;}
+
+a {
+	font-family:cherish;
+	color:#fff;
+text-shadow: -1px 0 var(--accent1), 0 1px var(--accent1), 1px 0 var(--accent1), 0 -1px var(--accent1), 0 0 2px var(--accent1);
+font-size:1.4em;
+transition: 0.3s;}
+
+a:hover {
+	letter-spacing:0.6px;
+		color: var(--accent1);
+		text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff, 0 0 4px #fff;
+}
+
+table a{
+font-family: ms gothic;
+font-size: 0.9em;
+margin-left:0px;
+color:#000000;
+text-shadow: none;}
+	
+u {
+text-decoration-style:wavy;}
+
+del {
+text-decoration-color: #ffbdcf;
+}
+
+ul{
+list-style:none;}
+
+li{
+list-style: url('gfx/list.gif');
+padding-right:5px;}
+
+li a{
+font-size:20px;
+margin-left:5px;}
+
+.alyssa {
+font-family:'emoji';
+	color:#fff;
+text-shadow: -1px 0 var(--accent1), 0 1px var(--accent1), 1px 0 var(--accent1), 0 -1px var(--accent1), 0 0 2px var(--accent1);}
+
+.lysser {
+max-width:20%;}
+.nat {
+max-width:25%;}
+
+.adam {
+max-width:40%;}
+
+.vi{
+max-width:100%;
+}
+
+
+  .cherub {
+  color: #fff;
+  letter-spacing: 1px;
+  padding-right: 5px;
+  font-family: hearts;
+  font-style: italic;
+text-shadow: -1px 0 var(--accent1), 0 1px var(--accent1), 1px 0 var(--accent1), 0 -1px var(--accent1), 0 0 2px var(--accent1);
+  text-transform: lowercase;
+  font-weight: bold;
+  font-size:14px;}
+  
+.cherished{
+margin:5px;
+float:left;
+overflow:hidden;
+position:relative;
+text-align:center;
+border: 1px solid #4a4a4a;
+}
+
+.cherished .loved, .cherished .adored {
+width: 200px;
+height: 200px;
+position: absolute;
+overflow: auto;
+top: 0;
+left: 0;
+text-align: justify;
+padding-top:10px;
+padding-bottom:10px;
+word-wrap: break-word;
+}
+.cherished img {
+display: block;
+position: relative;}
+
+.cherished-bisou img {
+width: 200px;
+height: 200px;
+}
+
+.cherished-bisou {
+left:38%;}
+
+.cherished-bisou .loved{
+opacity: 0;
+background-color:var(--accent1);
+transition: all 0.3s ease-in-out;}
+
+
+.cherished-bisou:hover .loved{
+opacity:100%;}
+
+#s-m-t-tooltip {
+margin:20px 14px 7px 10px;
+background-color:transparent;
+font-family: hearts;
+font-size: 16px;
+color:#ffb2cc;
+z-index:999999; 
+border: solid 7px #4a4a4a;
+border-image: url("gfx/border4.png") 7 fill round;
+}
+
+.kiss{
+max-width:60%;}
+
+
+    #musicplayer{
+        background: transparent; /* background color of player */
+        border:0px solid transparent; /* border around player */
+        width:200px; /* width of the player */
+    }
+
+    .controls{
+        font-size:16px !important; /* size of controls */
+        background-color: transparent; /* background color of controls */
+        text-align:center;
+        width:100%;
+    }
+
+    .controls td{
+        padding:8px 5px 0px 5px; /* padding around controls */
+    }
+
+    .current-time{
+        padding-right:5px;
+    }
+
+    .total-duration{
+        padding-left:5px;
+    }
+
+    i.fas:hover{
+        cursor:pointer;
+    }
+
+    i.fas.fa-pause, i.fas.fa-play, i.fas.fa-forward, i.fas.fa-backward{
+        	color:#fff;
+text-shadow: -1px 0 var(--accent1), 0 1px var(--accent1), 1px 0 var(--accent1), 0 -1px var(--accent1), 0 0 2px var(--accent1); /* color of controls */
+    }
+   
+#iloveyou{
+	padding-left:10px;
+	padding-right:10px;}
+	
+#caretaker{
+max-width:1000px;
+height:200px;
+background-image:var(--accentbg);
+overflow:auto;
+border:1px solid #4a4a4a;
+padding-bottom:5px;
+    scrollbar-color: #ffbdcf #FFECF1;
+    scrollbar-width: thin;}
+  
+	.flex div {
+display: inline-block;
+}
+
+.hug {
+padding-bottom:5px;
+}
+
+.hug div {
+vertical-align:middle!important;
+}
+
+.hug img {
+vertical-align:middle!important;
+}
+
+.hug::-webkit-scrollbar-thumb:vertical {
+background:#ffbdcf;
+height:10px; }
+
+.hug::-webkit-scrollbar-track{
+    background:#ffe2ea;
+}
+
+@media only screen and (max-width: 600px) {
+    body,html{
+        overflow-y:auto;
+        height:100vh;
+        width:100vw;
+        margin: 0;
+      padding: 0;
+    }
+    #safety iframe {
+        width: 1px;
+        height: 1px;
+        visibility: hidden;
+    }
+    
+    #comfort {
+      position: relative;
+      height: auto; /* Adjust height as needed */
+      width: 100%; /* Adjust width as needed */
+      left: -10px;
+      overflow:hidden;
+    }
+    .lace {
+        background-image: url("gfx/frill.png");
+        background-position: top left;
+        background-repeat: repeat-x;
+        height: 57px;
+        left: 0px;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 999;
+    }
+    
+    .frill {
+        background-image: url("gfx/lace.png");
+        background-position: bottom left;
+        background-repeat: repeat-x;
+        bottom: 0;
+        left:0px;
+        position:fixed;
+        height: 57px;
+        width: 100%;
+        z-index: 999;
+    }
+    .fairyland {
+        max-width:90%;
+        position:relative;
+        left:-13px;
+
+    }
+  }

@@ -1,0 +1,366 @@
+
+            :root {
+                --header-image: url('https://sadhost.neocities.org/images/layouts/wp.jpeg');
+                --body-bg-image: url('static4.png');
+				--navbar-image: url('static5.png');
+
+                --content: #43256E;
+				--bgcolor: #241f22;
+				--textcolor: #FFFFFF;
+				--bold: #e47aaa;
+				--link: #e47aaa;
+				--navlink: #e47aaa;
+				--navbar: #241f22;
+				--navborder: #eb9fc2;
+				--boxborder: #eb9fc2;
+				--linkfont: 'IM Fell DW Pica';
+            }
+
+			/*    font-family: 'Anonymous Pro', monospace;
+
+    font-family: 'IM Fell DW Pica', serif;
+
+    font-family: 'UnifrakturMaguntia', cursive; */
+
+		
+            body {
+				font-family: 'Anonymous Pro', monospace;
+                margin: 0;
+                background-color: #08031A;
+                /* you can delete the line below if you'd prefer to not use an image */
+                background-size: 65px;
+                color: #fff;
+                background-image: var(--body-bg-image);
+				scrollbar-color: var(--navlink) var(--bgcolor);
+				font-weight:400;
+            }
+
+			.tabcontent b {
+			color: var(--bold);
+			font-weight: 800;}
+
+			h2{
+			color: var(--navlink);
+			text-shadow: 0px 0px 1px var(--navlink);
+			font-family: var(--linkfont);
+			font-size:22px;
+			text-align:center;
+			text-decoration:underline;
+			text-decoration-style:solid;
+			}
+			
+			mark{
+			background-color: var(--navlink);
+			font-weight:800;}
+		
+			
+            * {
+                box-sizing: border-box;
+            }
+
+            #container {
+                max-width: 900px;
+
+                margin: 0 auto;
+				margin-top:100px;
+			border-left: 1px solid var(--boxborder);
+			border-right: 1px solid var(--boxborder);
+			border-bottom: 1px solid var(--boxborder);
+				
+            }
+
+            #container a {
+                color: var(--link);
+                font-weight: bold;
+				transition:0.5s;
+				text-decoration:underline;
+            }
+			
+			#container a:hover{
+				letter-spacing:1px;
+			}
+			
+            #header {
+                width: 100%;
+                background-color: #5e4e8c;
+                /* header color here! */
+                height: 150px;
+                /* this is only for a background image! */
+                /* if you want to put images IN the header, 
+      you can add them directly to the <div id="header"></div> element! */
+                background-image: var(--header-image);
+                background-size: 100%;
+            }
+
+            /* navigation section!! */
+            #navbar {
+                height: 40px;
+                background-color: var(--navbar);
+				background-image: var(--bg-image);
+                /* navbar color */
+                width: 100%;
+				border-bottom: 1px solid var(--navborder);
+				border-top: 1px solid var(--navborder);
+            }
+
+            #navbar ul {
+                display: flex;
+                padding: 0;
+                margin: 0;
+                list-style-type: none;
+                justify-content: space-evenly;
+            }
+
+            #navbar li {
+                padding-top: 9px;
+				            color: var(--navlink);
+            transition:0.3s;
+            font-family: var(--linkfont);
+            font-size:17px;
+            }
+
+            #navbar li a {
+                color: var(--navlink);
+                font-weight: 800;
+                text-decoration: none;
+				transition:0.3s;
+            }
+			
+            #navbar li a:hover {
+                color: #fff;
+                text-decoration: underline;
+				cursor: pointer;
+				letter-spacing:1px;
+            }
+
+            footer {
+                background-color: var(--bgcolor);
+                width: 100%;
+                height: 40px;
+                padding: 12px;
+                text-align: center;
+				border-top: 1px solid var(--navborder);
+				font-size:10px;
+            }
+			
+            #flex {
+                display: flex;
+            }
+
+			            .tablinks {
+			text-decoration: none;
+            background:none;
+            }
+            
+            .tabcontent {
+                          overflow:auto;
+            background-color: var(--bgcolor);
+                        color: var(--textcolor);
+            font-size:14px; 
+			height:400px;
+			scrollbar-width: thin;}
+
+
+
+            #topBar {
+                width: 100%;
+                height: 30px;
+                padding: 10px;
+                font-size: smaller;
+                background-color: #13092D;
+            }
+
+
+
+        ::-webkit-scrollbar{
+            width: 10px;
+            height: 10px;
+        }
+
+        ::-webkit-scrollbar-thumb{
+            background: var(--navlink);
+            border-radius: 0px;
+        }
+
+        ::-webkit-scrollbar-track{
+            background: var(--bgcolor);
+            border-radius: 0px;
+        }
+
+		        ::selection {
+            background: var(--navlink);
+            color:var(--bgcolor);
+			text-shadow: 0px 0px 1px var(--bgcolor);
+        }
+
+        ::-moz-selection {
+            background: var(--navlink);
+            color:var(--bgcolor);
+			text-shadow: 0px 0px 1px var(--bgcolor);
+        }
+		
+		.tab { text-indent:40px }
+		
+		.metas_list {
+margin:0px;
+padding:0px;
+width:100%; }
+   
+   
+		.metas_head {
+		font-family: var(--linkfont);
+background-color: var(--bgcolor);
+color: var(--bgcolor);
+font-size:20px;
+padding-top:20px;
+padding-left:20px;
+text-shadow: -1px 0 var(--navlink), 0 1px var(--navlink), 1px 0 var(--navlink), 0 -1px var(--navlink);
+		}
+		
+		.metas_body {
+padding-left:40px;
+padding-right:30px;
+text-align:justify;
+display:none; }
+
+#love {
+ z-index:99;
+ position: absolute;
+ margin-top:-3px;}
+
+.peace {
+ user-select:none;
+ -webkit-user-select:none;
+ font-size:20px;
+  text-align: left;
+  cursor: pointer;}
+ 
+
+.baby {color: var(--bgcolor);
+text-shadow: -1px 0 var(--navlink), 0 1px var(--navlink), 1px 0 var(--navlink), 0 -1px var(--navlink);} /* color of play & pause buttons */
+
+
+#s-m-t-tooltip {
+margin:20px 14px 7px 10px;
+padding:5px;
+background-color: var(--bgcolor);
+font-family: var(--linkfont);
+font-size: 16px;
+color:#fff;
+text-shadow: 0px 0px 2px #fff;
+z-index:999999; 
+border: single 1px var(--navborder);
+}
+
+            /* BELOW THIS POINT IS MEDIA QUERY */
+
+            /* so you wanna change the width of your page? 
+    by default, the container width is 900px.
+    in order to keep things responsive, take your new height,
+    and then subtrack it by 100. use this new number as the 
+    "max-width" value below
+    */
+
+            @media only screen and (max-width: 800px) {
+                #flex {
+                    flex-wrap: wrap;
+                }
+
+                aside {
+                    width: 100%;
+                }
+
+			}
+
+
+
+    #musicplayer{
+        background: var(--bgcolor); /* background color of player */
+        border:0px solid var(--navborder); /* border around player */
+        width:270px; /* width of the player */
+    }
+
+    .songtitle{
+        padding-top:5px; /* padding around song title */
+        border-bottom:0px solid #e74492; /* border under song title */
+        display:block;
+    }
+
+    .controls{
+        font-size:18px !important; /* size of controls */
+        background-color: var(--bgcolor); /* background color of controls */
+        text-align:center;
+        width:100%;
+    }
+
+    .controls td{
+        padding:8px 5px 0px 5px; /* padding around controls */
+    }
+
+    .seeking{
+        background-color:var(--bgcolor); /* background color of seeking bar */
+        display:flex;
+        justify-content: space-evenly;
+        padding:5px; /* padding around seeking bar */
+    }
+
+    .current-time{
+        padding-right:5px;
+    }
+
+    .total-duration{
+        padding-left:5px;
+    }
+
+    i.fas:hover{
+        cursor:help;
+    }
+
+    i.fas.fa-pause, i.fas.fa-play, i.fas.fa-forward, i.fas.fa-backward{
+        color: var(--link); /* color of controls */
+    }
+    
+    input[type=range] {
+        -webkit-appearance: none;
+        width: 100%;
+        background-color: var(--bgcolor); /* background color of seeking bar - make the color same as .seeking background color */
+    }
+    
+    input[type=range]:focus {
+        outline: none;
+    }
+    
+    /* settings for chrome browsers */
+    input[type=range]::-webkit-slider-runnable-track {
+        width: 100%;
+        height: 2px; /* thickness of seeking track */
+        cursor: help;
+        background: var(--link); /* color of seeking track */
+    }
+    
+    input[type=range]::-webkit-slider-thumb {
+        height: 10px; /* height of seeking square */
+        width: 10px; /* width of seeking square */
+        border-radius: 0px; /* change to 5px if you want a circle seeker */
+        background: var(--link); /* color of seeker square */
+        cursor: help;
+        -webkit-appearance: none;
+        margin-top: -4.5px; 
+    }
+    
+    /* settings for firefox browsers */
+    input[type=range]::-moz-range-track {
+        width: 100%;
+        height: 2px; /* thickness of seeking track */
+        cursor: help;
+        background: var(--link); /* color of seeking track */
+    }
+    
+    input[type=range]::-moz-range-thumb {
+        height: 10px; /* height of seeking square */
+        width: 10px; /* width of seeking square */
+        border-radius: 5px; /* change to 5px if you want a circle seeker */
+        background: var(--link); /* color of seeker square */
+        cursor: help;
+        border:none;
+    }

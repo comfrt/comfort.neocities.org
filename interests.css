@@ -1,0 +1,595 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'pixel';
+    font-size:1.05em;
+    background-image: url('https://comfort.kayla.care/gfx/interestsbg.jpg');
+    background-size: 800px;
+    color: #ffffff;
+}
+
+html{
+    scrollbar-color: #EF46BA #411A69;
+    scrollbar-width: thin;
+}
+
+
+@font-face {
+    font-family: 'starborn';
+    src: url('/fonts/Starborn.ttf');
+}
+
+@font-face {
+    font-family: 'silverlining';
+    src: url('./fonts/silverlining.ttf');
+}
+
+@font-face {
+    font-family: pixel;
+    src: url(https://dl.dropbox.com/s/rwu0nhwc3rnbaqm/mspixel.otf);
+}
+
+@font-face {
+    font-family: 'Spirit';
+    src: url('/fonts/Spirit.ttf');
+}
+
+@font-face {
+    font-family: 'emojifont';
+    src: url('/fonts/EmojiFont.ttf');
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 20px;
+    max-width: 100%;
+}
+
+.sidebar-container {
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+}
+
+.sidebar {
+    flex: 1;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+main {
+    flex: 1;
+    margin: 0 20px;
+    max-width: 800px;
+}
+
+main section {
+    background: 
+        linear-gradient(to right, #592B8D, #592B8D, #592B8D), 
+        url('./gfx/purplegrid.png');
+    background-blend-mode: multiply; 
+    margin-bottom: 20px; 
+    max-width: 800px; 
+    padding: 20px; 
+    border: 1px solid #F7F33A;
+    outline: 1.5px dashed #EA44C3;
+    outline-offset:3px;
+    border-radius: 10px;
+    }
+
+.topbar, .navbar, footer {
+    color: #ffffff;
+    padding: 10px;
+}
+
+#navbar {
+    padding: 5px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.3);
+    background-image: linear-gradient(to right, #EF46BA, #FE6D7C, #F5F43A, #5CE073, #5880FE, #C74BDA);
+    background-blend-mode: screen;
+    border-top: 2px solid;
+    border-image: linear-gradient(to right, #EF46BA, #FE6D7C, #F5F43A, #5CE073, #5880FE, #C74BDA) 1;
+    z-index:99;
+}
+
+#navbar ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+
+#navbar li {
+    margin: 5px 0;
+    padding-bottom: 5px;
+}
+
+#navbar li a {
+    color: #ffffff;
+    text-shadow: -1px -1px 0 #EF46BA, 1px -1px 0 #C74BDA, -1px 1px 0 #C74BDA, 1px 1px 0 #5CE073, 0 0 5px #C74BDA;    text-decoration: none;
+    margin: 0 5px;
+    transition: 0.3s ease-in-out;
+}
+
+#navbar li a:hover {
+    text-decoration: underline solid;
+    color: #582A8C;
+}
+
+#navbar li:nth-child(n) {
+    text-shadow: 
+        -1px -1px 0 #582A8C,  
+        1px -1px 0 #582A8C,
+        -1px 1px 0 #582A8C,
+        1px 1px 0 #582A8C;
+}
+
+.dropup {
+    position: relative;
+    display: inline-block;
+    
+}
+
+.dropup-content {
+    display: none;
+    position: absolute;
+    bottom: 100%;
+    min-width: 160px;
+    z-index: 1;
+    padding: 5px 0;
+    animation: scrollOpen 0.5s ease forwards;
+    background-color: rgba(255, 255, 255, 0.2);
+    background-blend-mode: screen;
+    border: 2px solid;
+    border-image: linear-gradient(to top, #EF46BA, #FE6D7C, #F5F43A, #5CE073, #5880FE, #C74BDA) 1;
+    background-image: linear-gradient(to top, #EF46BA, #FE6D7C, #F5F43A, #5CE073, #5880FE, #C74BDA);
+}
+
+.dropup-content a {
+    color: #fff !important;
+    display: block;
+    padding: 5px 0;
+    /* text-shadow: -1px -1px 0 #ffc8b8, 1px -1px 0 #FFBEDD, -1px 1px 0 #afe7e3, 1px 1px 0 #e7c9f4; */
+    font-family: 'silverlining';
+    font-size: 18px;
+}
+
+.dropup-content a:hover {
+    text-decoration: none !important;
+    letter-spacing: 1.2px !important;
+    color: #582A8C !important;
+    text-shadow: -1px -1px 0 #582A8C, 1px -1px 0 #582A8C, -1px 1px 0 #582A8C, 1px 1px 0 #582A8C, 0 0 5px #582A8C !important;
+}
+
+.dropup:hover .dropup-content {
+    display: block;
+}
+
+.star {
+    font-family: 'starborn';
+    font-size: 12px;
+}
+
+.alyssa{
+    font-family: 'emojifont';
+}
+
+u{
+    text-decoration: none;
+    background-image: linear-gradient(to right, #EF46BA, #FE6D7C, #F5F43A, #5CE073, #5880FE, #C74BDA);
+    background-repeat: no-repeat;
+    background-size: 100% 0.3em;
+    background-position: 0 0.8em; 
+}
+
+@keyframes scrollOpen {
+    0% {
+        transform: scaleY(0) translateY(-10px);
+        opacity: 1;
+    }
+    20% {
+        transform: scaleY(1.1) translateY(1px);
+    }
+    80% {
+        transform: scaleY(0.95) translateY(-1px);
+    }
+    100% {
+        transform: scaleY(1) translateY(0);
+    }
+}
+
+#dhtmltooltip{
+    position: absolute;
+    max-width: 100px;
+    border: 1px solid #F5F43A;
+    outline: 1px dashed #EF46BA;
+    outline-offset: 3px;
+    border-radius: 6px;
+    padding: 1px;
+    background-color: #592B8D;
+    visibility: hidden;
+    z-index: 100;
+    color: #ffffff;
+    text-align:center;
+    font-size:14px;
+}
+
+.safe a{
+    text-decoration: underline dotted 1px;
+    color: #FFAEC9;
+    transition: 0.5s;
+}
+
+.safe a:hover{
+    text-decoration: none;
+    letter-spacing:0.5px;
+}
+
+::selection{
+    background-color:#C74BDA;
+    color:#ffffff;
+}
+
+h2 {
+    font-size: 25px;
+    background: url('./gfx/interestheader.png');
+    background-size:700px;
+    border: #C74BDA solid 1px;
+    outline: #5CE073 dashed 1px;
+    outline-offset: 3px;
+    border-radius: 5px;
+    padding: 2px;
+    font-family: 'starborn';
+    letter-spacing: 4px;
+    color: #ffffff;
+    text-shadow: -1px -2px 0 #EF46BA, 1px -1px 0 #C74BDA, -1px 1px 0 #C74BDA, 1px 1px 0 #5CE073, 0 0 5px #C74BDA;
+    text-align: center;
+    margin-bottom:10px;
+    transition: 0.2s ease-in-out;
+    margin-top:10px;
+}
+
+h2::before{
+  content: "\ec9b";
+   font-size:22px;  
+   margin-right:4px;
+   font-family:'cappuccicons'; 
+}
+
+h2::after{
+    content: "\ec9b";
+    font-size:22px;
+    margin-left:4px;
+    font-family:'cappuccicons'; 
+}
+
+h2:hover{
+    letter-spacing:6px;
+}
+
+h3{
+    font-family: 'silverlining';
+    background-image: linear-gradient(to bottom, #EF46BA, #FE6D7C, #F5F43A, #5CE073, #5880FE, #C74BDA);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-decoration:none;
+    font-size:30px;
+    text-align:center;
+    margin-top:5px;
+    letter-spacing:3px;
+}
+
+h3::selection{
+    -webkit-text-fill-color: #ffffff;
+}
+
+h3::before{
+    content: "\eca0";
+    font-size:22px;  
+    margin-right:7px;
+    font-family:'cappuccicons'; 
+}
+
+h3::after{
+    content: "\eca0";
+    font-size:22px;
+    margin-left:7px;
+    font-family:'cappuccicons'; 
+    }
+
+h4{
+    background-clip: text;
+    background-image: linear-gradient(to right, #5880FE, #C74BDA);
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration:underline 1px wavy;
+    text-underline-position: under;
+    letter-spacing: calc(1em / 8);
+    padding: calc(1em / 16);
+    -webkit-text-stroke-color: transparent;
+    -webkit-text-stroke-width: 3px;
+    text-align:center;
+    margin-bottom:7px;
+}
+
+si{
+    text-decoration:underline wavy 1px #FFADC9;
+    text-decoration-skip-ink: none;
+    margin-bottom:1px;
+}
+
+main ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+main li::before {
+    margin-bottom:3px;
+    margin-right: 5px; 
+    display: inline-block;
+    flex-shrink: 0; 
+}
+
+main li:nth-child(1)::before {
+    content: url('http://i171.photobucket.com/albums/u300/ferny-dust/sozai/bullets/24.gif');
+}
+
+main li:nth-child(2)::before {
+    content: url('http://i171.photobucket.com/albums/u300/ferny-dust/sozai/bullets/26.gif');
+}
+
+main li:nth-child(3)::before {
+    content: url('http://i171.photobucket.com/albums/u300/ferny-dust/sozai/bullets/27.gif');
+}
+
+main li:nth-child(4)::before {
+    content: url('http://i171.photobucket.com/albums/u300/ferny-dust/sozai/bullets/28.gif');
+}
+
+main li:nth-child(5)::before {
+    content: url('http://i171.photobucket.com/albums/u300/ferny-dust/sozai/bullets/29.gif');
+}
+
+main li:nth-child(5n+1)::before {
+    content: url('http://i171.photobucket.com/albums/u300/ferny-dust/sozai/bullets/24.gif');
+}
+
+main li:nth-child(5n+2)::before {
+    content: url('http://i171.photobucket.com/albums/u300/ferny-dust/sozai/bullets/26.gif');
+}
+
+main li:nth-child(5n+3)::before {
+    content: url('http://i171.photobucket.com/albums/u300/ferny-dust/sozai/bullets/27.gif');
+}
+
+main li:nth-child(5n+4)::before {
+    content: url('http://i171.photobucket.com/albums/u300/ferny-dust/sozai/bullets/28.gif');
+}
+
+main li:nth-child(5n+5)::before {
+    content: url('http://i171.photobucket.com/albums/u300/ferny-dust/sozai/bullets/29.gif');
+}
+
+
+mark{
+    background-image: linear-gradient(to right, #5880FE, #C74BDA);
+    padding-left:3px;
+    padding-right:3px;
+    color:#ffffff;
+}
+
+.image-grid {
+    text-align: center; /* Center-align the grid items */
+}
+
+.grid-item {
+    display: inline-block;
+    width: 150px;
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid #FFADC9;
+    border-radius: 10px;
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.grid-item .description {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(255, 173, 201, 0.7);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.grid-item:hover .description {
+    opacity: 1;
+}
+
+.nat{
+    max-width:200px;
+}
+
+q{
+    font-size:17px;
+}
+
+q::before{
+    content:"“";
+    font-family:arial;
+    font-size:18px;
+}
+
+q::after{
+    content:"”";
+    font-family:arial;
+    font-size:18px;
+}
+
+blockquote{
+    font-size:15px;
+    text-align:center;
+    font-style: italic;
+    font-family: 'spirit';
+}
+
+blockquote::before{
+    content:"“";
+    font-family:arial;
+    font-size:22px;
+    margin-right:-4px;
+}
+
+blockquote::after{
+    content:"”";
+    font-family:arial;
+    font-size:22px;
+    margin-left:-3px;
+}
+
+gpoy img {
+    max-height:222px;
+    transition: 0.2s ease-in-out;
+}
+
+gpoy img:hover{
+    transform:scale(1.5);
+}
+
+gpoy img:active{
+    transform:scale(1.5);
+}
+
+quiz img {
+    max-height:222px;
+    transition: 0.2s ease-in-out;
+}
+
+main section a{
+    background-image: linear-gradient(to right, #EF46BA, #FE6D7C);
+    color:#ffffff;
+    padding-left:10px;
+    padding-top:3px;
+    padding-bottom:3px;
+    padding-right:10px;
+    border-radius:5px;
+    transition: 0.3s ease-in-out;
+    text-decoration:1px underline dotted #ffffff;
+    font-family: 'silverlining';
+    font-size:20px;
+    margin-top:3px;
+    margin-bottom:3px;
+    display:inline-block;
+}
+
+main section a:hover{
+    letter-spacing:0.5px;
+    text-decoration: none;
+}
+
+hr{
+    border: 0;
+    height: 1px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-image: linear-gradient(to right, rgba(239, 70, 186, 0), #FE6D7C, #F5F43A, #5CE073, #5880FE, rgba(198, 73, 218, 0));
+}
+
+i{
+        font-family: 'spirit';
+        background-image: linear-gradient(to right, #F5F43A, #5CE073);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        text-decoration:none;
+        font-size:16px;
+        font-weight:bold;
+        padding:3px;
+}
+
+pre{
+    background-image: linear-gradient(to right, rgba(254, 109, 124, 0.8), rgba(245, 244, 58, 0.8), rgba(92, 224, 115, 0.8));
+    text-wrap: pretty;
+    padding:10px;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    main {
+        order: 1;
+    }
+
+    .sidebar-left {
+        order: 2;
+    }
+
+    .sidebar-right {
+        order: 3;
+    }
+
+    .sidebar-right .sidebar-bottom{
+        margin-bottom:80px;
+    }
+
+    .sidebar-container {
+        width: 100%;
+    }
+
+    gpoy img{
+        max-height:150px;
+    }
+
+    main section:last-of-type {
+        margin-bottom: 100px;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+    main section:last-of-type {
+        margin-bottom: 50px;
+    }
+
+}

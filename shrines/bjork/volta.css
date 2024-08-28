@@ -1,0 +1,28 @@
+:root{
+    --mainbg: #FF2809;
+    --headerimg: url("bjork/voltaheader.jpg");
+    --underline: #2CA5FD;
+    --bgcolor: #fc4b30;
+    --nav:#00FD00;
+}
+
+nav a{
+    color:#2CA5FD;
+}
+
+#theme-links a{
+    color:#00FD00;
+    font-weight:bold;
+}
+
+.b1{
+    color:#2CA5FD;
+mix-blend-mode: hard-light;}
+
+h2:nth-of-type(even) {
+    text-decoration: underline wavy 1px #00FD00;
+  }
+  
+#theme-image{
+width:350px;
+}
