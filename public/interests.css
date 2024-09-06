@@ -141,6 +141,12 @@ main section {
         1px 1px 0 #582A8C;
 }
 
+dal{
+    font-family:'spirit';
+    color:#ffffff;
+    text-shadow: -1px -1px 0 #EF46BA, 1px -1px 0 #C74BDA, -1px 1px 0 #C74BDA, 1px 1px 0 #5CE073, 0 0 5px #C74BDA;    text-decoration: none;
+    margin-left:7px;
+}
 .dropup {
     position: relative;
     display: inline-block;
@@ -173,7 +179,7 @@ main section {
 
 .dropup-content a:hover {
     text-decoration: none !important;
-    letter-spacing: 1.2px !important;
+    letter-spacing: 0.6px !important;
     color: #582A8C !important;
     text-shadow: -1px -1px 0 #582A8C, 1px -1px 0 #582A8C, -1px 1px 0 #582A8C, 1px 1px 0 #582A8C, 0 0 5px #582A8C !important;
 }

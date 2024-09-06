@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>comfort's ♡ bedroom !</title>
+    <link rel="stylesheet" href="../acnl.css">
+    <script src="/heaven/load.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="//pull.cappuccicons.com/cpf.js"></script> 
+</head>
+<style>
+.tracker-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.tracker-item {
+    width: calc(50% - 40px); 
+    max-width: 400px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center;
+    box-sizing: border-box; 
+}
+
+.tracker-item h4, 
+.tracker-item p, 
+.tracker-item label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.tracker-item img {
+    display: block;
+    max-width: 250px;
+    height: auto;
+    margin: 0 auto 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.tracker-item img:hover{
+    transform:scale(1.15);
+}
+#filterButtons {
+    margin: 20px 0;
+    text-align: center;
+}
+
+#filterButtons button {
+    padding: 10px 10px;
+    background-color: #AA6334;
+    border: 2px solid #724A22;
+    color: #FFFFFF;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    font-family: 'pixel';
+    font-size: 18px;
+    outline-offset: 2px;
+    outline: 1px dashed #E0C800;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#filterButtons button:hover {
+    background-color: #E0C800;
+    color: #724A22;
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+#typeFilterButtons {
+    margin: 20px 0;
+    text-align: center;
+}
+
+#typeFilterButtons button {
+    background: linear-gradient(45deg, #9C5729, #AA6334);
+    color: white;
+    padding: 10px 10px;
+    font-family: 'pixel'; 
+    cursor: pointer;
+    border: none;
+    margin: 5px;
+    outline-offset: 2px; 
+    outline: 1px dashed #E0C800;
+    border-radius: 4px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+#typeFilterButtons button:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+#typeFilterButtons button.active {
+    background: linear-gradient(45deg, #E0C800, #ceba05);
+    color: #724A22;
+    outline: 1px dashed #E0C800;
+    transform: scale(1.05);
+}
+
+
+
+input[type="checkbox"] {
+    accent-color: #E0C800;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 768px) {
+    .tracker-item {
+        width: 100%; /* Full width for small screens */
+    }
+}
+</style>
+<body>
+    <nav id="navbar" style="margin-bottom: 0px;">
+    </nav>
+
+    <div class="container">
+        <main>
+            <section>
+                <h2>ACNL Tracker</h2>
+
+                
+                <center><input type="text" id="searchInput" onkeyup="searchItems()" placeholder="Search for items..." /></center>
+
+                
+                <div id="filterButtons">
+                    <button onclick="filterItems('caught')">Filter by Caught</button>
+                    <button onclick="filterItems('donated')">Filter by Donated</button>
+                    <button onclick="clearFilters()">Clear Filters</button>
+                </div>
+
+                <center><div id="typeFilterButtons" class="filter-buttons">
+                    <button onclick="filterItemsByType('insect')">Insect</button>
+                    <button onclick="filterItemsByType('fish')">Fish</button>
+                    <button onclick="filterItemsByType('sea creature')">Sea Creature</button>
+                    <button onclick="filterItemsByType('fossil')">Fossil</button>
+                    <button onclick="filterItemsByType('painting')">Art</button>
+                    <button onclick="filterItemsByType('all')">Show All</button>
+                </div></center><br>
+                
+
+                <div class="tracker-container" id="tracker"></div>
+            </section>
+        </main>
+    </div>
+
+    <script>
+window.onload = function() {
+    filterItemsByType('all');
+    loadItems();
+};
+
+async function loadItems() {
+    const response = await fetch('items.json');
+    const items = await response.json();
+    renderTracker(items);
+}
+
+function renderTracker(items) {
+    const trackerList = document.getElementById('tracker');
+    trackerList.innerHTML = '';
+
+    items.forEach(item => {
+        const itemName = item.name.replace(/ /g, '_').toLowerCase();
+        
+        const listItem = document.createElement('div');
+        listItem.classList.add('tracker-item');
+        listItem.dataset.name = itemName;
+        listItem.dataset.type = item.type.toLowerCase();
+
+        listItem.innerHTML = `
+            <h4>${item.name}</h4>
+            <img src="${item.img}" alt="${item.name}" class="tracker-img">
+            ${item.fake_img ? `<p><strong>Fake version:</strong></p><img src="${item.fake_img}" alt="Fake ${item.name}" class="tracker-img"><p><strong>Fake indicator:</strong> ${item.fake_indicator}</p>` : ''}
+            ${item.location ? `<p><strong>Location:</strong> ${item.location}</p>` : ''}
+            ${item.time ? `<p><strong>Time:</strong> ${item.time}</p>` : ''}
+            ${item.months ? `<p><strong>Months:</strong> ${item.months}</p>` : ''}
+            ${item.shadow_size ? `<p><strong>Shadow Size:</strong> ${item.shadow_size}</p>` : ''}
+            ${item.movement_speed ? `<p><strong>Movement Speed:</strong> ${item.movement_speed}</p>` : ''}
+            ${item.sell_price ? `<p><strong>Sell Price:</strong> ${item.sell_price.toLocaleString()} bells</p>` : ''}
+            ${item.fake_indicator ? `<p><strong>Fake Indicator:</strong> ${item.fake_indicator}</p>` : ''}
+            ${['fish', 'insect', 'sea creature'].includes(item.type.toLowerCase()) ? `
+                <label>
+                    <strong>Caught:</strong> <input type="checkbox" id="${itemName}-caught">
+                </label>
+            ` : ''}
+            <label>
+                <strong>Donated:</strong> <input type="checkbox" id="${itemName}-donated">
+            </label>
+        `;
+
+        trackerList.appendChild(listItem);
+    });
+
+    loadProgress();
+    addCheckboxListeners();
+}
+
+function loadProgress() {
+    const savedTracker = JSON.parse(localStorage.getItem('acnlTracker')) || {};
+
+    document.querySelectorAll('.tracker-item').forEach(item => {
+        const itemName = item.dataset.name;
+        const caughtCheckbox = document.getElementById(`${itemName}-caught`);
+        const donatedCheckbox = document.getElementById(`${itemName}-donated`);
+
+        if (savedTracker[itemName]) {
+            if (caughtCheckbox) caughtCheckbox.checked = savedTracker[itemName].caught || false;
+            if (donatedCheckbox) donatedCheckbox.checked = savedTracker[itemName].donated || false;
+        }
+    });
+}
+
+function addCheckboxListeners() {
+    document.querySelectorAll('.tracker-item input[type="checkbox"]').forEach(checkbox => {
+        checkbox.addEventListener('change', function() {
+            const itemName = this.id.split('-')[0];
+            const action = this.id.split('-')[1];
+            updateProgress(itemName, action, this.checked);
+        });
+    });
+}
+
+function updateProgress(itemName, action, checked) {
+    const savedTracker = JSON.parse(localStorage.getItem('acnlTracker')) || {};
+
+    if (!savedTracker[itemName]) {
+        savedTracker[itemName] = {};
+    }
+
+    savedTracker[itemName][action] = checked;
+    localStorage.setItem('acnlTracker', JSON.stringify(savedTracker));
+}
+
+function searchItems() {
+    const input = document.getElementById('searchInput').value.toLowerCase();
+    const items = document.querySelectorAll('.tracker-item');
+
+    items.forEach(item => {
+        const itemName = item.getAttribute('data-name').toLowerCase();
+        item.style.display = itemName.includes(input) ? '' : 'none';
+    });
+}
+
+function filterItemsByType(type) {
+    const items = document.querySelectorAll('.tracker-item');
+    const buttons = document.querySelectorAll('#typeFilterButtons button');
+
+    buttons.forEach(button => {
+        button.classList.remove('active');
+    });
+
+    const activeButton = document.querySelector(`#typeFilterButtons button[onclick*="${type}"]`);
+    if (activeButton) {
+        activeButton.classList.add('active');
+    }
+
+    items.forEach(item => {
+        const itemType = item.dataset.type;
+        item.style.display = (type === 'all' || itemType === type) ? '' : 'none';
+    });
+}
+
+function filterItems(filterType) {
+    const items = document.querySelectorAll('.tracker-item');
+
+    items.forEach(item => {
+        const caughtCheckbox = item.querySelector(`[id*="caught"]`);
+        const donatedCheckbox = item.querySelector(`[id*="donated"]`);
+
+        if (filterType === 'caught' && (!caughtCheckbox || !caughtCheckbox.checked)) {
+            item.style.display = 'none';
+        } else if (filterType === 'donated' && (!donatedCheckbox || !donatedCheckbox.checked)) {
+            item.style.display = 'none';
+        } else if (filterType === 'caught' && caughtCheckbox && caughtCheckbox.checked) {
+            item.style.display = '';
+        } else if (filterType === 'donated' && donatedCheckbox && donatedCheckbox.checked) {
+            item.style.display = '';
+        }
+    });
+}
+
+function clearFilters() {
+    const items = document.querySelectorAll('.tracker-item');
+    items.forEach(item => {
+        item.style.display = '';
+    });
+}
+        </script>
+        
+</body>
+</html>

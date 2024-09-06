@@ -148,6 +148,11 @@ main section {
     
 }
 
+dal{
+    font-family:'spirit';
+    color:#ffffff;
+    margin-left:7px;
+}
 .dropup-content {
     display: none;
     position: absolute;

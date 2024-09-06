@@ -240,6 +240,14 @@ blockquote{
     }
 }
 
+dal{
+    font-family:'spirit';
+    color:#ffffff;
+    font-size: 18px;
+    font-weight: 500;
+    text-shadow: -1px -1px 0 #e7c9f4, 1px -1px 0 #FFBEDD, -1px 1px 0 #ffc8b8, 1px 1px 0 #afe7e3;
+    text-decoration: underline dotted 1px #ffffff;
+}
 
 .boxo {
     position: relative; 
@@ -678,9 +686,15 @@ i.fas.fa-pause, i.fas.fa-play, i.fas.fa-forward, i.fas.fa-backward{
 }
 
 #navbar li:nth-child(5n+4):hover .dropup-content {
-    background-color: #afe7e3;
+    background-color: rgba(255, 255, 255, 0.4);
+    background-image: linear-gradient(to bottom, #afe7e3, #e7c9f4);
+    background-blend-mode: screen;
     border: 2px solid;
-    border-image: linear-gradient(to bottom, #e7c9f4, #ffbedd) 1;
+    border-image: linear-gradient(to bottom, #afe7e3, #e7c9f4) 1;
+}
+
+#navbar li:nth-child(5n+4):hover .dropup-content a:hover {
+    text-shadow: -1px -1px 0 #e7c9f4, 1px -1px 0 #e7c9f4, -1px 1px 0 #afe7e3, 1px 1px 0 #afe7e3;
 }
 
 #navbar li:nth-child(5n+5):hover .dropup-content {
