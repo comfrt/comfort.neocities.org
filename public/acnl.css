@@ -44,7 +44,7 @@ html{
 
 @font-face{
     font-family: 'finkheavy';
-    src: url('acnl.ttf');}
+    src: url('fonts/acnl.ttf');}
 
 .container {
     display: flex;
