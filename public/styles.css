@@ -246,7 +246,7 @@ dal{
     font-size: 18px;
     font-weight: 500;
     text-shadow: -1px -1px 0 #e7c9f4, 1px -1px 0 #FFBEDD, -1px 1px 0 #ffc8b8, 1px 1px 0 #afe7e3;
-    text-decoration: underline dotted 1px #ffffff;
+    margin-left:6px;
 }
 
 .boxo {

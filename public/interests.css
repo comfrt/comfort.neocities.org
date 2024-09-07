@@ -15,7 +15,7 @@ body {
 html{
     scrollbar-color: #EF46BA #411A69;
     scrollbar-width: thin;
-}
+} 
 
 
 @font-face {
@@ -74,12 +74,12 @@ main {
 
 main section {
     background: 
-        linear-gradient(to right, #592B8D, #592B8D, #592B8D), /* Gradient layer */
-        url('/gfx/purplegrid.png'); /* Image layer */
-    background-blend-mode: multiply; /* Blend mode */
-    margin-bottom: 20px; /* Margin */
-    max-width: 800px; /* Max width */
-    padding: 20px; /* Padding */
+        linear-gradient(to right, #592B8D, #592B8D, #592B8D), 
+        url('/gfx/purplegrid.png'); 
+    background-blend-mode: multiply;
+    margin-bottom: 20px; 
+    max-width: 800px; 
+    padding: 20px; 
     border: 1px solid #F7F33A;
     outline: 1.5px dashed #EA44C3;
     outline-offset:3px;
@@ -147,10 +147,10 @@ dal{
     text-shadow: -1px -1px 0 #EF46BA, 1px -1px 0 #C74BDA, -1px 1px 0 #C74BDA, 1px 1px 0 #5CE073, 0 0 5px #C74BDA;    text-decoration: none;
     margin-left:7px;
 }
+
 .dropup {
     position: relative;
     display: inline-block;
-    
 }
 
 .dropup-content {
