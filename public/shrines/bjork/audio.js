@@ -16,30 +16,21 @@ function initAudio() {
         'dc': 'bjork/favedc.ogg'
     };
 
-    Object.keys(audioSources).forEach(key => {
-        const audio = new Audio(audioSources[key]);
-        audioFiles[key] = audio;
-
-
-        audio.addEventListener('play', function() {
-            audio.pause();
-            audio.removeEventListener('play', arguments.callee, false);
-        }, false);
-    });
-
-
+    // Preload the audio files in the first click or touch event
     document.addEventListener('click', function () {
-        Object.values(audioFiles).forEach(audio => audio.play());
+        Object.keys(audioSources).forEach(key => {
+            const audio = new Audio(audioSources[key]);
+            audioFiles[key] = audio;
+        });
         document.removeEventListener('click', arguments.callee, false);
-    }, false);
+    }, { once: true });
 }
 
 function playAudio(key) {
-    const audio = audioFiles[key];
-    if (audio) {
-        audio.play();
+    if (audioFiles[key]) {
+        audioFiles[key].currentTime = 0; // Reset to the start
+        audioFiles[key].play();
     }
 }
-
 
 window.onload = initAudio;
