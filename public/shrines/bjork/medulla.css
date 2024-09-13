@@ -28,3 +28,11 @@ mix-blend-mode: multiply;}
     filter:hue-rotate(-20deg) grayscale(0.2);
     width:335px;
 }
+
+.album{
+    color: #b3678f;
+}
+
+.album details{
+    color: #000000;
+}

@@ -21,3 +21,11 @@ mix-blend-mode: lighten;}
 
 #theme-image{
     filter:hue-rotate(-15deg) grayscale(0.4);}
+
+.album{
+    color: #B2495F;
+}
+
+.album details{
+    color: #000000;
+}

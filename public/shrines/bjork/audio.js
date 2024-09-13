@@ -9,4 +9,4 @@ function ff() {var audio = new Audio('bjork/faveff.ogg'); audio.play();}
 function bl() {var audio = new Audio('bjork/favebl.ogg'); audio.play();}
 function ctmvl() {var audio = new Audio('bjork/ctmvl.ogg'); audio.play();}
 function enjoy() {var audio = new Audio('bjork/faveenjoy.ogg'); audio.play();}
-function dc() {var audio = new Audio('bjork/favedc'); audio.play();}
+function dc() {var audio = new Audio('bjork/favedc.ogg'); audio.play();}
