@@ -1,12 +1,45 @@
-function saint() {var audio = new Audio('bjork/favesaint.ogg'); audio.play();}
-function aifol() {var audio = new Audio('bjork/faveaifol.ogg'); audio.play();}
-function ctmdl() {var audio = new Audio('bjork/favectmdl.ogg'); audio.play();}
-function iry() {var audio = new Audio('bjork/faveiry.ogg'); audio.play();}
-function pp() {var audio = new Audio('bjork/favepp.ogg'); audio.play();}
-function pp2() {var audio = new Audio('bjork/favepp2.ogg'); audio.play();}
-function bm() {var audio = new Audio('bjork/favebm.ogg'); audio.play();} 
-function ff() {var audio = new Audio('bjork/faveff.ogg'); audio.play();}
-function bl() {var audio = new Audio('bjork/favebl.ogg'); audio.play();}
-function ctmvl() {var audio = new Audio('bjork/ctmvl.ogg'); audio.play();}
-function enjoy() {var audio = new Audio('bjork/faveenjoy.ogg'); audio.play();}
-function dc() {var audio = new Audio('bjork/favedc.ogg'); audio.play();}
+let audioFiles = {};
+
+function initAudio() {
+    const audioSources = {
+        'saint': 'bjork/favesaint.ogg',
+        'aifol': 'bjork/faveaifol.ogg',
+        'ctmdl': 'bjork/favectmdl.ogg',
+        'ctmvl': 'bjork/ctmvl.ogg',
+        'iry': 'bjork/faveiry.ogg',
+        'pp': 'bjork/favepp.ogg',
+        'pp2': 'bjork/favepp2.ogg',
+        'bm': 'bjork/favebm.ogg',
+        'ff': 'bjork/faveff.ogg',
+        'bl': 'bjork/favebl.ogg',
+        'enjoy': 'bjork/faveenjoy.ogg',
+        'dc': 'bjork/favedc.ogg'
+    };
+
+    Object.keys(audioSources).forEach(key => {
+        const audio = new Audio(audioSources[key]);
+        audioFiles[key] = audio;
+
+
+        audio.addEventListener('play', function() {
+            audio.pause();
+            audio.removeEventListener('play', arguments.callee, false);
+        }, false);
+    });
+
+
+    document.addEventListener('click', function () {
+        Object.values(audioFiles).forEach(audio => audio.play());
+        document.removeEventListener('click', arguments.callee, false);
+    }, false);
+}
+
+function playAudio(key) {
+    const audio = audioFiles[key];
+    if (audio) {
+        audio.play();
+    }
+}
+
+
+window.onload = initAudio;
