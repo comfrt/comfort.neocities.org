@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>comfort's ♡ bedroom !</title>
+    <link rel="icon" type="image/x-icon" href="https://64.media.tumblr.com/tumblr_lkl5ovrP1S1qfamg6.gif">
+    <link rel="stylesheet" href="../interests.css">
+    <script src="/heaven/load.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="//pull.cappuccicons.com/cpf.js"></script> 
+</head>
+
+<style>
+.copy-button {
+    background-color: #C74BDA;
+    color: #ffffff;
+    font-family: 'silverlining';
+    font-size: 20px;
+    width: 40px; 
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    display: inline-block;
+    margin:1px;
+}
+
+
+.copy-button:hover {
+  background-color: #EF46BA;
+    color: #582A8C;
+    text-shadow: none;
+    transform: scale(1.05);
+    letter-spacing: 0.5px;
+}
+
+.copy-button:active {
+    transform: scale(0.95);
+    background-color: #EF46BA;
+}
+
+.copyButton {
+    background-color: #C74BDA; 
+    color: #ffffff; 
+    font-size: 16px;
+    height: 22px;
+    width: 22px;
+    border: none; 
+    border-radius: 6px; 
+    cursor: pointer; 
+    text-shadow: -1px -1px 0 #EF46BA, 1px -1px 0 #C74BDA, -1px 1px 0 #C74BDA, 1px 1px 0 #5CE073, 0 0 5px #C74BDA; 
+    transition: 0.3s ease-in-out; 
+    margin-right: 10px; 
+    margin-bottom: 5px;
+    display: inline-flex;
+    justify-content: center; 
+    align-items: center; 
+    padding: 0; 
+}
+
+.copyButton i{
+  color:#ffffff;
+}
+
+.copyButton:hover {
+    background-image: linear-gradient(to right, #EF46BA, #FE6D7C, #F5F43A, #5CE073, #5880FE, #C74BDA); /* Gradient background on hover */
+    color: #582A8C; 
+    text-shadow: none;
+    transform: scale(1.05); 
+    letter-spacing: 0.5px;
+}
+
+.copyButton:active {
+    transform: scale(0.95); 
+    background-color: #EF46BA;
+}
+
+.copy-message {
+  color: green;
+  margin-left: 10px;
+}
+
+
+#symbol-category {
+    font-family: 'pixel', sans-serif; 
+    background-color: rgba(255, 255, 255, 0.3);
+    background-image: linear-gradient(to right, #EF46BA, #FE6D7C, #F5F43A, #5CE073, #5880FE, #C74BDA);
+    background-blend-mode: screen;
+    border: 2px solid transparent;
+    border-image: linear-gradient(to right, #EF46BA, #FE6D7C, #F5F43A, #5CE073, #5880FE, #C74BDA) 1;
+    color: #ffffff; 
+    padding: 10px 20px; 
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    appearance: none; 
+    -webkit-appearance: none;
+    -moz-appearance: none; 
+    text-transform: lowercase;
+    align-self: center;
+    width: 300px;
+    outline: none; 
+    text-align:center;
+}
+
+#symbol-category:hover {
+    background-image: linear-gradient(to right, #EF46BA, #FE6D7C, #F5F43A, #5CE073, #5880FE, #C74BDA);
+    color: #582A8C;
+    transition: 0.3s ease;
+}
+
+#symbol-category option {
+    background-color: #ffffff;
+    color: #411A69;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+}
+
+
+#dropdown-container {
+    display: inline-block;
+    position: relative;
+    border-radius: 8px;
+}
+
+#symbols-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 5px;
+    margin-top:10px;
+}
+
+.symbols-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px; 
+    width: 100%; 
+}
+
+#symbols-container h3 {
+    width: 100%;
+}
+
+.generated-text-container {
+    background-color: rgba(255, 255, 255, 0.2); 
+    border: 1px solid #EF46BA; 
+    padding: 10px;
+    margin-bottom: 10px; 
+    border-radius: 10px; 
+}
+
+input[type=text]{
+    width: 400px;
+    margin-bottom:10px;
+    border: 2px solid transparent;
+    border-image: linear-gradient(to right, #EF46BA, #FE6D7C, #F5F43A, #5CE073, #5880FE, #C74BDA) 1;
+    height:30px;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+input[type=text]::placeholder{
+color: #838383;
+font-style: italic;
+padding-left:-20px;
+}
+
+input[type=text]:focus {
+  background-color: #EF46BA;
+  color:#ffffff;
+  padding-left:10px;
+  padding-right:10px;
+}
+
+label {
+    display: inline-flex;
+    align-items: center;
+    font-family: 'pixel', sans-serif; 
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    text-transform: lowercase;
+}
+
+
+input[type="checkbox"] {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: #C74BDA; 
+    border: 2px solid #C74BDA;
+    border-radius: 4px;
+    margin-right: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+
+input[type="checkbox"]:checked {
+    background-color: #EF46Ba; 
+    border: 2px solid #EF46Ba;
+}
+
+
+input[type="checkbox"]:checked::before {
+    content: '\eca0'; 
+    font-family: 'Cappuccicons';
+    color: white;
+    display: block;
+    font-size: 16px;
+    text-align: center;
+    line-height: 17px; 
+}
+
+input[type="checkbox"]:hover {
+    background-color: #EF46BA;
+    border: 2px solid #EF46Ba;
+    transform: scale(1.05);
+}
+</style>
+<body>
+    <nav id="navbar" style="margin-bottom: 0px;">
+    </nav>
+
+    <div class="container">
+        <main>
+          <section>
+            <h2>symbols</h2>
+            <center><select id="symbol-category">
+                <option value="">categories ↓</option>
+                <optgroup label="★ types ★"></optgroup>
+                <option value="animals">☆ Animals ☆</option>
+                <option value="arrows">☆ Arrows ☆</option>
+                <option value="astro">☆ Astronomy ☆</option>
+                <option value="brackets and lines">☆ Brackets and Lines ☆</option>
+                <option value="business">☆ Business ☆</option>
+                <option value="emojis">☆ emojis ☆</option>
+                <option value="games">☆ games ☆</option>
+                <option value="hearts">☆ hearts ☆</option>
+                <option value="mathematical">☆ mathematical ☆</option>
+                <option value="music">☆ music ☆</option>
+                <option value="nature">☆ nature ☆</option>
+                <option value="shapes & geometry">☆ shapes and geometry ☆</option>
+                <option value="signs">☆ signs ☆</option></optgroup>
+                <optgroup label="★ themes ★">
+                    <option value="cute">☆ cute ☆</option>
+                    <option value="edgy">☆ edgy ☆</option>
+                </optgroup>
+            </select>
+        
+            <div id="symbols-container">
+
+            </div>
+        
+          </section>
+        <section>
+            <h2>text generator</h2>
+            <label>
+              <input type="checkbox" id="toggleLargeSpace"> Use larger spaces ( )
+            </label><br>
+            <label><input type="checkbox" id="underlineDoubleMacron"> Double Macron Underline</label><br>
+            <label><input type="checkbox" id="underlineLowLine"> Low Line Underline</label><br>
+            <label><input type="checkbox" id="underlineDoubleUnderline"> Double Underline</label><br>
+            <label><input type="checkbox" id="underlineArrow"> Arrow Underline</label><br>
+            <label><input type="checkbox" id="underlineSeagull"> Seagull Underline</label><br>
+            <label><input type="checkbox" id="underlineAsterisk"> Asterisk Underline</label><br>
+            
+<br>
+                <center><input type="text" id="inputText" placeholder="all is full of love . . ." oninput="generateText()">
+                </center>
+                <div id="output" style="margin-top:5px;"></div>
+        
+        </section>
+        </main>
+        </div>
+        <div id="dhtmltooltip"></div>
+    </body>
+    <script>
+// Fetch symbols from the external JSON file
+async function fetchSymbols() {
+    try {
+        const response = await fetch('symbols.json'); // Load your JSON file
+        return await response.json();
+    } catch (error) {
+        console.error('Error fetching symbols:', error);
+    }
+}
+
+document.getElementById('symbol-category').addEventListener('change', async function () {
+    const selectedCategory = this.value;
+    const symbolsContainer = document.getElementById('symbols-container');
+
+    symbolsContainer.innerHTML = ''; // Clear the container
+
+    if (selectedCategory) {
+        const symbols = await fetchSymbols(); // Fetch symbols from JSON
+
+        const categoryData = symbols[selectedCategory]; // Get the selected category's data
+
+        // If category data exists
+        if (categoryData) {
+            if (Array.isArray(categoryData)) {
+                // Simple category (just a list of symbols)
+                categoryData.forEach(symbol => {
+                    const button = document.createElement('button');
+                    button.classList.add('copy-button');
+                    button.textContent = symbol;
+                    button.dataset.symbol = symbol;
+
+                    // Add copy functionality
+                    button.addEventListener('click', () => {
+                        navigator.clipboard.writeText(symbol).then(() => {
+                            console.log(`Copied: ${symbol}`);
+                        }).catch(err => {
+                            console.error('Error copying: ', err);
+                        });
+                    });
+
+                    symbolsContainer.appendChild(button); // Add button to the container
+                });
+            } else {
+                // Complex category (subcategories with symbols)
+                for (const subheading in categoryData) {
+                    // Create subheading (e.g., Brackets, Lines)
+                    const subheadingElement = document.createElement('h3');
+                    subheadingElement.textContent = subheading;
+                    symbolsContainer.appendChild(subheadingElement);
+
+                    // Loop through symbols under the subheading
+                    categoryData[subheading].forEach(symbol => {
+                        const button = document.createElement('button');
+                        button.classList.add('copy-button');
+                        button.textContent = symbol;
+                        button.dataset.symbol = symbol;
+
+                        // Add copy functionality
+                        button.addEventListener('click', () => {
+                            navigator.clipboard.writeText(symbol).then(() => {
+                                console.log(`Copied: ${symbol}`);
+                            }).catch(err => {
+                                console.error('Error copying: ', err);
+                            });
+                        });
+
+                        symbolsContainer.appendChild(button); // Add button to the container
+                    });
+
+                    // Add spacing between subcategories
+                    symbolsContainer.appendChild(document.createElement('br'));
+                }
+            }
+        }
+    }
+});
+
+
+</script>
+<script src="fonts.js"></script>
+    <script src="/heaven/dhtmltooltip.js"></script>
