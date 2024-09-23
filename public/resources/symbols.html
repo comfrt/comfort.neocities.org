@@ -12,12 +12,14 @@
 </head>
 
 <style>
+    
 .copy-button {
     background-color: #C74BDA;
     color: #ffffff;
     font-family: 'silverlining';
     font-size: 20px;
-    width: 40px; 
+    max-width: 40px;
+    width:100%; 
     height: 40px;
     border: none;
     border-radius: 8px;
@@ -46,7 +48,8 @@
     color: #ffffff; 
     font-size: 16px;
     height: 22px;
-    width: 22px;
+    width:100%;
+    max-width: 22px;
     border: none; 
     border-radius: 6px; 
     cursor: pointer; 
@@ -101,7 +104,8 @@
     -moz-appearance: none; 
     text-transform: lowercase;
     align-self: center;
-    width: 300px;
+    width:100%;
+    max-width: 300px;
     outline: none; 
     text-align:center;
 }
@@ -134,6 +138,7 @@
     justify-content: center; 
     gap: 5px;
     margin-top:10px;
+    max-width:100%;
 }
 
 .symbols-group {
@@ -157,7 +162,8 @@
 }
 
 input[type=text]{
-    width: 400px;
+    width:100%;
+    max-width: 400px;
     margin-bottom:10px;
     border: 2px solid transparent;
     border-image: linear-gradient(to right, #EF46BA, #FE6D7C, #F5F43A, #5CE073, #5880FE, #C74BDA) 1;
@@ -225,6 +231,7 @@ input[type="checkbox"]:hover {
     border: 2px solid #EF46Ba;
     transform: scale(1.05);
 }
+
 </style>
 <body>
     <nav id="navbar" style="margin-bottom: 0px;">
@@ -233,7 +240,7 @@ input[type="checkbox"]:hover {
     <div class="container">
         <main>
           <section>
-            <h2>symbols</h2>
+            <h2>symbols</h2><bR>
             <center><select id="symbol-category">
                 <option value="">categories ↓</option>
                 <optgroup label="★ types ★"></optgroup>
@@ -262,7 +269,7 @@ input[type="checkbox"]:hover {
         
           </section>
         <section>
-            <h2>text generator</h2>
+            <h2>text generator</h2><br>
             <label>
               <input type="checkbox" id="toggleLargeSpace"> Use larger spaces ( )
             </label><br>
