@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-    loadSidebarContent('navbar', '/navbar.html');
+    loadSidebarContent('navbar', '../navbar.html');
 });
 
 function loadSidebarContent(elementId, filePath, callback) {
