@@ -1,0 +1,2937 @@
+{
+  "categories": [
+    {
+      "name": "Farmer",
+      "mods": [
+        {
+          "name": "Peach Body Type",
+          "link": "https://blog.naver.com/codnjsdl8235/222314151470"
+        },
+        {
+          "name": "Farmer Hairstyles",
+          "link": "https://cafe.naver.com/starvall/371524"
+        },
+        {
+          "name": "Profile Background Retexture",
+          "link": "https://cafe.naver.com/starvall/139546"
+        },
+        {
+          "name": "Ethereal Collection",
+          "link": "https://ko-fi.com/s/7176dd8e69"
+        },
+        {
+          "name": "Gentleman's Collection",
+          "link": "https://ko-fi.com/s/b1f4a158d2"
+        },
+        {
+          "name": "Sweetheart Collection",
+          "link": "https://ko-fi.com/s/e45b0773b4"
+        },
+        {
+          "name": "Wildwood Collection",
+          "link": "https://ko-fi.com/s/ce9ae95a79"
+        },
+        {
+          "name": "Harvest Collection",
+          "link": "https://ko-fi.com/s/24ab745815"
+        },
+        {
+          "name": "Lilith Collection",
+          "link": "https://ko-fi.com/s/d55c404845"
+        },
+        {
+          "name": "Dewdrop Collection",
+          "link": "https://ko-fi.com/s/3ef5fdd2e0"
+        },
+        {
+          "name": "Chrysalis Collection",
+          "link": "https://ko-fi.com/s/f2b5497e2c"
+        },
+        {
+          "name": "Selkie Collection",
+          "link": "https://ko-fi.com/s/9214686afe"
+        },
+        {
+          "name": "Bloom Collection",
+          "link": "https://ko-fi.com/s/b25ce4ae02"
+        },
+        {
+          "name": "Yomi's Golden Princess Hairstyles",
+          "link": "https://www.nexusmods.com/stardewvalley/mods/20581?tab=posts"
+        },
+        {
+          "name": "Yomi's Cute Facial Makeup",
+          "link": "https://www.nexusmods.com/stardewvalley/mods/20193"
+        },
+        {
+          "name": "Luny's Flower Veils for Fashion Sense",
+          "link": "https://www.nexusmods.com/stardewvalley/mods/28270"
+        },
+        {
+          "name": "Elegant Vampire Dress",
+          "link": "https://www.nexusmods.com/stardewvalley/mods/28013"
+        },
+        {
+          "name": "Gentle Sea",
+          "link": "https://www.nexusmods.com/stardewvalley/mods/27752"
+        },
+        {
+          "name": "HXW Sweetheart Hairstyles - Curls Updos and Bobs",
+          "link": "https://www.nexusmods.com/stardewvalley/mods/27595"
+        },
+        {
+          "name": "Witchy Flower Dance Dresses",
+          "link": "https://www.nexusmods.com/stardewvalley/mods/27567"
+        },
+        {
+          "name": "Yomi's Cute Dress 4",
+          "link": "https://www.nexusmods.com/stardewvalley/mods/26219"
+        },
+        {
+          "name": "Yomi's Cute Dress 5",
+          "link": "https://www.nexusmods.com/stardewvalley/mods/27311"
+        },
+        {
+          "name": "Mossy Witchy Outfits and Horns by B0rszcz",
+          "link": "https://www.nexusmods.com/stardewvalley/mods/26804"
+        },
+        {
+          "name": "Bella's Fantasy Accessories Pack",
+          "link": "https://www.nexusmods.com/stardewvalley/mods/25359"
+        },
+        {
+          "name": "True Hair Color",
+          "link": "https://www.nexusmods.com/stardewvalley/mods/25262"
+        },
+        {
+          "name": "SH's Alt-Fashion Set",
+          "link": "https://www.nexusmods.com/stardewvalley/mods/24573"
+        },
+        {
+          "name": "FS Clothing and Size of Small Animals in the Sea",
+          "link": "https://www.nexusmods.com/stardewvalley/mods/24633"
+        },
+        {
+          "name": "Less Blue Blue Ribbon",
+          "link": "https://www.nexusmods.com/stardewvalley/mods/24385"
+        },
+        {
+          "name": "Yeon Yi's Hair Bows",
+          "link": "https://www.nexusmods.com/stardewvalley/mods/23676"
+        },
+        {
+          "name": "Cozyyrose's Hairs @ Set 1",
+          "link": "https://www.nexusmods.com/stardewvalley/mods/21898"
+        },
+        {
+          "name": "Izzy's Hairstyles",
+          "link": "https://www.nexusmods.com/stardewvalley/mods/20763"
+        },
+        {
+          "name": "I'm in Love - Hearts Hats",
+          "link": "https://www.nexusmods.com/stardewvalley/mods/19047"
+        },
+        {
+          "name": "Ani's Color Collection",
+          "link": "https://www.nexusmods.com/stardewvalley/mods/18187"
+        },
+        {
+          "name": "Sweet Lolita Outfits",
+          "link": "https://www.nexusmods.com/stardewvalley/mods/16449"
+        },
+        {
+          "name": "Fae Wings Set",
+          "link": "https://www.nexusmods.com/stardewvalley/mods/16434"
+        },
+        {
+          "name": "The Coquette Collection",
+          "link": "https://www.nexusmods.com/stardewvalley/mods/13545"
+        },
+        {
+          "name": "Kawaii Hats",
+          "link": "https://www.nexusmods.com/stardewvalley/mods/12479"
+        },
+        {
+          "name": "Catmao Leather Shoes",
+          "link": "https://www.nexusmods.com/stardewvalley/mods/11203"
+        },
+        {
+          "name": "The Teddy Edit",
+          "link": "https://www.nexusmods.com/stardewvalley/mods/10165"
+        },
+        {
+          "name": "Skell's Wings",
+          "link": "https://www.nexusmods.com/stardewvalley/mods/10105"
+        },
+        {
+          "name": "Shardust's Hairstyles",
+          "link": "https://www.nexusmods.com/stardewvalley/mods/8138"
+        },
+        {
+          "name": "54 Types of Hair Retexture",
+          "link": "https://cafe.naver.com/starvall/371524"
+        },
+        {
+          "name": "SH's Animals and Myths Pack",
+          "link": "https://www.nexusmods.com/stardewvalley/mods/10324"
+        },
+        {
+          "name": "80 Types of Hair Retexture",
+          "link": "https://cafe.naver.com/starvall/461871"
+        },
+        {
+          "name": "cotton candy hair",
+          "link": "https://www.postype.com/@cherry12345678-abcd/post/14715237"
+        }
+      ]
+    },
+{
+  "name": "farms",
+  "mods": [
+    {
+      "name": "zenith farm",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/15618"
+    },
+    {
+      "name": "overgrown valley",
+      "link": "https://ko-fi.com/s/f5b179e3f1"
+    },
+    {
+      "name": "maple grove farm",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/28281"
+    },
+    {
+      "name": "fennmont farm",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/28250"
+    },
+    {
+      "name": "kisaa's cliffside cove farm",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27986"
+    },
+    {
+      "name": "jen's improved standard farm",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27801"
+    },
+    {
+      "name": "kisaa's meadowbrook falls farm",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27780"
+    },
+    {
+      "name": "kisaa's little falls farm",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27749"
+    },
+    {
+      "name": "aimon's small swamp farm",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27631"
+    },
+    {
+      "name": "katu's honey creek farm custom map for 1.6",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/26041"
+    },
+    {
+      "name": "jen's haunted farm cave",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/24993"
+    },
+    {
+      "name": "first light - mini beach farm",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/24233"
+    },
+    {
+      "name": "more lively farm cave",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/23190"
+    },
+    {
+      "name": "wildflour's romantic garden farm",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/20974"
+    },
+    {
+      "name": "ace's expanded farms",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/988"
+    },
+    {
+      "name": "mountain top farm",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/4641"
+    }
+  ]
+},
+{
+  "name": "buildings",
+  "mods": [
+    {
+      "name": "millnificent, better mill",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/16890"
+    },
+    {
+      "name": "lnh's first farmhouse",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/17526"
+    },
+    {
+      "name": "goroke's water obelisk",
+      "link": "https://cafe.naver.com/starvall/240763"
+    },
+    {
+      "name": "pet house retexture",
+      "link": "https://cafe.naver.com/starvall/318701"
+    },
+    {
+      "name": "eemie's victorian buildings",
+      "link": "https://www.moddrop.com/stardew-valley/mods/580707-eemies-victorian-buildings-for-cp"
+    },
+    {
+      "name": "everroot cottage",
+      "link": "https://ko-fi.com/s/90573f9523"
+    },
+    {
+      "name": "witchy-gothic buildings",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/420"
+    },
+    {
+      "name": "seasonal witchy-gothic buildings",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/3982"
+    },
+    {
+      "name": "seasonal witchy-gothic buildings addition",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/15841"
+    },
+    {
+      "name": "witchy-gothic interior",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/28244"
+    },
+    {
+      "name": "everyday warps for practical magical folk",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/28249"
+    },
+    {
+      "name": "rustic attic",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/28168"
+    },
+    {
+      "name": "personal hot springs",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/28132"
+    },
+    {
+      "name": "cozy nooks farmhouse",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/28001"
+    },
+    {
+      "name": "hxw cozy outdoor dining area for pif",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27890"
+    },
+    {
+      "name": "hxw buildable bakery",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/28031"
+    },
+    {
+      "name": "seasonal slavic witch hut",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27754"
+    },
+    {
+      "name": "mini greenhouse in the farmhouse",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27756"
+    },
+    {
+      "name": "personal sunroom - pif",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27612"
+    },
+    {
+      "name": "italian countryside buildings",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27579"
+    },
+    {
+      "name": "coop and barn facelift redux",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27521"
+    },
+    {
+      "name": "simple cellar for pif",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27401"
+    },
+    {
+      "name": "strawberry shortcake farmhouse and mailbox",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27334"
+    },
+    {
+      "name": "seasonal cabin style farmhouse",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27275"
+    },
+    {
+      "name": "italian countryside farmhouse",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27005"
+    },
+    {
+      "name": "bog's witchy grandpa's shed",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/26864"
+    },
+    {
+      "name": "bog's witchy player cabins",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/26807"
+    },
+    {
+      "name": "cute valley - purple",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/26073"
+    },
+    {
+      "name": "more buildings for cute valley purple",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/26093"
+    },
+    {
+      "name": "jen's mega coop and barn",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/25586"
+    },
+    {
+      "name": "cozy backyard - pif",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/25435"
+    },
+    {
+      "name": "bog's witchy greenhouse",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/24868"
+    },
+    {
+      "name": "bog's haunted barns and barn animals",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/24652"
+    },
+    {
+      "name": "bog's witchy silo",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/24542"
+    },
+    {
+      "name": "bog's witchy sheds for alternative textures",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/24524"
+    },
+    {
+      "name": "bog's moon gate obelisks",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/24448"
+    },
+    {
+      "name": "bog's haunted coops and coop animals",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/24390"
+    },
+    {
+      "name": "bog's seasonal witchy farm houses",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/24226"
+    },
+    {
+      "name": "seasonal cute greenhouse",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/23650"
+    },
+    {
+      "name": "idaida's fairy seasonal buildings",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/23071"
+    },
+    {
+      "name": "medieval tiny shed",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/22314"
+    },
+    {
+      "name": "medieval tiny greenhouse",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/22114"
+    },
+    {
+      "name": "aofb shipping bin",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/21374"
+    },
+    {
+      "name": "overgrown fairy doghouse",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/20954"
+    },
+    {
+      "name": "berryz kitty shipping bin",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/20839"
+    },
+    {
+      "name": "cozy sunroom farm for pif",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/20540"
+    },
+    {
+      "name": "zyr's multipurpose shed",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/14910"
+    },
+    {
+      "name": "princess hearts greenhouse",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/10914"
+    },
+    {
+      "name": "rosedryad's fairydew buildings",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/10677"
+    },
+    {
+      "name": "rosy cottage - farmhouse replacement",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/10656"
+    },
+    {
+      "name": "rustic country town interiors",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/6098"
+    },
+    {
+      "name": "overgrown fairy buildings",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/4564"
+    },
+    {
+      "name": "more overgrown fairy buildings",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/3953"
+    },
+    {
+      "name": "more buildings for cute valley pink",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/2752"
+    },
+    {
+      "name": "aimon's farmhouse rooms",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/28199"
+    },
+    {
+      "name": "immersive barns and coops",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/28462"
+    },
+    {
+      "name": "way back pelican town",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/7332"
+    },
+    {
+      "name": "elegant town interiors",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/15049"
+    },
+    {
+      "name": "bathhouse hotspring",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/22565"
+    },
+    {
+      "name": "solarium",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/22997"
+    },
+    {
+      "name": "less ugly town interiors",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/12442"
+    },
+    {
+      "name": "everroot cottage",
+      "link": "https://ko-fi.com/s/90573f9523"
+    },
+    {
+      "name": "industrial kitchen and interior",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/5351"
+    },
+    {
+      "name": "spouse room renovation",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/23529"
+    },
+    {
+      "name": "hudson valley buildings",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/2110"
+    },
+    {
+      "name": "hidden spring farm cave",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/23736"
+    },
+    {
+      "name": "sunroom greenhouse",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/21567"
+    }
+  ]
+},
+{
+  "name": "retextures",
+  "mods": [
+    {
+      "name": "the song of the mermaid",
+      "link": "https://ko-fi.com/s/f9c4915d81"
+    },
+    {
+      "name": "toddlers makeover",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/12257"
+    },
+    {
+      "name": "medicine item retexture",
+      "link": "https://cafe.naver.com/starvall/329542"
+    },
+    {
+      "name": "cute bouquet and pendant",
+      "link": "https://cafe.naver.com/starvall/314839"
+    },
+    {
+      "name": "tv channel retexture",
+      "link": "https://cafe.naver.com/starvall/274854"
+    },
+    {
+      "name": "wizard's magic toddler",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/16080"
+    },
+    {
+      "name": "unique children",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/6278"
+    },
+    {
+      "name": "kitty channels",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/9387"
+    },
+    {
+      "name": "halloween scarecrows",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/2892"
+    },
+    {
+      "name": "berryz bearkery pastries",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/28114"
+    },
+    {
+      "name": "lollipop trees",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/28233"
+    },
+    {
+      "name": "candy grass",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/28171"
+    },
+    {
+      "name": "doughnut paths",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/28164"
+    },
+    {
+      "name": "improved fall debris",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/28010"
+    },
+    {
+      "name": "floral mermaid pendants",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27741"
+    },
+    {
+      "name": "the aquarium gravel",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27672"
+    },
+    {
+      "name": "friendly statue",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27445"
+    },
+    {
+      "name": "moonflower's scarecrows",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27126"
+    },
+    {
+      "name": "ritzygen's halloween pumpkin bobbers",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27021"
+    },
+    {
+      "name": "hapi's pink rabbit merchant cart",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27002"
+    },
+    {
+      "name": "bog's swampy fish pond",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/26854"
+    },
+    {
+      "name": "horror movie scarecrows",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/26275"
+    },
+    {
+      "name": "my melody and kuromi seasonal scarecrows",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/26241"
+    },
+    {
+      "name": "bog's frog sprinklers",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/26207"
+    },
+    {
+      "name": "bog's moth tappers",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/26065"
+    },
+    {
+      "name": "bog's candle torch",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/25784"
+    },
+    {
+      "name": "bog's witchy foliage",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/25720"
+    },
+    {
+      "name": "bog's witchy shipping bin",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/25048"
+    },
+    {
+      "name": "tt's cute items",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/25181"
+    },
+    {
+      "name": "tt's animal bomb",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/24941"
+    },
+    {
+      "name": "bog's mossy paths",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/24780"
+    },
+    {
+      "name": "bog's witchy fences",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/24740"
+    },
+    {
+      "name": "lynneas witchy and purple bobbers",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/24465"
+    },
+    {
+      "name": "bog's trinkets retexture",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/24162"
+    },
+    {
+      "name": "lynneas witchy and purple letter recolor",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/24154"
+    },
+    {
+      "name": "bog's mushroom trees for alternative textures",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/23842"
+    },
+    {
+      "name": "starry trees",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/23506"
+    },
+    {
+      "name": "seasonal witchy decorations",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/23218"
+    },
+    {
+      "name": "lovely fences",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/22753"
+    },
+    {
+      "name": "fairy to healing angel",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/22640"
+    },
+    {
+      "name": "berryz kirby shipping bin",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/22465"
+    },
+    {
+      "name": "vanilla tweaks - producer edition",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/21437"
+    },
+    {
+      "name": "vanilla tweaks - interface edition",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/21436"
+    },
+    {
+      "name": "vanilla tweaks - warrior edition",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/21435"
+    },
+    {
+      "name": "vanilla tweaks - aquarium edition",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/21433"
+    },
+    {
+      "name": "vanilla tweaks - caves edition",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/21351"
+    },
+    {
+      "name": "vanilla tweaks - farming edition",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/21284"
+    },
+    {
+      "name": "mushroom sprinklers",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/22313"
+    },
+    {
+      "name": "cute chest buckles @ hearts and moons",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/22280"
+    },
+    {
+      "name": "cuter slimes refreshed",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/21889"
+    },
+    {
+      "name": "seasonal flower sprinklers refreshed",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/21878"
+    },
+    {
+      "name": "animated fairies",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/21811"
+    },
+    {
+      "name": "animated duck crab pots",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/21810"
+    },
+    {
+      "name": "molamole's mailbox",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/20517"
+    },
+    {
+      "name": "bright and fun artifact and dig spots",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/2114"
+    },
+    {
+      "name": "berryz sanrio sprinklers",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/19534"
+    },
+    {
+      "name": "berryz hello kitty sprinklers",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/19526"
+    },
+    {
+      "name": "berryz cinnamoroll sprinklers",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/19525"
+    },
+    {
+      "name": "cuter potions",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/19315"
+    },
+    {
+      "name": "sanrio scarecrows",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/19246"
+    },
+    {
+      "name": "trick or treat bushes",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/18904"
+    },
+    {
+      "name": "idaida's witchy scarecrows",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/13971"
+    },
+    {
+      "name": "overgrown skeletons and pink monsters",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/12966"
+    },
+    {
+      "name": "berryz sanrio bins",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/12712"
+    },
+    {
+      "name": "berryz bear shipping bin",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/12623"
+    },
+    {
+      "name": "rosy picket fences",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/10961"
+    },
+    {
+      "name": "rosedryad's plant sprinklers",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/10912"
+    },
+    {
+      "name": "cuter chests",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/10364"
+    },
+    {
+      "name": "overgrown fairy fences",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/10011"
+    },
+    {
+      "name": "mason jars",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/7928"
+    },
+    {
+      "name": "better resources",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/6942"
+    },
+    {
+      "name": "better fishing and foraging",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/6915"
+    },
+    {
+      "name": "better gems and minerals",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/5443"
+    },
+    {
+      "name": "better artisan goods",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/5394"
+    },
+    {
+      "name": "better crops and foraging",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/4912"
+    },
+    {
+      "name": "peachy objects",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/4908"
+    },
+    {
+      "name": "twiistrz kitty scarecrows",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/3302"
+    },
+    {
+      "name": "ppja home of abandoned mods",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/3374"
+    },
+    {
+      "name": "cute valley - pink",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/3499"
+    },
+    {
+      "name": "cute valley - blue",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/3503"
+    },
+    {
+      "name": "halloween scarecrows",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/2892"
+    },
+    {
+      "name": "cat themed scarecrows",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/1415"
+    },
+    {
+      "name": "weird ourple grass",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/28453"
+    },
+    {
+      "name": "arlouria's fairy grass recolor",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/21067"
+    },
+    {
+      "name": "garden grass",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/2017"
+    },
+    {
+      "name": "simple foliage",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/8164"
+    },
+    {
+      "name": "simple resources",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/15026"
+    },
+    {
+      "name": "owlie's better lilypads",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/14332"
+    },
+    {
+      "name": "wind effects",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/6647"
+    },
+    {
+      "name": "better water 2",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/15079"
+    },
+    {
+      "name": "immersive locational artifact digspots",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/14602"
+    },
+    {
+      "name": "overgrown valley",
+      "link": "https://ko-fi.com/s/f5b179e3f1"
+    },
+    {
+      "name": "forest mine retexture",
+      "link": "https://blog.naver.com/delloti/221675281220"
+    },
+    {
+      "name": "liesi and uuni fireplaces",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/8806"
+    },
+    {
+      "name": "farm computer retexture",
+      "link": "https://cafe.naver.com/starvall/461856"
+    },
+    {
+      "name": "fairy chest retexture",
+      "link": "https://cafe.naver.com/starvall/317776"
+    },
+    {
+      "name": "heart lightning rod",
+      "link": "https://cafe.naver.com/starvall/354498"
+    },
+    {
+      "name": "flower vine lightning rod",
+      "link": "https://cafe.naver.com/starvall/322646"
+    },
+    {
+      "name": "magic wand lightning rod",
+      "link": "https://cafe.naver.com/starvall/213031"
+    },
+    {
+      "name": "mermaid fence",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/9629"
+    },
+    {
+      "name": "heart sprinkler",
+      "link": "https://cafe.naver.com/starvall/218018"
+    },
+    {
+      "name": "flower sprinkler",
+      "link": "https://cafe.naver.com/starvall/71956"
+    },
+    {
+      "name": "gummy bear sprinkler",
+      "link": "https://cafe.naver.com/starvall/278991"
+    },
+    {
+      "name": "seasonal flower sprinkler",
+      "link": "https://cafe.naver.com/starvall/129406"
+    },
+    {
+      "name": "sailor moon sprinkler",
+      "link": "https://cafe.naver.com/starvall/138478"
+    },
+    {
+      "name": "cherry blossom sprinkler",
+      "link": "https://cafe.naver.com/starvall/226841"
+    },
+    {
+      "name": "dreamy cloud sprinkler",
+      "link": "https://cafe.naver.com/starvall/420439"
+    },
+    {
+      "name": "cute sprinklers",
+      "link": "https://cafe.naver.com/starvall/418017"
+    },
+    {
+      "name": "alternative lamp posts",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/3896"
+    },
+    {
+      "name": "beautiful paths retexture",
+      "link": "https://cafe.naver.com/starvall/347589"
+    },
+    {
+      "name": "gh's picnic mats flooring",
+      "link": "https://blog.naver.com/codnjsdl8235/222309567280"
+    },
+    {
+      "name": "flower crab pot",
+      "link": "https://cafe.naver.com/starvall/321679"
+    },
+    {
+      "name": "penguin crab pot",
+      "link": "https://cafe.naver.com/starvall/205653"
+    },
+    {
+      "name": "axolotl crab pot",
+      "link": "https://cafe.naver.com/starvall/238131"
+    },
+    {
+      "name": "fantasy unicorn stardust horse flute",
+      "link": "https://cafe.naver.com/starvall/320469"
+    },
+    {
+      "name": "gradient horse flute",
+      "link": "https://cafe.naver.com/starvall/414508"
+    },
+    {
+      "name": "pink fairy horse flute",
+      "link": "https://cafe.naver.com/starvall/404323"
+    },
+    {
+      "name": "better rings",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/8642"
+    },
+    {
+      "name": "flower return scepters",
+      "link": "https://cafe.naver.com/starvall/299201"
+    },
+    {
+      "name": "trash can retexture",
+      "link": "https://cafe.naver.com/starvall/168657"
+    },
+    {
+      "name": "pink vending machine",
+      "link": "https://m.cafe.naver.com/starvall/301385"
+    },
+    {
+      "name": "vintage sewing machine",
+      "link": "https://cafe.naver.com/starvall/240242"
+    },
+    {
+      "name": "pink hoed terrain",
+      "link": "https://cafe.naver.com/starvall/396373"
+    },
+    {
+      "name": "gems and ingots as hearts",
+      "link": "https://cafe.naver.com/starvall/401612"
+    },
+    {
+      "name": "bear warp totem",
+      "link": "https://cafe.naver.com/starvall/318765"
+    },
+    {
+      "name": "cute bouquet and pendant",
+      "link": "https://cafe.naver.com/starvall/314839"
+    },
+    {
+      "name": "magica trees",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/1211"
+    }
+  ]
+},
+{
+  "name": "furniture",
+  "mods": [
+    {
+      "name": "rilakkuma kitchen",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/14471"
+    },
+    {
+      "name": "oh so cute kitchen",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/14257"
+    },
+    {
+      "name": "divine offerings",
+      "link": "https://ko-fi.com/s/22f5f0e580"
+    },
+    {
+      "name": "catmao picnic furniture",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/13635"
+    },
+    {
+      "name": "yomi's cute furniture",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/16307"
+    },
+    {
+      "name": "casual furniture set",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/13893"
+    },
+    {
+      "name": "picnic rugs",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/11107"
+    },
+    {
+      "name": "adorable cottage bathroom and furniture",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/10982"
+    },
+    {
+      "name": "retro style furniture",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/17127"
+    },
+    {
+      "name": "wizard pot @ magic circle retexture",
+      "link": "https://cafe.naver.com/starvall/121487"
+    },
+    {
+      "name": "nian outdoor decorations",
+      "link": "https://cafe.naver.com/starvall/285066"
+    },
+    {
+      "name": "moon lamps",
+      "link": "https://cafe.naver.com/starvall/355263"
+    },
+    {
+      "name": "camper van",
+      "link": "https://cafe.naver.com/starvall/285632"
+    },
+    {
+      "name": "shyzie's string lights",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/16546"
+    },
+    {
+      "name": "shyzie's rugs",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/16726"
+    },
+    {
+      "name": "halloween decor",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/9894"
+    },
+    {
+      "name": "gothy tileset replacers",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/7320"
+    },
+    {
+      "name": "powdermelon furniture pack for furniture framework",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/28317"
+    },
+    {
+      "name": "cp - molamole's farm kitchen",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27617"
+    },
+    {
+      "name": "hello kitty furniture",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/28210"
+    },
+    {
+      "name": "gudetama furniture",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/28026"
+    },
+    {
+      "name": "cinnamoroll furniture",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27937"
+    },
+    {
+      "name": "wall-mounted shelves",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/28122"
+    },
+    {
+      "name": "kisaa's more hatches and ladders",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/28057"
+    },
+    {
+      "name": "blue sea clean sky",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/28052?tab=description"
+    },
+    {
+      "name": "clothesline variants",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/28009"
+    },
+    {
+      "name": "chic utility cart",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27836"
+    },
+    {
+      "name": "prophet's dining room",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27903"
+    },
+    {
+      "name": "prophet's furniture catalogue",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27897"
+    },
+    {
+      "name": "tea's wood lattice wallpapers",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27797"
+    },
+    {
+      "name": "kawaii kitchen",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27766"
+    },
+    {
+      "name": "molang plushies",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27716"
+    },
+    {
+      "name": "elegant purple furniture set",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27711"
+    },
+    {
+      "name": "creamy beige telephone",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27699"
+    },
+    {
+      "name": "molamole's wallpaper and flooring textures",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27122"
+    },
+    {
+      "name": "yuumoon's retro furniture recolor",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27664"
+    },
+    {
+      "name": "luny's wizard furniture recolor catalog",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27621"
+    },
+    {
+      "name": "cute cottagecore furniture catalog",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27584"
+    },
+    {
+      "name": "pink retro furniture recolor",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27468"
+    },
+    {
+      "name": "yingluo's hatsune miku-themed furniture",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27405"
+    },
+    {
+      "name": "animal crossing furniture",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27398"
+    },
+    {
+      "name": "hololive catalogue",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27344"
+    },
+    {
+      "name": "keep christmas well",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27219"
+    },
+    {
+      "name": "hxw plant lovers furniture",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27124"
+    },
+    {
+      "name": "hxw decorative plants furniture set",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27174"
+    },
+    {
+      "name": "lovely bed",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27054"
+    },
+    {
+      "name": "witchy furniture and decor",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27008"
+    },
+    {
+      "name": "prophet's kitchen replacement",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/26988"
+    },
+    {
+      "name": "hxw everything catalogue",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/26892"
+    },
+    {
+      "name": "platinumcats paintings",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/26858"
+    },
+    {
+      "name": "playroom and nursery furniture",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/26867"
+    },
+    {
+      "name": "hxw boutique bakery",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/9987"
+    },
+    {
+      "name": "pokemon dolls",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/26826"
+    },
+    {
+      "name": "ningqi's grotesque series furniture",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/26753"
+    },
+    {
+      "name": "pusheen plushies",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/26588"
+    },
+    {
+      "name": "soren's botanical wallpapers",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/26580"
+    },
+    {
+      "name": "movie theater furniture for content patcher",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/26479"
+    },
+    {
+      "name": "ripley's country kitchen",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/26330"
+    },
+    {
+      "name": "maximalism",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/26106"
+    },
+    {
+      "name": "hxw fairy garden furniture indoors",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/9989"
+    },
+    {
+      "name": "pirate furniture and decorations for cp",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/25536"
+    },
+    {
+      "name": "cozy chocolate walls and floors",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/20013"
+    },
+    {
+      "name": "cozy chocolate kitchen",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/20012"
+    },
+    {
+      "name": "cozy chocolate furniture",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/20011"
+    },
+    {
+      "name": "sanrio plushies",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/25088"
+    },
+    {
+      "name": "slumberwood's carebears",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/24504"
+    },
+    {
+      "name": "jen's modern wall tvs",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/24525"
+    },
+    {
+      "name": "bitna beige interior",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/24444"
+    },
+    {
+      "name": "lynnea's recolor of bog's seasonal junimo catalogue",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/24149"
+    },
+    {
+      "name": "lynnea's recolor of bog's kitchen",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/24142"
+    },
+    {
+      "name": "lynnea's recolor of bog's wizard furniture catalogue",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/24101"
+    },
+    {
+      "name": "lynnea's recolor of bog's krobus catalogue",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/24097"
+    },
+    {
+      "name": "cozy cat furniture",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/23920"
+    },
+    {
+      "name": "bog's kitchen recolor",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/23827"
+    },
+    {
+      "name": "bog's wizard catalogue recolor",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/23770"
+    },
+    {
+      "name": "hxw bakery and cafe furniture",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/9991"
+    },
+    {
+      "name": "cottagecore beds",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/21276"
+    },
+    {
+      "name": "gothic beds",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/21193"
+    },
+    {
+      "name": "shyzie's string lights",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/20973"
+    },
+    {
+      "name": "shyzie's witchy goblincore rugs",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/20640"
+    },
+    {
+      "name": "heart beds by mint",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/19932"
+    },
+    {
+      "name": "happy home designer",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/19675"
+    },
+    {
+      "name": "magical furniture set",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/19545"
+    },
+    {
+      "name": "creepy pastel furniture",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/18924"
+    },
+    {
+      "name": "fxrxfly's spooky kitchen",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/18941"
+    },
+    {
+      "name": "opulence",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/18490"
+    },
+    {
+      "name": "opulence wallpapers and flooring",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/18489"
+    },
+    {
+      "name": "hearth and home furniture",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/18487"
+    },
+    {
+      "name": "hearth and home wallpapers and flooring",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/18478"
+    },
+    {
+      "name": "kawaii sanrio n friendz plushies",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/17826"
+    },
+    {
+      "name": "dustbeauty's industrial furniture",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/17656"
+    },
+    {
+      "name": "hxw greenhouse furniture",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/16717"
+    },
+    {
+      "name": "undersea decorations",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/16730"
+    },
+    {
+      "name": "mermaid paths and flooring",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/16601"
+    },
+    {
+      "name": "scenemo posterz",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/17018"
+    },
+    {
+      "name": "simple pink furniture",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/16239"
+    },
+    {
+      "name": "pink walls",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/16180"
+    },
+    {
+      "name": "care bears",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/16056"
+    },
+    {
+      "name": "pretty pink wallpaper",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/14945"
+    },
+    {
+      "name": "lacey rugs pt. 1",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/14321"
+    },
+    {
+      "name": "sanrio plush set",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/14240"
+    },
+    {
+      "name": "dreamy wallpapers",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/14163"
+    },
+    {
+      "name": "casual furniture set",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/13893"
+    },
+    {
+      "name": "sanrio plushies",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/13622"
+    },
+    {
+      "name": "brighterbats cute furniture set",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/13013"
+    },
+    {
+      "name": "idaida's wallpapers and floors",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/12743"
+    },
+    {
+      "name": "pretty pink furniture recolor",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/12669"
+    },
+    {
+      "name": "sweet lolita furniture",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/11955"
+    },
+    {
+      "name": "missy's walls and floors",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/11184"
+    },
+    {
+      "name": "vintagecandy's wallpapers and floors",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/10840"
+    },
+    {
+      "name": "rosedryad's fairydew decorations",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/10154"
+    },
+    {
+      "name": "sweetheart furniture set",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/9698"
+    },
+    {
+      "name": "fairy garden decorations",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/8969"
+    },
+    {
+      "name": "spooky gothic furniture",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/5766"
+    },
+    {
+      "name": "yoyo's graveyard stuff",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/3619"
+    },
+    {
+      "name": "modern gothic interior",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/3702"
+    },
+    {
+      "name": "spooky walls and floors redux",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/3179"
+    },
+    {
+      "name": "shen's wallpaper and flooring",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/2919"
+    },
+    {
+      "name": "barfyscorpion home decor",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/3129"
+    },
+    {
+      "name": "kids furniture",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/3161"
+    },
+    {
+      "name": "acnl mermaid set",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/1888"
+    },
+    {
+      "name": "witchy decorations",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/1515"
+    },
+    {
+      "name": "mint kisses furniture",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/619"
+    },
+    {
+      "name": "platinumcats paintings",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/26858"
+    },
+    {
+      "name": "west elm furniture",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/14644"
+    },
+    {
+      "name": "pc's rattan furniture",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27047"
+    },
+    {
+      "name": "idaida's furniture recolor",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/9081"
+    },
+    {
+      "name": "nano's retro style furniture",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/16029"
+    },
+    {
+      "name": "seasonal witchy-gothic style windows",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/4049"
+    }
+  ]
+},
+{
+  "name": "craftables",
+  "mods": [
+    {
+      "name": "victorian craftables",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/6797"
+    },
+    {
+      "name": "elegant craftables",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/11693"
+    },
+    {
+      "name": "cook's tools - more kitchen appliances",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27697"
+    },
+    {
+      "name": "bog's witchy craftables",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/26192"
+    },
+    {
+      "name": "soft craftables",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/20991"
+    },
+    {
+      "name": "lavender craftables",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/21180"
+    },
+    {
+      "name": "magical craftables",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/19267"
+    },
+    {
+      "name": "beary cute craftables",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/17839"
+    },
+    {
+      "name": "bear craftables",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/15200"
+    },
+    {
+      "name": "some pastel craftables",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/12985"
+    },
+    {
+      "name": "rosedryad's fairydew craftables",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/10872"
+    },
+    {
+      "name": "overgrown fairy craftables",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/3952"
+    },
+    {
+      "name": "burnt sienna wood and gold craftables",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/1877"
+    },
+    {
+      "name": "cream color production machine",
+      "link": "https://cafe.naver.com/starvall/437498"
+    },
+    {
+      "name": "cream blue color production machine",
+      "link": "https://cafe.naver.com/starvall/245422"
+    },
+    {
+      "name": "void's weird wonders - craftables ",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/14912"
+    }
+  ]
+},
+{
+  "name": "townspeople",
+  "mods": [
+    {
+      "name": "non-bachelor portraits",
+      "link": "https://cafe.naver.com/starvall/389493"
+    },
+    {
+      "name": "bachelorette portraits",
+      "link": "https://cafe.naver.com/starvall/295812"
+    },
+    {
+      "name": "bachelor portraits",
+      "link": "https://cafe.naver.com/starvall/296667"
+    },
+    {
+      "name": "who's high res wizard portrait",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/5069"
+    },
+    {
+      "name": "monster valley",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/2407"
+    },
+    {
+      "name": "goth marriageable villagers",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/4057"
+    },
+    {
+      "name": "dimmy's bobbed haley",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27646"
+    },
+    {
+      "name": "good luck haley - pre-marriage dialogue expansion",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/26825"
+    },
+    {
+      "name": "romanceable rasmodius - sve compatible",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/7000"
+    },
+    {
+      "name": "alex after dark - dialogue and event expansion",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/28267"
+    },
+    {
+      "name": "haley ever after - marriage dialogue expansion",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/28046"
+    },
+    {
+      "name": "sebastian's frog sanctuary @ npc expansion",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27685"
+    },
+    {
+      "name": "yandere elliot english version",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27645"
+    },
+    {
+      "name": "elliot's extensive marriage dialogue",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27619"
+    },
+    {
+      "name": "immersive characters - shane",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/22955"
+    },
+    {
+      "name": "demetrius on the spectrum",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/19854"
+    },
+    {
+      "name": "miihau's abigail event expansion",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/18657"
+    },
+    {
+      "name": "miihau's haley event expansion",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/17674"
+    },
+    {
+      "name": "yandere shane",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/14211"
+    },
+    {
+      "name": "big harvey dialogue expansion",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/8403"
+    },
+    {
+      "name": "george and evelyn developed",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/4131"
+    },
+    {
+      "name": "npc unique courtship response",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/3312"
+    },
+    {
+      "name": "maru expanded",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/3057"
+    },
+    {
+      "name": "canon friendly dialogue expansion",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/2544"
+    },
+    {
+      "name": "portraits for vendors",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/20414"
+    },
+    {
+      "name": "events expansion",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/9042"
+    },
+    {
+      "name": "immersive saloon",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/14120"
+    },
+    {
+      "name": "life cycle",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/6200"
+    },
+    {
+      "name": "unique gift dialogues expanded",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/21501"
+    },
+    {
+      "name": "the ranch expansion",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/5070"
+    },
+    {
+      "name": "haley's coming out",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/23053"
+    }
+  ]
+},
+{
+  "name": "flora @ fauna",
+  "mods": [
+    {
+      "name": "delloti's flower retexture",
+      "link": "https://cafe.naver.com/starvall/363144"
+    },
+    {
+      "name": "bonnet duck retexture",
+      "link": "https://cafe.naver.com/starvall/287306"
+    },
+    {
+      "name": "horse to rideable broomstick",
+      "link": "https://ko-fi.com/s/eca4200f3f"
+    },
+    {
+      "name": "horse to cottagecore bicycle",
+      "link": "https://ko-fi.com/s/507c604f33"
+    },
+    {
+      "name": "elegant cats",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/17125"
+    },
+    {
+      "name": "kitty cats",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/7998"
+    },
+    {
+      "name": "spooky dog costumes",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/6963"
+    },
+    {
+      "name": "spooky cat costumes",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/6977"
+    },
+    {
+      "name": "spooky scary creatures",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/1436"
+    },
+    {
+      "name": "black goat",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/1055"
+    },
+    {
+      "name": "void barn animals",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/11445"
+    },
+    {
+      "name": "black fire-mane horse",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/150"
+    },
+    {
+      "name": "chinchilla as pet",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/1604?tab=posts"
+    },
+    {
+      "name": "yet another dog mod",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/1853?tab=description"
+    },
+    {
+      "name": "truffle dogs",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/28321"
+    },
+    {
+      "name": "animal time @ baby hippos + miniature elephants",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/28197"
+    },
+    {
+      "name": "furby pets",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/28186"
+    },
+    {
+      "name": "timsanity's floral megamix redux",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/28133"
+    },
+    {
+      "name": "more gentle pig sound",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27761"
+    },
+    {
+      "name": "salad's better pink pigs recolour",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27670"
+    },
+    {
+      "name": "salad's pink rabbits recolour",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27669"
+    },
+    {
+      "name": "foxes as pets",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27660"
+    },
+    {
+      "name": "salad's pink goats recolour",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27586"
+    },
+    {
+      "name": "salad's pink and purple chickens recolour",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27547"
+    },
+    {
+      "name": "forage to farm redux",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27509"
+    },
+    {
+      "name": "goat mod",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27321"
+    },
+    {
+      "name": "petrified tree - resource generator",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27471"
+    },
+    {
+      "name": "mycology - mushroom trees",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27436"
+    },
+    {
+      "name": "kinder chickens and gacha eggs",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/21871"
+    },
+    {
+      "name": "salad's pink and purple ducks recolour",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27411"
+    },
+    {
+      "name": "salad's pastel pink and purple ducks",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27424"
+    },
+    {
+      "name": "salad's pink and purple dinosaurs recolour",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27423"
+    },
+    {
+      "name": "salad's pink and purple cows recolour",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27406"
+    },
+    {
+      "name": "dahnimae's fae animals for 1.6",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27364"
+    },
+    {
+      "name": "hamster pet",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27282"
+    },
+    {
+      "name": "stardew valley expanded forage crops",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/26731"
+    },
+    {
+      "name": "comet collies",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/26487"
+    },
+    {
+      "name": "ghost pets for alternative textures",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/26097"
+    },
+    {
+      "name": "creepy critters - bats and crows",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/26071"
+    },
+    {
+      "name": "bats as companions",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/25354"
+    },
+    {
+      "name": "pegasus horse",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/24917"
+    },
+    {
+      "name": "luny's cuter companions recolor",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/24841"
+    },
+    {
+      "name": "starry void frogs",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/24626"
+    },
+    {
+      "name": "bonster's poultry",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/24526"
+    },
+    {
+      "name": "lynneas witchy and purple companions",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/24501"
+    },
+    {
+      "name": "cp unicorn horse",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/23972"
+    },
+    {
+      "name": "wildflour's atelier goods - florist",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/22733"
+    },
+    {
+      "name": "pet overhaul",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/21080"
+    },
+    {
+      "name": "otters",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/20911"
+    },
+    {
+      "name": "cornucopia - more crops",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/19508"
+    },
+    {
+      "name": "cornucopia - more flowers",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/20290"
+    },
+    {
+      "name": "valentine's day flower crops",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/20152"
+    },
+    {
+      "name": "candy cane crops",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/19529"
+    },
+    {
+      "name": "halloween crops bundle",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/18884"
+    },
+    {
+      "name": "pokemon absol cat replacement",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/18261"
+    },
+    {
+      "name": "flowers for horse mane and tail",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/8334"
+    },
+    {
+      "name": "winter crops",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/5976"
+    },
+    {
+      "name": "animated festive winter tree",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/3929"
+    },
+    {
+      "name": "more new fish",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/3578"
+    },
+    {
+      "name": "six plantable crops for winter",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/3581"
+    },
+    {
+      "name": "pegasus horse",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/2841"
+    },
+    {
+      "name": "aesthetic chickens",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/2934"
+    },
+    {
+      "name": "pink sheep",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/2935"
+    },
+    {
+      "name": "mizu's flowers",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/2028"
+    },
+    {
+      "name": "elle's town animals",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/1965"
+    },
+    {
+      "name": "elle's new barn animals",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/3167"
+    },
+    {
+      "name": "elle's new coop animals",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/3168"
+    },
+    {
+      "name": "elle's cat replacements",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/3872"
+    },
+    {
+      "name": "elle's dog replacements",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/3871"
+    },
+    {
+      "name": "tub o' flowers color varieties",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/1934"
+    },
+    {
+      "name": "fantasy crops",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/1610"
+    },
+    {
+      "name": "more animals",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/2274"
+    },
+    {
+      "name": "fish bonanza",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/28447"
+    },
+    {
+      "name": "otter's additional barn animals",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/20525"
+    },
+    {
+      "name": "bountiful valley",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/9259"
+    },
+    {
+      "name": "angel and devil horse @ tractor",
+      "link": "https://cafe.naver.com/starvall/223775"
+    },
+    {
+      "name": "cloud horse @ tractor",
+      "link": "https://cafe.naver.com/starvall/218771"
+    },
+    {
+      "name": "angel wings horse @ tractor",
+      "link": "https://cafe.naver.com/starvall/240430"
+    }
+  ]
+},
+{
+  "name": "weapons @ tools",
+  "mods": [
+    {
+      "name": "grandpa's weapons",
+      "link": "https://ko-fi.com/s/05898ae614"
+    },
+    {
+      "name": "skell's flowery weapons",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/11105"
+    },
+    {
+      "name": "pau's rose gold tools",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/28260"
+    },
+    {
+      "name": "grandpa's weapon",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/28011"
+    },
+    {
+      "name": "tools with fly agaric texture",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27408"
+    },
+    {
+      "name": "witchy alternative tools",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/26921"
+    },
+    {
+      "name": "rose iridium tools and weapons",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/23982"
+    },
+    {
+      "name": "rose iridium tools for at and fs",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/24580"
+    },
+    {
+      "name": "lynneas witchy and purple weapons - goth haley",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/24424"
+    },
+    {
+      "name": "lynneas witchy and purple tools and scythes",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/24337"
+    },
+    {
+      "name": "lynnea's recolor of bog's witchy tools",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/24152"
+    },
+    {
+      "name": "bog's witchy weapons",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/24109"
+    },
+    {
+      "name": "bog's witchy tools",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/24078"
+    },
+    {
+      "name": "arlouria's spring cottagecore tools",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/20480"
+    },
+    {
+      "name": "catmao bowknot tools",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/14557"
+    },
+    {
+      "name": "skell's flowery tools",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/11104"
+    },
+    {
+      "name": "soft pink weapons",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/9078"
+    },
+    {
+      "name": "soft pink tools",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/9073"
+    },
+    {
+      "name": "magical girl retextured weapons",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/2788"
+    },
+    {
+      "name": "nightmare's additional weaponry",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/393"
+    },
+    {
+      "name": "magic wand weapons",
+      "link": "https://cafe.naver.com/starvall/138237"
+    },
+    {
+      "name": "candy pop tools",
+      "link": "https://cafe.naver.com/starvall/416445"
+    },
+    {
+      "name": "tools with flowers",
+      "link": "https://cafe.naver.com/starvall/302474"
+    }
+  ]
+},
+{
+  "name": "food",
+  "mods": [
+    {
+      "name": "mid autumn festival mooncakes",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27990"
+    },
+    {
+      "name": "bunny marshies - a grandmotherly treat",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27280"
+    },
+    {
+      "name": "baker's life continued",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27221"
+    },
+    {
+      "name": "rilakkuma recipe 1.6 edition",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27201"
+    },
+    {
+      "name": "sanrio desserts",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/26906"
+    },
+    {
+      "name": "orangeblossom's chocolate valley",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/25426"
+    },
+    {
+      "name": "tearrific",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/24436"
+    },
+    {
+      "name": "vanilla cooking recipes",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/24426"
+    },
+    {
+      "name": "lemon universe",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/24169"
+    },
+    {
+      "name": "apple recipes",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/23764"
+    },
+    {
+      "name": "hxw freshly baked",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/23651"
+    },
+    {
+      "name": "wildflour's atelier goods - pickler",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/22739"
+    },
+    {
+      "name": "wildflour's atelier goods - canner",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/22738"
+    },
+    {
+      "name": "wildflour's atelier goods - confectioner @ sweet",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/22737"
+    },
+    {
+      "name": "wildflour's atelier goods - confectioner @ frozen",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/22736"
+    },
+    {
+      "name": "wildflour's atelier goods - brewer",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/22734"
+    },
+    {
+      "name": "wildflour's atelier goods - barista @ hot",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/22732"
+    },
+    {
+      "name": "wildflour's atelier goods - barista @ cold",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/22731"
+    },
+    {
+      "name": "wildflour's atelier goods - gourmand",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/22730"
+    },
+    {
+      "name": "wildflour's atelier goods - forager",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/22728"
+    },
+    {
+      "name": "sweetie foodie",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/22948"
+    },
+    {
+      "name": "extra food",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/18885"
+    },
+    {
+      "name": "hxw mixology 101",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/18717"
+    },
+    {
+      "name": "puffs and pastries",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/16843"
+    },
+    {
+      "name": "baker's life",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/5213"
+    },
+    {
+      "name": "more recipes",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/1670"
+    },
+    {
+      "name": "even more recipes",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/1742"
+    },
+    {
+      "name": "starbrew valley",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/1764"
+    },
+    {
+      "name": "aquilegia's sweet tooth",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/1897"
+    },
+    {
+      "name": "more trees",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/1671"
+    }
+  ]
+},
+{
+  "name": "gameplay",
+  "mods": [
+    {
+      "name": "dynamic reflections",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/12831"
+    },
+    {
+      "name": "winter grass",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/1601"
+    },
+    {
+      "name": "ghost town",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/2992"
+    },
+    {
+      "name": "smith yourself",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/28301"
+    },
+    {
+      "name": "gossip girl tv",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/28182"
+    },
+    {
+      "name": "fast forward for sdv 1.6",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/28198"
+    },
+    {
+      "name": "fruit tree xp",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/28323"
+    },
+    {
+      "name": "big fish ponds",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/28184"
+    },
+    {
+      "name": "romantic revenue",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27043"
+    },
+    {
+      "name": "staramy's fairytale valley 1.6",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/17622"
+    },
+    {
+      "name": "immersive manure",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27432"
+    },
+    {
+      "name": "wd-40 for chest and refrigerator",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27759"
+    },
+    {
+      "name": "this round's on me",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27683"
+    },
+    {
+      "name": "clean up stardew valley",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27451"
+    },
+    {
+      "name": "seed identifying buddy",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27416"
+    },
+    {
+      "name": "market town",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27343"
+    },
+    {
+      "name": "custom spouse pet names and stardrop dialogue",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27337"
+    },
+    {
+      "name": "the museum pays - get paid donating to museum",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27154"
+    },
+    {
+      "name": "mining monthly beginner kit",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/26984"
+    },
+    {
+      "name": "robin sells machines",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/26961"
+    },
+    {
+      "name": "magic by neosinf",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/26593"
+    },
+    {
+      "name": "willy seasonal shop - sells fish",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/25988"
+    },
+    {
+      "name": "harvey's clinic expanded",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/25983"
+    },
+    {
+      "name": "more wild berries for 1.6",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/25909"
+    },
+    {
+      "name": "soffy's better museum display cases",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/24605"
+    },
+    {
+      "name": "sebastian's community center bundles",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/24562"
+    },
+    {
+      "name": "everlasting flowers",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/23833"
+    },
+    {
+      "name": "wildflour's atelier goods - cosmetologist",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/22735"
+    },
+    {
+      "name": "more minecarts",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/21859"
+    },
+    {
+      "name": "clear glasses @ graphics depixelation and filters",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/21090"
+    },
+    {
+      "name": "pussle word game",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/19760"
+    },
+    {
+      "name": "tricks and treats",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/18947"
+    },
+    {
+      "name": "halloween seasonal event",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/18916"
+    },
+    {
+      "name": "shopping show",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/18445"
+    },
+    {
+      "name": "love festival",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/17819"
+    },
+    {
+      "name": "ferngill fashion festival",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/17404"
+    },
+    {
+      "name": "reremixed bundles",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/16123"
+    },
+    {
+      "name": "strawberry seeds from pierre",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/12912"
+    },
+    {
+      "name": "date night",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/11459"
+    },
+    {
+      "name": "almanac",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/11022"
+    },
+    {
+      "name": "animated wallet items",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/10763"
+    },
+    {
+      "name": "add berry seasons to calendar",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/10477"
+    },
+    {
+      "name": "events expansion",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/9042"
+    },
+    {
+      "name": "let me rest",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/8205"
+    },
+    {
+      "name": "platonic partners and friendships",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/8146"
+    },
+    {
+      "name": "true love valley",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/7948"
+    },
+    {
+      "name": "the love of cooking",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/6830"
+    },
+    {
+      "name": "greenhouse sprinklers",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/7456"
+    },
+    {
+      "name": "more quest",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/7155"
+    },
+    {
+      "name": "better beach forage",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/5192"
+    },
+    {
+      "name": "better quarry redux",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/5170"
+    },
+    {
+      "name": "stardew valley expanded",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/3753"
+    },
+    {
+      "name": "hats won't mess up hair",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/2847"
+    },
+    {
+      "name": "artisan valley",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/1926"
+    },
+    {
+      "name": "poppi's kawaii valley",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/2090"
+    },
+    {
+      "name": "help wanted quest fixes",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/2644"
+    },
+    {
+      "name": "shop expander",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/2278"
+    },
+    {
+      "name": "faster paths",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/2277"
+    },
+    {
+      "name": "furniture anywhere",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/2276"
+    },
+    {
+      "name": "xnb loader",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/2275"
+    },
+    {
+      "name": "seasonal immersion",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/2273"
+    },
+    {
+      "name": "extended minecart",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/2271"
+    },
+    {
+      "name": "skull cavern elevator",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/963"
+    },
+    {
+      "name": "luck skill",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/521"
+    },
+    {
+      "name": "simple crop label",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/314"
+    },
+    {
+      "name": "loved label",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/279"
+    },
+    {
+      "name": "cjb item spawner",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/93"
+    },
+    {
+      "name": "cjb cheats menu",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/4"
+    },
+    {
+      "name": "chests anywhere",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/518"
+    },
+    {
+      "name": "non destructive npcs",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/5176"
+    },
+    {
+      "name": "deluxe journal",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/11436"
+    },
+    {
+      "name": "self serve",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/20985"
+    },
+    {
+      "name": "community kitchen",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/9851"
+    },
+    {
+      "name": "challenging cc bundles",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/6361"
+    },
+    {
+      "name": "weather wonders",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/23868"
+    },
+    {
+      "name": "easy farm switcher",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/16873"
+    },
+    {
+      "name": "socializing skill",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/14142"
+    },
+    {
+      "name": "archaeology skill",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/22199"
+    },
+    {
+      "name": "visible fish",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/8897"
+    },
+    {
+      "name": "ridgeside village",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/7286"
+    },
+    {
+      "name": "ginger island overhaul",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/15939"
+    },
+    {
+      "name": "a secret forest walk",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/18929"
+    },
+    {
+      "name": "more lively sewer overhaul",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/19405"
+    },
+    {
+      "name": "witch swamp expansion",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/18109"
+    }
+  ]
+},
+{
+  "name": "ui",
+  "mods": [
+    {
+      "name": "halloween feelings",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/4266"
+    },
+    {
+      "name": "overgrown vintage map",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27762"
+    },
+    {
+      "name": "serena pink interface",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27281"
+    },
+    {
+      "name": "spring floral vines ui recolour",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/26299"
+    },
+    {
+      "name": "magical valley interface",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/26211"
+    },
+    {
+      "name": "pau's rose gold cursors",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/25759"
+    },
+    {
+      "name": "lowkey spring interface recolor",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/25349"
+    },
+    {
+      "name": "cherry blossom ui",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/25141"
+    },
+    {
+      "name": "lynneas witchy and purple ui interface",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/24693"
+    },
+    {
+      "name": "starry blue ui",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/13694"
+    },
+    {
+      "name": "starry blue ui portrait border",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/24625"
+    },
+    {
+      "name": "lynnea's recolor of bog's forest ui interface",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/24106"
+    },
+    {
+      "name": "starry ocean garden ui theme",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/24090"
+    },
+    {
+      "name": "bog's forest ui interface",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/23987"
+    },
+    {
+      "name": "bog's spouse portraits",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/23968"
+    },
+    {
+      "name": "fall ui",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/22253"
+    },
+    {
+      "name": "natural accent interface",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/21865"
+    },
+    {
+      "name": "meow interface",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/21444"
+    },
+    {
+      "name": "bee cursor",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/21338"
+    },
+    {
+      "name": "nautical elliot ui",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/19815"
+    },
+    {
+      "name": "harvey ui",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/19527"
+    },
+    {
+      "name": "halloween vibes ui",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/19484"
+    },
+    {
+      "name": "purple clover interface",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/19444"
+    },
+    {
+      "name": "sebastian ui",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/19433"
+    },
+    {
+      "name": "lavender dreams ui recolor",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/17323"
+    },
+    {
+      "name": "lovely ui",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/17283"
+    },
+    {
+      "name": "void's weird wonders - weird ui",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/17154"
+    },
+    {
+      "name": "pink lolita interface",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/16396"
+    },
+    {
+      "name": "old cola interface",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/16152"
+    },
+    {
+      "name": "starry sky interface",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/15124"
+    },
+    {
+      "name": "starry sky interface 1.6",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/24540"
+    },
+    {
+      "name": "pastel emotes",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/14889"
+    },
+    {
+      "name": "kittenTyme's gloomy recolor",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/12918"
+    },
+    {
+      "name": "citrus interface",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/11338"
+    },
+    {
+      "name": "sakura interface",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/11266"
+    },
+    {
+      "name": "bella's better cursors",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/10848"
+    },
+    {
+      "name": "sakura cursors",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/10488"
+    },
+    {
+      "name": "stardew valley night mode",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/6702"
+    },
+    {
+      "name": "overgrown flowery interface",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/6166"
+    },
+    {
+      "name": "spirit of fall ui",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/2953"
+    },
+    {
+      "name": "k8's galaxy user interface",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/28418"
+    },
+    {
+      "name": "vanilla accent interface",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/16970"
+    },
+    {
+      "name": "smallcopper's icons",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/16210"
+    },
+    {
+      "name": "custom menu background",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/7416"
+    },
+    {
+      "name": "script font",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/11040"
+    },
+    {
+      "name": "light purple and pink interface",
+      "link": "https://cafe.naver.com/starvall/356150"
+    },
+    {
+      "name": "starry profile background",
+      "link": "https://cafe.naver.com/starvall/218606"
+    },
+    {
+      "name": "cloudy profile background",
+      "link": "https://blog.naver.com/123sometimes/222466925173"
+    },
+    {
+      "name": "daylight profile background",
+      "link": "https://cafe.naver.com/starvall/339830"
+    },
+    {
+      "name": "vintage profile background",
+      "link": "https://cafe.naver.com/starvall/139546"
+    },
+    {
+      "name": "tarot profile background",
+      "link": "https://cafe.naver.com/starvall/333667"
+    },
+    {
+      "name": "overgrown flowery cursors",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/6132"
+    },
+    {
+      "name": "fish's bowknot cursors",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/13008"
+    },
+    {
+      "name": "kitty paws cursors",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/17225"
+    },
+    {
+      "name": "lollipop cursors",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/10391"
+    }
+  ]
+},
+{
+  "name": "recolors",
+  "mods": [
+    {
+      "name": "twelfth night - american gothic reshade",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/1832"
+    },
+    {
+      "name": "twelfth night - gameboy pocket reshade",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/1798"
+    },
+    {
+      "name": "kittentyme's gloomy recolor",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/12918"
+    },
+    {
+      "name": "nostalgia filter",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/27503"
+    },
+    {
+      "name": "hazelnut reshade preset",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/21411"
+    },
+    {
+      "name": "starblue valley unofficial for 1.6",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/21085"
+    },
+    {
+      "name": "soft recolor",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/20866"
+    },
+    {
+      "name": "faedew - reshade preset",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/20760"
+    },
+    {
+      "name": "rens early days - reshade preset",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/20700"
+    },
+    {
+      "name": "vibrant pastoral recolor",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/6367"
+    },
+    {
+      "name": "vibrant pastoral recolor for 1.6",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/20698"
+    },
+    {
+      "name": "it's an earthy reshade",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/20670"
+    },
+    {
+      "name": "actually blue stardew meadows",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/20666"
+    },
+    {
+      "name": "dreamy valley reshade",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/4241"
+    },
+    {
+      "name": "a wittily named recolor",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/2995"
+    },
+    {
+      "name": "natural color reshade",
+      "link": "https://www.nexusmods.com/stardewvalley/mods/1213"
+    }
+  ]
+}
+  ]
+}

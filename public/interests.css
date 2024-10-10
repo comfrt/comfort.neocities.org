@@ -20,12 +20,12 @@ html{
 
 @font-face {
     font-family: 'starborn';
-    src: url('/fonts/Starborn.ttf');
+    src: url('./fonts/Starborn.ttf');
 }
 
 @font-face {
     font-family: 'silverlining';
-    src: url('/fonts/silverlining.ttf');
+    src: url('./fonts/silverlining.ttf');
 }
 
 @font-face {
@@ -35,12 +35,12 @@ html{
 
 @font-face {
     font-family: 'Spirit';
-    src: url('/fonts/Spirit.ttf');
+    src: url('./fonts/Spirit.ttf');
 }
 
 @font-face {
     font-family: 'emojifont';
-    src: url('/fonts/EmojiFont.ttf');
+    src: url('./fonts/EmojiFont.ttf');
 }
 
 .container {
