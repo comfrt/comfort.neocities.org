@@ -24,7 +24,7 @@ let curr_track = document.getElementById("music");
 let track_list = [
     {
         name:"all is full of love",
-        path:"../gfx/aifol1.mp3"
+        path:"https://files.catbox.moe/8v3ehw.mp3"
     },
     {
         name:"come to me (live, 2016) - björk ",
