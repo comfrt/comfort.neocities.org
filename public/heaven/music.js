@@ -23,16 +23,12 @@ let curr_track = document.getElementById("music");
 // CATBOX.MOE IS RECOMMENDED FOR UPLOADING MP3 FILES
 let track_list = [
     {
-        name:"all is full of love (live, 2001) - björk",
-        path:"https://files.catbox.moe/w9c8uw.mp3"
+        name:"all is full of love",
+        path:"gfx/aifol1.mp3"
     },
     {
         name:"come to me (live, 2016) - björk ",
         path:"https://files.catbox.moe/671xgk.mp3"
-    },
-    {
-        name:"pagan poetry - björk",
-        path:"https://files.catbox.moe/49aies.mp3"
     },
 ];
 //

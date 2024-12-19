@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="styles.css">
     <script src="heaven/load.js"></script>
     <script src="heaven/iloveyou.js"></script>
-    <script src="https://kit.fontawesome.com/f936906ae0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     
 </head>
 <body>
@@ -192,8 +192,6 @@ the world of web design more in depth. i'm not presently in school, but my aim i
                     <p id="iloveyou"></p>
                 <div id="musicplayer">
                     <div>
-                        <p class="songtitle" style="display:none;"></p>
-                    </div>
             
                     <table class="controls">
                         <tr>
@@ -208,14 +206,6 @@ the world of web design more in depth. i'm not presently in school, but my aim i
                             </td>
                         </tr>
                     </table>
-            
-                    <div class="seeking" style="display:none;">
-                        <div class="current-time">00:00</div>
-            
-                        <input type="range" min="1" max="100" value="0" class="seek_slider" onchange="seekTo()">
-            
-                        <div class="total-duration">0:00</div>
-                    </div>
             
                     <audio id="music" src=""></audio> 
                 </div>
@@ -234,8 +224,8 @@ the world of web design more in depth. i'm not presently in school, but my aim i
             </aside>
         </div>
     </div>
-    <script src="heaven/music.js"></script>
-    <script src="heaven/lastfm.js"></script>
+    <script src="../heaven/music.js"></script>
+    <script src="../heaven/lastfm.js"></script>
     <div id="dhtmltooltip"></div>
 
 </body>
