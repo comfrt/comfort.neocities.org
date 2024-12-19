@@ -36,32 +36,34 @@ let track_list = [
 //
 //
 //
-
- function loadTrack(track_index) {
+function loadTrack(track_index) {
     clearInterval(updateTimer);
     resetValues();
 
-    // load a new track
+    // Load a new track
     curr_track.src = track_list[track_index].path;
     curr_track.load();
-    
-    // update details of the track
-    track_name.textContent = "";
 
+    // Update track details
+    if (track_name) {
+        track_name.textContent = track_list[track_index].name;
+    }
 
-    // set an interval of 1000 milliseconds for updating the seek slider
+    // Set an interval to update the seek slider
     updateTimer = setInterval(seekUpdate, 1000);
-    
-    // move to the next track if the current one finishes playing 
+
+    // Listen for when the current track ends
     curr_track.addEventListener("ended", nextTrack);
 }
 
+
 // reset values
 function resetValues() {
-    curr_time.textContent = "0:00";
-    total_duration.textContent = "0:00";
-    seek_slider.value = 0;
+    if (curr_time) curr_time.textContent = "0:00";
+    if (total_duration) total_duration.textContent = "0:00";
+    if (seek_slider) seek_slider.value = 0;
 }
+
 
 // checks if song is playing
 function playpauseTrack() {
