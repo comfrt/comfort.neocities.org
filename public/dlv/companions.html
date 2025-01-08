@@ -1,0 +1,1113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>comfort's ♡ bedroom !</title>
+    <link rel="stylesheet" href="../interests.css">
+    <link rel="icon" type="image/x-icon" href="https://64.media.tumblr.com/tumblr_lkl5ovrP1S1qfamg6.gif">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="//pull.cappuccicons.com/cpf.js"></script>    
+    <script src="../heaven/load.js"></script>
+</head>
+<body>
+    <style>
+input[type=text]{
+    width:100%;
+    max-width: 1000px;
+    margin-bottom:10px;
+    border: 2px solid transparent;
+    border-image: linear-gradient(to right, #EF46BA, #FE6D7C, #F5F43A, #5CE073, #5880FE, #C74BDA) 1;
+    height:40px;
+margin-top:10px;
+margin-bottom:13px;
+}
+
+input[type=text]::placeholder{
+color: #838383;
+font-style: italic;
+padding-left:10px;
+font-family: "pixel";
+}
+
+input[type=text]:focus {
+  background-color: #EF46BA;
+  color:#ffffff;
+  padding-left:10px;
+  padding-right:10px;
+}
+
+
+.companion-list {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #59DD73;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.companion-item {
+    padding: 15px;
+    border-bottom: 1px dashed #EA44C3;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.companion-item:first-child{
+    margin-top:-20px;
+}
+.companion-item:last-child {
+    border-bottom: none;
+}
+
+.companion-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.companion-info {
+    flex: 1;
+    color: #ffffff;
+}
+
+.companion-name {
+    font-weight: bold;
+    color: #EA44C3;
+    font-size: 1.2em;
+    margin-bottom: 8px;
+}
+
+.companion-info > div {
+    margin-bottom: 4px;
+}
+
+.companion-info > div:last-child {
+    margin-bottom: 0;
+}
+
+#current-companions {
+    font-family: 'pixel';
+    text-transform:lowercase;
+    color: #ffffff;
+    padding:10px;
+    text-shadow: 0 0 2px #000000;
+    background-color: rgba(255, 255, 255, 0.3);
+    background-image: linear-gradient(to right, #EF46BA, #FE6D7C, #F5F43A, #5CE073, #5880FE, #C74BDA);
+    background-blend-mode: screen;
+    border: 2px solid;
+    border-image: linear-gradient(to right, #EF46BA, #FE6D7C, #F5F43A, #5CE073, #5880FE, #C74BDA) 1;
+    justify-content: center;
+}
+
+    </style>
+</head>
+   <nav id="navbar"></nav>
+
+   <div class="container">
+       <main>
+           <section>
+               <h2>dlv companion tracker</h2>
+
+               <center><h4><div id="current-time"></div></h3></center>
+
+               <div id="available-now">
+                   <h3>available right now</h3>
+                   <div id="current-companions"></div>
+               </div>
+
+               <input 
+                   type="text" class="search-box" id="search-box" placeholder="search for a companion. . .">
+
+
+    <div class="companion-list" id="companion-list"></div><br>
+    <center><p>all data and images from <a href="https://dreamlightvalleywiki.com/Dreamlight_Valley_Wiki">here</a>!</p></center>
+
+    <script>
+        const companions = [
+            {
+                name: "Classic Squirrel",
+                image: "../gfx/dlv/classicsquirrel.png",
+                schedule: [
+                    { day: "Sunday", times: [{ start: "12:00", end: "0:00" }] },
+                    { day: "Monday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Thursday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Saturday", times: [{ start: "00:00", end: "23:59" }] }
+                ],
+                habitat: "Plaza",
+                food: "Peanut",
+                approach: "Walk up to them"
+            },
+            {
+                name: "Red Squirrel",
+                image: "../gfx/dlv/redsquirrel.png",
+                schedule: [
+                    { day: "Sunday", times: [{ start: "0:00", end: "12:00" }] },
+                    { day: "Monday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Wednesday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Friday", times: [{ start: "00:00", end: "23:59" }] }
+                ],
+                habitat: "Plaza",
+                food: "Peanut",
+                approach: "Walk up to them"
+            },
+            {
+                name: "Black Squirrel",
+                image: "../gfx/dlv/blacksquirrel.png",
+                schedule: [
+                    { day: "Sunday", times: [{ start: "0:00", end: "12:00" }] },
+                    { day: "Tuesday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Thursday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Friday", times: [{ start: "00:00", end: "23:59" }] }
+                ],
+                habitat: "Plaza",
+                food: "Peanut",
+                approach: "Walk up to them"
+            },
+            {
+                name: "Gray Squirrel",
+                image: "../gfx/dlv/graysquirrel.png",
+                schedule: [
+                    { day: "Sunday", times: [{ start: "12:00", end: "0:00" }] },
+                    { day: "Tuesday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Wednesday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Saturday", times: [{ start: "00:00", end: "23:59" }] }
+                ],
+                habitat: "Plaza",
+                food: "Peanut",
+                approach: "Walk up to them"
+            },
+            {
+                name: "White Squirrel",
+                image: "../gfx/dlv/whitesquirrel.png",
+                schedule: [
+                    { day: "Sunday", times: [{ start: "0:00", end: "6:00" }] }
+                ],
+                habitat: "Plaza",
+                food: "Peanut",
+                approach: "Walk up to them"
+            },
+            {
+                name: "Classic Rabbit",
+                image: "../gfx/dlv/classicrabbit.png",
+                schedule: [
+                    { day: "Sunday", times: [{ start: "12:00", end: "0:00" }] },
+                    { day: "Monday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Thursday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Saturday", times: [{ start: "00:00", end: "23:59" }] }
+                ],
+                habitat: "Peaceful Meadow",
+                food: "Carrot",
+                approach: "Follow them three times"
+            },
+            {
+                name: "Brown Rabbit",
+                image: "../gfx/dlv/brownrabbit.png",
+                schedule: [
+                    { day: "Sunday", times: [{ start: "12:00", end: "0:00" }] },
+                    { day: "Tuesday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Wednesday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Saturday", times: [{ start: "00:00", end: "23:59" }] }
+                ],
+                habitat: "Peaceful Meadow",
+                food: "Carrot",
+                approach: "Follow them three times"
+            },
+            {
+                name: "Black Rabbit",
+                image: "../gfx/dlv/blackrabbit.png",
+                schedule: [
+                    { day: "Sunday", times: [{ start: "0:00", end: "12:00" }] },
+                    { day: "Monday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Wednesday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Friday", times: [{ start: "00:00", end: "23:59" }] }
+                ],
+                habitat: "Peaceful Meadow",
+                food: "Carrot",
+                approach: "Follow them three times"
+            },
+            {
+                name: "White Rabbit",
+                image: "../gfx/dlv/whiterabbit.png",
+                schedule: [
+                    { day: "Sunday", times: [{ start: "0:00", end: "12:00" }] },
+                    { day: "Tuesday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Thursday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Friday", times: [{ start: "00:00", end: "23:59" }] }
+                ],
+                habitat: "Peaceful Meadow",
+                food: "Carrot",
+                approach: "Follow them three times"
+            },
+            {
+                name: "Calico Rabbit",
+                image: "../gfx/dlv/calicorabbit.png",
+                schedule: [
+                    { day: "Thursday", times: [{ start: "8:00", end: "14:00" }] }
+                ],
+                habitat: "Peaceful Meadow",
+                food: "Carrot",
+                approach: "Follow them three times"
+            },
+            {
+                name: "Classic Sea Turtle",
+                image: "../gfx/dlv/classicturtle.png",
+                schedule: [
+                    { day: "Sunday", times: [{ start: "12:00", end: "0:00" }] },
+                    { day: "Monday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Thursday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Saturday", times: [{ start: "00:00", end: "23:59" }] }
+                ],
+                habitat: "Dazzle Beach",
+                food: "Seaweed",
+                approach: "Wait until they come out of their shell"
+            },
+            {
+                name: "Brown Sea Turtle",
+                image: "../gfx/dlv/brownturtle.png",
+                schedule: [
+                    { day: "Sunday", times: [{ start: "0:00", end: "12:00" }] },
+                    { day: "Monday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Wednesday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Friday", times: [{ start: "00:00", end: "23:59" }] }
+                ],
+                habitat: "Dazzle Beach",
+                food: "Seaweed",
+                approach: "Wait until they come out of their shell"
+            },
+            {
+                name: "Purple Sea Turtle",
+                image: "../gfx/dlv/purpleturtle.png",
+                schedule: [
+                    { day: "Sunday", times: [{ start: "0:00", end: "12:00" }] },
+                    { day: "Tuesday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Thursday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Friday", times: [{ start: "00:00", end: "23:59" }] }
+                ],
+                habitat: "Dazzle Beach",
+                food: "Seaweed",
+                approach: "Wait until they come out of their shell"
+            },
+            {
+                name: "White Sea Turtle",
+                image: "../gfx/dlv/whiteturtle.png",
+                schedule: [
+                    { day: "Sunday", times: [{ start: "12:00", end: "0:00" }] },
+                    { day: "Tuesday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Wednesday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Saturday", times: [{ start: "00:00", end: "23:59" }] }
+                ],
+                habitat: "Dazzle Beach",
+                food: "Seaweed",
+                approach: "Wait until they come out of their shell"
+            },
+            {
+                name: "Black Sea Turtle",
+                image: "../gfx/dlv/blackturtle.png",
+                schedule: [
+                    { day: "Monday", times: [{ start: "10:00", end: "16:00" }] }
+                ],
+                habitat: "Dazzle Beach",
+                food: "Seaweed",
+                approach: "Wait until they come out of their shell"
+            },
+            {
+                name: "Classic Crocodile",
+                image: "../gfx/dlv/classiccrocodile.png",
+                schedule: [
+                    { day: "Sunday", times: [{ start: "12:00", end: "0:00" }] },
+                    { day: "Monday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Thursday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Saturday", times: [{ start: "00:00", end: "23:59" }] }
+                ],
+                habitat: "Glade of Trust",
+                food: "Lobster",
+                approach: "Approach when it's flat to the ground, stop when it sits up, and feed it when it flops to the ground"
+            },
+            {
+                name: "Red Crocodile",
+                image: "../gfx/dlv/redcrocodile.png",
+                schedule: [
+                    { day: "Sunday", times: [{ start: "12:00", end: "0:00" }] },
+                    { day: "Tuesday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Wednesday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Saturday", times: [{ start: "00:00", end: "23:59" }] }
+                ],
+                habitat: "Glade of Trust",
+                food: "Lobster",
+                approach: "Approach when it's flat to the ground, stop when it sits up, and feed it when it flops to the ground"
+            },
+            {
+                name: "Blue Crocodile",
+                image: "../gfx/dlv/bluecrocodile.png",
+                schedule: [
+                    { day: "Sunday", times: [{ start: "0:00", end: "12:00" }] },
+                    { day: "Monday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Wednesday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Friday", times: [{ start: "00:00", end: "23:59" }] }
+                ],
+                habitat: "Glade of Trust",
+                food: "Lobster",
+                approach: "Approach when it's flat to the ground, stop when it sits up, and feed it when it flops to the ground"
+            },
+            {
+                name: "Golden Crocodile",
+                image: "../gfx/dlv/goldencrocodile.png",
+                schedule: [
+                    { day: "Sunday", times: [{ start: "0:00", end: "12:00" }] },
+                    { day: "Tuesday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Thursday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Friday", times: [{ start: "00:00", end: "23:59" }] }
+                ],
+                habitat: "Glade of Trust",
+                food: "Lobster",
+                approach: "Approach when it's flat to the ground, stop when it sits up, and feed it when it flops to the ground"
+            },
+            {
+                name: "White Crocodile",
+                image: "../gfx/dlv/whitecrocodile.png",
+                schedule: [
+                    { day: "Sunday", times: [{ start: "18:00", end: "0:00" }] }
+                ],
+                habitat: "Glade of Trust",
+                food: "Lobster",
+                approach: "Approach when it's flat to the ground, stop when it sits up, and feed it when it flops to the ground"
+            },
+            {
+                name: "Pink Crocodile",
+                image: "../gfx/dlv/pinkcrocodile.png",
+                schedule: [
+                    { day: "Saturday", times: [{ start: "12:00", end: "0:00" }] }
+                ],
+                habitat: "Glade of Trust",
+                food: "Lobster",
+                approach: "Approach when it's flat to the ground, stop when it sits up, and feed it when it flops to the ground"
+            },
+            {
+                name: "Classic Raccoon",
+                image: "../gfx/dlv/classicraccoon.png",
+                schedule: [
+                    { day: "Sunday", times: [{ start: "12:00", end: "0:00" }] },
+                    { day: "Monday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Thursday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Saturday", times: [{ start: "00:00", end: "23:59" }] }
+                ],
+                habitat: "Glade of Trust",
+                food: "Blueberries",
+                approach: "Approach when it's standing, stop when it's on its tippy toes, and feed it when it sits down"
+            },
+            {
+                name: "Black Raccoon",
+                image: "../gfx/dlv/blackraccoon.png",
+                schedule: [
+                    { day: "Sunday", times: [{ start: "12:00", end: "0:00" }] },
+                    { day: "Tuesday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Wednesday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Saturday", times: [{ start: "00:00", end: "23:59" }] }
+                ],
+                habitat: "Glade of Trust",
+                food: "Blueberries",
+                approach: "Approach when it's standing, stop when it's on its tippy toes, and feed it when it sits down"
+            },
+            {
+                name: "White Raccoon",
+                image: "../gfx/dlv/whiteraccoon.png",
+                schedule: [
+                    { day: "Sunday", times: [{ start: "0:00", end: "12:00" }] },
+                    { day: "Tuesday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Thursday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Friday", times: [{ start: "00:00", end: "23:59" }] }
+                ],
+                habitat: "Glade of Trust",
+                food: "Blueberries",
+                approach: "Approach when it's standing, stop when it's on its tippy toes, and feed it when it sits down"
+            },
+            {
+                name: "Red Raccoon",
+                image: "../gfx/dlv/redraccoon.png",
+                schedule: [
+                    { day: "Sunday", times: [{ start: "0:00", end: "12:00" }] },
+                    { day: "Monday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Wednesday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Friday", times: [{ start: "00:00", end: "23:59" }] }
+                ],
+                habitat: "Glade of Trust",
+                food: "Blueberries",
+                approach: "Approach when it's standing, stop when it's on its tippy toes, and feed it when it sits down"
+            },
+            {
+                name: "Blue Raccoon",
+                image: "../gfx/dlv/blueraccoon.png",
+                schedule: [
+                    { day: "Wednesday", times: [{ start: "16:00", end: "22:00" }] }
+                ],
+                habitat: "Glade of Trust",
+                food: "Blueberries",
+                approach: "Approach when it's standing, stop when it's on its tippy toes, and feed it when it sits down"
+            },
+            {
+                name: "Red Sunbird",
+                image: "../gfx/dlv/redsunbird.png",
+                schedule: [
+                    { day: "Sunday", times: [{ start: "12:00", end: "0:00" }] },
+                    { day: "Monday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Thursday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Saturday", times: [{ start: "00:00", end: "23:59" }] }
+                ],
+                habitat: "Sunlit Plateau",
+                food: "Blue or red flowers",
+                approach: "Walk up to them"
+            },
+            {
+                name: "Emerald Sunbird",
+                image: "../gfx/dlv/emeraldsunbird.png",
+                schedule: [
+                    { day: "Sunday", times: [{ start: "12:00", end: "0:00" }] },
+                    { day: "Tuesday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Wednesday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Saturday", times: [{ start: "00:00", end: "23:59" }] }
+                ],
+                habitat: "Sunlit Plateau",
+                food: "Green or yellow flowers",
+                approach: "Walk up to them"
+            },
+            {
+                name: "Golden Sunbird",
+                image: "../gfx/dlv/goldensunbird.png",
+                schedule: [
+                    { day: "Sunday", times: [{ start: "0:00", end: "12:00" }] },
+                    { day: "Tuesday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Thursday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Friday", times: [{ start: "00:00", end: "23:59" }] }
+                ],
+                habitat: "Sunlit Plateau",
+                food: "Yellow or orange flowers",
+                approach: "Walk up to them"
+            },
+            {
+                name: "Orchid Sunbird",
+                image: "../gfx/dlv/orchidsunbird.png",
+                schedule: [
+                    { day: "Friday", times: [{ start: "9:00", end: "15:00" }] }
+                ],
+                habitat: "Sunlit Plateau",
+                food: "Pink or purple flowers",
+                approach: "Walk up to them"
+            },
+            {
+                name: "Turquoise Sunbird",
+                image: "../gfx/dlv/turquoisesunbird.png",
+                schedule: [
+                    { day: "Sunday", times: [{ start: "0:00", end: "12:00" }] },
+                    { day: "Monday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Wednesday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Friday", times: [{ start: "00:00", end: "23:59" }] }
+                ],
+                habitat: "Sunlit Plateau",
+                food: "Yellow or orange flowers",
+                approach: "Walk up to them"
+            },
+            {
+                name: "Classic Fox",
+                image: "../gfx/dlv/classicfox.png",
+                schedule: [
+                    { day: "Sunday", times: [{ start: "0:00", end: "12:00" }] },
+                    { day: "Monday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Wednesday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Friday", times: [{ start: "00:00", end: "23:59" }] }
+                ],
+                habitat: "Frosted Heights",
+                food: "White Sturgeon",
+                approach: "Chase them around"
+            },
+            {
+                name: "Black Fox",
+                image: "../gfx/dlv/blackfox.png",
+                schedule: [
+                    { day: "Sunday", times: [{ start: "12:00", end: "0:00" }] },
+                    { day: "Tuesday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Wednesday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Saturday", times: [{ start: "00:00", end: "23:59" }] }
+                ],
+                habitat: "Frosted Heights",
+                food: "White Sturgeon",
+                approach: "Chase them around"
+            },
+            {
+                name: "Blue Fox",
+                image: "../gfx/dlv/bluefox.png",
+                schedule: [
+                    { day: "Sunday", times: [{ start: "0:00", end: "12:00" }] },
+                    { day: "Tuesday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Thursday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Friday", times: [{ start: "00:00", end: "23:59" }] }
+                ],
+                habitat: "Frosted Heights",
+                food: "White Sturgeon",
+                approach: "Chase them around"
+            },
+            {
+                name: "Red Fox",
+                image: "../gfx/dlv/redfox.png",
+                schedule: [
+                    { day: "Saturday", times: [{ start: "16:00", end: "22:00" }] }
+                ],
+                habitat: "Frosted Heights",
+                food: "White Sturgeon",
+                approach: "Chase them around"
+            },
+            {
+                name: "White Fox",
+                image: "../gfx/dlv/whitefox.png",
+                schedule: [
+                    { day: "Sunday", times: [{ start: "12:00", end: "0:00" }] },
+                    { day: "Monday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Thursday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Saturday", times: [{ start: "00:00", end: "23:59" }] }
+                ],
+                habitat: "Frosted Heights",
+                food: "White Sturgeon",
+                approach: "Chase them around"
+            },
+            {
+                name: "Classic Raven",
+                image: "../gfx/dlv/classicraven.png",
+                schedule: [
+                    { day: "Sunday", times: [{ start: "12:00", end: "0:00" }] },
+                    { day: "Monday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Thursday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Saturday", times: [{ start: "00:00", end: "23:59" }] }
+                ],
+                habitat: "Forgotten Lands",
+                food: "5-star meals",
+                approach: "Approach them and wait a few seconds"
+            },
+            {
+                name: "Blue Raven",
+                image: "../gfx/dlv/blueraven.png",
+                schedule: [
+                    { day: "Sunday", times: [{ start: "0:00", end: "12:00" }] },
+                    { day: "Tuesday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Thursday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Friday", times: [{ start: "00:00", end: "23:59" }] }
+                ],
+                habitat: "Forgotten Lands",
+                food: "5-star meals",
+                approach: "Approach them and wait a few seconds"
+            },
+            {
+                name: "Brown Raven",
+                image: "../gfx/dlv/brownraven.png",
+                schedule: [
+                    { day: "Tuesday", times: [{ start: "18:00", end: "0:00" }] }
+                ],
+                habitat: "Forgotten Lands",
+                food: "5-star meals",
+                approach: "Approach them and wait a few seconds"
+            },
+            {
+                name: "Red Raven",
+                image: "../gfx/dlv/redraven.png",
+                schedule: [
+                    { day: "Sunday", times: [{ start: "0:00", end: "12:00" }] },
+                    { day: "Monday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Wednesday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Friday", times: [{ start: "00:00", end: "23:59" }] }
+                ],
+                habitat: "Forgotten Lands",
+                food: "5-star meals",
+                approach: "Approach them and wait a few seconds"
+            },
+            {
+                name: "White Raven",
+                image: "../gfx/dlv/whiteraven.png",
+                schedule: [
+                    { day: "Sunday", times: [{ start: "12:00", end: "0:00" }] },
+                    { day: "Tuesday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Wednesday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Saturday", times: [{ start: "00:00", end: "23:59" }] }
+                ],
+                habitat: "Forgotten Lands",
+                food: "5-star meals",
+                approach: "Approach them and wait a few seconds"
+            },
+            {
+                name: "Classic Monkey",
+                image: "../gfx/dlv/classicmonkey.png",
+                schedule: [
+                    { day: "Sunday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Monday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Tuesday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Wednesday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Thursday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Friday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Saturday", times: [{ start: "00:00", end: "23:59" }] }
+                ],
+                habitat: "Ancient's Landing",
+                food: "5-star desserts",
+                approach: "Chase them around"
+            },
+            {
+                name: "Beige Monkey",
+                image: "../gfx/dlv/beigemonkey.png",
+                schedule: [
+                    { day: "Sunday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Monday", times: [{ start: "12:00", end: "0:00" }] },
+                    { day: "Wednesday", times: [{ start: "12:00", end: "0:00" }] },
+                    { day: "Thursday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Friday", times: [{ start: "12:00", end: "0:00" }] }
+                ],
+                habitat: "Ancient's Landing",
+                food: "5-star desserts",
+                approach: "Chase them around"
+            },
+            {
+                name: "Black and Brown Monkey",
+                image: "../gfx/dlv/bbmonkey.png",
+                schedule: [
+                    { day: "Sunday", times: [{ start: "12:00", end: "0:00" }] },
+                    { day: "Tuesday", times: [{ start: "12:00", end: "0:00" }] },
+                    { day: "Wednesday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Thursday", times: [{ start: "12:00", end: "0:00" }] },
+                    { day: "Saturday", times: [{ start: "0:00", end: "23:59" }] }
+                ],
+                habitat: "Ancient's Landing",
+                food: "5-star desserts",
+                approach: "Chase them around"
+            },
+            {
+                name: "Black and Gray Monkey",
+                image: "../gfx/dlv/bgmonkey.png",
+                schedule: [
+                    { day: "Tuesday", times: [{ start: "18:00", end: "0:00" }] }
+                ],
+                habitat: "Ancient's Landing",
+                food: "5-star desserts",
+                approach: "Chase them around"
+            },
+            {
+                name: "Red and Beige Monkey",
+                image: "../gfx/dlv/rbmonkey.png",
+                schedule: [
+                    { day: "Monday", times: [{ start: "0:00", end: "12:00" }] },
+                    { day: "Tuesday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Wednesday", times: [{ start: "0:00", end: "12:00" }] },
+                    { day: "Friday", times: [{ start: "0:00", end: "23:59" }] },
+                    { day: "Saturday", times: [{ start: "00:00", end: "23:59" }] }
+                ],
+                habitat: "Ancient's Landing",
+                food: "5-star desserts",
+                approach: "Chase them around"
+            },
+            {
+                name: "Classic Cobra",
+                image: "../gfx/dlv/classiccobra.png",
+                schedule: [
+                    { day: "Sunday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Monday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Tuesday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Wednesday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Thursday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Friday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Saturday", times: [{ start: "00:00", end: "23:59" }] }
+                ],
+                habitat: "Glittering Dunes",
+                food: "Egg",
+                approach: "Approach when their head is down"
+            },
+            {
+                name: "Blue and Red Striped Cobra",
+                image: "../gfx/dlv/brcobra.png",
+                schedule: [
+                    { day: "Sunday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Monday", times: [{ start: "12:00", end: "0:00" }] },
+                    { day: "Tuesday", times: [{ start: "12:00", end: "0:00" }] },
+                    { day: "Thursday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Saturday", times: [{ start: "12:00", end: "0:00" }] }
+                ],
+                habitat: "Glittering Dunes",
+                food: "Egg",
+                approach: "Approach when their head is down"
+            },
+            {
+                name: "Green and White Striped Cobra",
+                image: "../gfx/dlv/gwcobra.png",
+                schedule: [
+                 { day: "Thursday", times: [{ start: "6:00", end: "12:00" }] }
+                ],
+                habitat: "Glittering Dunes",
+                food: "Egg",
+                approach: "Approach when their head is down"
+            },
+            {
+                name: "Pink Spotted Cobra",
+                image: "../gfx/dlv/pinkcobra.png",
+                schedule: [
+                    { day: "Sunday", times: [{ start: "0:00", end: "12:00" }] },
+                    { day: "Monday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Wednesday", times: [{ start: "0:00", end: "12:00" }] },
+                    { day: "Thursday", times: [{ start: "0:00", end: "12:00" }] },
+                    { day: "Friday", times: [{ start: "00:00", end: "23:59" }] }
+                ],
+                habitat: "Glittering Dunes",
+                food: "Egg",
+                approach: "Approach when their head is down"
+            },
+            {
+                name: "Yellow and Purple Striped Cobra",
+                image: "../gfx/dlv/classiccobra.png",
+                schedule: [
+                    { day: "Sunday", times: [{ start: "12:00", end: "0:00" }] },
+                    { day: "Tuesday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Wednesday", times: [{ start: "12:00", end: "0:00" }] },
+                    { day: "Thursday", times: [{ start: "12:00", end: "0:00" }] },
+                    { day: "Saturday", times: [{ start: "00:00", end: "23:59" }] }
+                ],
+                habitat: "Glittering Dunes",
+                food: "Egg",
+                approach: "Approach when their head is down"
+            },
+            {
+                name: "Classic Capybara",
+                image: "../gfx/dlv/classiccapybara.png",
+                schedule: [
+                    { day: "Sunday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Monday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Tuesday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Wednesday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Thursday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Friday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Saturday", times: [{ start: "00:00", end: "23:59" }] }
+                ],
+                habitat: "Wild Tangle",
+                food: "Cabbage",
+                approach: "Walk up to them"
+            },
+            {
+                name: "Black and White Capybara",
+                image: "../gfx/dlv/bwcapybara.png",
+                schedule: [
+                    { day: "Sunday", times: [{ start: "12:00", end: "0:00" }] },
+                    { day: "Tuesday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Thursday", times: [{ start: "00:00", end: "23:59" }] },
+                    { day: "Friday", times: [{ start: "12:00", end: "0:00" }] },
+                    { day: "Saturday", times: [{ start: "12:00", end: "0:00" }] }
+                ],
+                habitat: "Wild Tangle",
+                food: "Cabbage",
+                approach: "Walk up to them"
+            },
+            {
+    name: "Blue Striped Capybara",
+    image: "../gfx/dlv/bluecapybara.png",
+    schedule: [
+        { day: "Monday", times: [{ start: "12:00", end: "23:59" }] },
+        { day: "Tuesday", times: [{ start: "00:00", end: "12:00" }] },
+        { day: "Wednesday", times: [{ start: "00:00", end: "12:00" }] },
+        { day: "Thursday", times: [{ start: "00:00", end: "23:59" }] },
+        { day: "Saturday", times: [{ start: "00:00", end: "23:59" }] }
+    ],
+    habitat: "Wild Tangle",
+    food: "Cabbage",
+    approach: "Walk up to them"
+},
+{
+    name: "Gray Spotted Capybara",
+    image: "../gfx/dlv/graycapybara.png",
+    schedule: [
+        { day: "Sunday", times: [{ start: "00:00", end: "23:59" }] },
+        { day: "Monday", times: [{ start: "12:00", end: "23:59" }] },
+        { day: "Tuesday", times: [{ start: "12:00", end: "23:59" }] },
+        { day: "Thursday", times: [{ start: "00:00", end: "23:59" }] },
+        { day: "Friday", times: [{ start: "00:00", end: "23:59" }] }
+    ],
+    habitat: "Wild Tangle",
+    food: "Cabbage",
+    approach: "Walk up to them"
+},
+{
+    name: "Red and White Striped Capybara",
+    image: "../gfx/dlv/redcapybara.png",
+    schedule: [
+        { day: "Saturday", times: [{ start: "12:00", end: "18:00" }] }
+    ],
+    habitat: "Wild Tangle",
+    food: "Cabbage",
+    approach: "Walk up to them"
+},
+{
+    name: "Brown Owl",
+    image: "../gfx/dlv/brownowl.png",
+    schedule: [
+        { day: "Monday", times: [{ start: "00:00", end: "23:59" }] },
+        { day: "Tuesday", times: [{ start: "00:00", end: "23:59" }] },
+        { day: "Wednesday", times: [{ start: "00:00", end: "23:59" }] },
+        { day: "Thursday", times: [{ start: "00:00", end: "23:59" }] },
+        { day: "Friday", times: [{ start: "00:00", end: "23:59" }] }
+    ],
+    habitat: "The Bind",
+    food: "Barley",
+    approach: "Walk up to them"
+},
+{
+    name: "Dark Owl",
+    image: "../gfx/dlv/darkowl.png",
+    schedule: [
+        { day: "Sunday", times: [{ start: "00:00", end: "23:59" }] },
+        { day: "Saturday", times: [{ start: "00:00", end: "23:59" }] }
+    ],
+    habitat: "The Bind",
+    food: "Barley",
+    approach: "Walk up to them"
+},
+{
+    name: "Light Owl",
+    image: "../gfx/dlv/lightowl.png",
+    schedule: [
+        { day: "Sunday", times: [{ start: "15:00", end: "20:00" }] },
+        { day: "Monday", times: [{ start: "15:00", end: "20:00" }] },
+        { day: "Tuesday", times: [{ start: "15:00", end: "20:00" }] },
+        { day: "Wednesday", times: [{ start: "15:00", end: "20:00" }] },
+        { day: "Friday", times: [{ start: "15:00", end: "20:00" }] },
+        { day: "Saturday", times: [{ start: "15:00", end: "20:00" }] }
+    ],
+    habitat: "The Bind",
+    food: "Barley",
+    approach: "Walk up to them"
+},
+{
+    name: "Purple Owl",
+    image: "../gfx/dlv/purpleowl.png",
+    schedule: [
+        { day: "Sunday", times: [{ start: "00:00", end: "09:00" }] },
+        { day: "Monday", times: [{ start: "00:00", end: "09:00" }] },
+        { day: "Tuesday", times: [{ start: "00:00", end: "09:00" }] },
+        { day: "Wednesday", times: [{ start: "00:00", end: "09:00" }] },
+        { day: "Thursday", times: [{ start: "00:00", end: "09:00" }] },
+        { day: "Friday", times: [{ start: "00:00", end: "09:00" }] },
+        { day: "Saturday", times: [{ start: "00:00", end: "09:00" }] }
+    ],
+    habitat: "The Bind",
+    food: "Barley",
+    approach: "Walk up to them"
+},
+{
+    name: "Blue Baby Dragon",
+    image: "../gfx/dlv/bluedragon.png",
+    schedule: [
+        { day: "Tuesday", times: [{ start: "00:00", end: "23:59" }] },
+        { day: "Wednesday", times: [{ start: "00:00", end: "23:59" }] },
+        { day: "Thursday", times: [{ start: "00:00", end: "23:59" }] },
+        { day: "Friday", times: [{ start: "00:00", end: "23:59" }] }
+    ],
+    habitat: "Everafter",
+    food: "Pure Ice, Shiny Pure Ice, Magma, Shiny Magma",
+    approach: "Walk up to them and wait a few seconds"
+},
+{
+    name: "Green Baby Dragon",
+    image: "../gfx/dlv/greendragon.png",
+    schedule: [
+        { day: "Sunday", times: [{ start: "10:00", end: "18:00" }] },
+        { day: "Monday", times: [{ start: "10:00", end: "18:00" }] },
+        { day: "Tuesday", times: [{ start: "10:00", end: "18:00" }] },
+        { day: "Wednesday", times: [{ start: "10:00", end: "18:00" }] }
+    ],
+    habitat: "Everafter",
+    food: "Pure Ice, Shiny Pure Ice, Magma, Shiny Magma",
+    approach: "Walk up to them and wait a few seconds"
+},
+{
+    name: "Purple Baby Dragon",
+    image: "../gfx/dlv/purpledragon.png",
+    schedule: [
+        { day: "Sunday", times: [{ start: "00:00", end: "12:00" }] },
+        { day: "Monday", times: [{ start: "00:00", end: "12:00" }] },
+        { day: "Tuesday", times: [{ start: "00:00", end: "12:00" }] },
+        { day: "Wednesday", times: [{ start: "00:00", end: "12:00" }] },
+        { day: "Thursday", times: [{ start: "00:00", end: "12:00" }] },
+        { day: "Friday", times: [{ start: "00:00", end: "12:00" }] },
+        { day: "Saturday", times: [{ start: "00:00", end: "12:00" }] }
+    ],
+    habitat: "Everafter",
+    food: "Pure Ice, Shiny Pure Ice, Magma, Shiny Magma",
+    approach: "Walk up to them and wait a few seconds"
+},
+{
+    name: "Red Baby Dragon",
+    image: "../gfx/dlv/reddragon.png",
+    schedule: [
+        { day: "Sunday", times: [{ start: "00:00", end: "23:59" }] },
+        { day: "Saturday", times: [{ start: "00:00", end: "23:59" }] }
+    ],
+    habitat: "Everafter",
+    food: "Pure Ice, Shiny Pure Ice, Magma, Shiny Magma",
+    approach: "Walk up to them and wait a few seconds"
+},
+{
+    name: "Blue Pegasus",
+    image: "../gfx/dlv/bluepegasus.png",
+    schedule: [
+        { day: "Monday", times: [{ start: "00:00", end: "23:59" }] },
+        { day: "Tuesday", times: [{ start: "00:00", end: "23:59" }] },
+        { day: "Wednesday", times: [{ start: "00:00", end: "23:59" }] }
+    ],
+    habitat: "Mythopia",
+    food: "5-Star Vegetable-Based Meals, 4-Star Vegetable-Based Meals",
+    approach: "Follow them around"
+},
+{
+    name: "Peach Pegasus",
+    image: "../gfx/dlv/peachpegasus.png",
+    schedule: [
+        { day: "Sunday", times: [{ start: "06:00", end: "14:00" }] },
+        { day: "Monday", times: [{ start: "06:00", end: "14:00" }] },
+        { day: "Tuesday", times: [{ start: "06:00", end: "14:00" }] },
+        { day: "Wednesday", times: [{ start: "06:00", end: "14:00" }] },
+        { day: "Thursday", times: [{ start: "06:00", end: "14:00" }] },
+        { day: "Friday", times: [{ start: "06:00", end: "14:00" }] },
+        { day: "Saturday", times: [{ start: "06:00", end: "14:00" }] }
+    ],
+    habitat: "Mythopia",
+    food: "5-Star Vegetable-Based Meals, 4-Star Vegetable-Based Meals",
+    approach: "Follow them around"
+},
+{
+    name: "Pink Pegasus",
+    image: "../gfx/dlv/pinkpegasus.png",
+    schedule: [
+        { day: "Sunday", times: [{ start: "00:00", end: "23:59" }] },
+        { day: "Tuesday", times: [{ start: "00:00", end: "23:59" }] },
+        { day: "Thursday", times: [{ start: "00:00", end: "23:59" }] },
+        { day: "Friday", times: [{ start: "00:00", end: "23:59" }] },
+        { day: "Saturday", times: [{ start: "00:00", end: "23:59" }] }
+    ],
+    habitat: "Mythopia",
+    food: "5-Star Vegetable-Based Meals, 4-Star Vegetable-Based Meals",
+    approach: "Follow them around"
+},
+{
+    name: "Yellow Pegasus",
+    image: "../gfx/dlv/yellowpegasus.png",
+    schedule: [
+        { day: "Tuesday", times: [{ start: "18:00", end: "23:59" }] },
+        { day: "Wednesday", times: [{ start: "18:00", end: "23:59" }] },
+        { day: "Thursday", times: [{ start: "18:00", end: "23:59" }] },
+        { day: "Friday", times: [{ start: "18:00", end: "23:59" }] },
+        { day: "Saturday", times: [{ start: "18:00", end: "23:59" }] }
+    ],
+    habitat: "Mythopia",
+    food: "5-Star Vegetable-Based Meals, 4-Star Vegetable-Based Meals",
+    approach: "Follow them around"
+}
+        ];
+
+        function formatSchedule(schedule) {
+            return schedule.map(slot => {
+                const times = slot.times.map(time => {
+                    if (time.start === "00:00" && time.end === "23:59") {
+                        return "All day";
+                    }
+                    return `${time.start} - ${time.end}`;
+                }).join(", ");
+                return `${slot.day} (${times})`;
+            }).join("; ");
+        }
+
+        function isTimeInRange(currentTime, start, end) {
+            const [currentHour, currentMinute] = currentTime.split(':').map(Number);
+            const [startHour, startMinute] = start.split(':').map(Number);
+            const [endHour, endMinute] = end.split(':').map(Number);
+            
+            const current = currentHour * 60 + currentMinute;
+            const startTime = startHour * 60 + startMinute;
+            const endTime = endHour * 60 + endMinute;
+            
+            return current >= startTime && current <= endTime;
+        }
+
+        function isAvailableNow(companion) {
+            const now = new Date();
+            const currentDay = now.toLocaleDateString('en-US', { weekday: 'long' });
+            const currentTime = now.toLocaleTimeString('en-US', { 
+                hour12: false, 
+                hour: "2-digit", 
+                minute: "2-digit" 
+            });
+
+            const todaySchedule = companion.schedule.find(s => s.day === currentDay);
+            if (!todaySchedule) return false;
+
+            return todaySchedule.times.some(time => 
+                isTimeInRange(currentTime, time.start, time.end)
+            );
+        }
+
+        function updateTime() {
+            const now = new Date();
+            document.getElementById('current-time').textContent = 
+                `current time: ${now.toLocaleDateString()} ${now.toLocaleTimeString()}`;
+        }
+
+        function updateAvailableNow() {
+            const currentCompanions = companions.filter(isAvailableNow);
+            const container = document.getElementById('current-companions');
+            
+            if (currentCompanions.length === 0) {
+                container.textContent = "no companions available right now!";
+            } else {
+                container.textContent = currentCompanions
+                    .map(companion => companion.name)
+                    .join(', ');
+            }
+        }
+
+        function displayCompanions(searchTerm = '') {
+            const list = document.getElementById('companion-list');
+            const filteredCompanions = companions.filter(companion =>
+                companion.name.toLowerCase().includes(searchTerm.toLowerCase())
+            );
+
+            if (filteredCompanions.length === 0) {
+                list.innerHTML = '<div class="no-results">no companions found!</div>';
+                return;
+            }
+
+            list.innerHTML = filteredCompanions
+                .map(companion => `
+                    <div class="companion-item">
+                        <img src="${companion.image}" alt="${companion.name}" class="companion-image">
+                        <div class="companion-info">
+                            <div class="companion-name">${companion.name}</div>
+                            <div class="schedule-item"><b>Schedule:</b> ${formatSchedule(companion.schedule)}</div>
+                            <div><b>Location:</b> ${companion.habitat}</div>
+                            <div><b>Favorite Food:</b> ${companion.food}</div>
+                            <div><b>How to Approach:</b> ${companion.approach}</div>
+                        </div>
+                    </div>
+                `)
+                .join('');
+        }
+
+        document.getElementById('search-box').addEventListener('input', (e) => {
+            displayCompanions(e.target.value);
+        });
+
+        updateTime();
+        updateAvailableNow();
+        displayCompanions();
+
+        setInterval(() => {
+            updateTime();
+            updateAvailableNow();
+        }, 60000);
+    </script>
+
+    
+
+<div id="dhtmltooltip"></div>
+
+<script src="../heaven/dhtmltooltip.js"></script>
+</body>
+</html>
