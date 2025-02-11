@@ -49,6 +49,73 @@
 .entry:nth-of-type(6) p{
   padding-top:15px;
 }
+
+.album-container {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+
+    .album {
+        position: relative;
+        width: 150px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        overflow: hidden;
+    }
+
+    .album img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        transition: transform 0.4s ease, opacity 0.4s ease;
+    }
+
+    .cd-art {
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        transition: opacity 0.4s ease;
+    }
+
+    .spin {
+        animation: spin 3s linear infinite;
+    }
+
+    @keyframes spin {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+    }
+
+    .play-button {
+        position: absolute;
+        bottom: 65px;
+        border: none;
+        border-radius: 50%;
+        font-size: 16px;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        color:#FFADC9;
+    }
+
+    .album-info {
+        margin-top: 10px;
+        font-size: 0.78em;
+    }
+
+    @media screen and (max-width: 600px) {
+        .album-container {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
 </style>
 <body>
 
@@ -61,7 +128,7 @@
                 <h2>about me</h2>
                 <center><p class="safe"><a href="https://www.ancestry.com/first-name-meaning/kayla">kayla</a> <span class="alyssa">A</span> <a href="https://en.pronouns.page/@comfort">she/her</a> <span class="alyssa">B</span> <a href="#" onMouseover="ddrivetip('no link on this one, sorry!')"; onMouseout="hideddrivetip()"><span id="age"></span></a><br>
                 <a href="https://cafeastrology.com/zodiacleo.html">leo</a> <span class="alyssa">d</span> <a href="https://cafeastrology.com/zodiacsagittarius.html">sagittarius</a> <span class="alyssa">Y</span> <a href="https://cafeastrology.com/zodiactaurus.html">taurus</a> <span class="alyssa">M</span><br>
-                <a href="https://www.humanmetrics.com/personality/intp">intp</a> <span class="alyssa">i</span> <a href="https://www.enneagraminstitute.com/type-5/">5w4</a> <span class="alyssa">i</span> <a href="https://www.ashliewoods.com/enneagram-selfpreservation-five">sp/so</a> <span class="alyssa">i</span> <a href="https://personalitygrowth.com/enneagram-854/">584</a><br>
+                <a href="https://www.humanmetrics.com/personality/intp">intp</a> <span class="alyssa">i</span> <a href="https://www.enneagraminstitute.com/type-5/">5w4</a> <span class="alyssa">i</span> <a href="https://www.ashliewoods.com/enneagram-selfpreservation-five">sp/so</a> <span class="alyssa">i</span> <a href="https://personalitygrowth.com/enneagram-541/">541</a><br>
                 <a href="https://www.sociotype.com/socionics/types/LII-INTj">lii</a> <span class="alyssa">F</span> <a href="https://similarminds.com/global5/rloei.html">rloei</a>&nbsp; <span class="alyssa">S</span> <a href="https://plus.catholicmatch.com/temperaments/phlegmatic/phlegmatic-melancholic">phleg-mel</a></p><br>
                 <p>i'm kayla! i'm <u onMouseover="ddrivetip('this is important to who i am: it shapes all that i do and say')"; onMouseout="hideddrivetip()">autistic</u> and trying my best to unmask. my special interests are: <si>care bears</si>, <si>overwatch</si>, <si>the little rascals</si>, <si>pokemon</si>, <si> console homebrew</si>, <si>web design</si>, <si>björk</si>, <si>lola pacini</si>. i will probably talk about these things a lot here!</p><br>
                 <p>i've been coding in some capacity since i was around 6yo on sites like mweor and neopets, and was making tumblr themes by the time i was 12yo. i'm not currently in school, but in the near future i want to go for web design and development, and put all of this stuff over the years to good use.</p><br>
@@ -80,14 +147,12 @@
                 <p style="text-align:right;">ace attorney, adventurequest, animal crossing, bloons td, cattails, coffee talk, craftopia, danganronpa, diablo, disney dreamlight valley, doki doki literature club, genshin impact, hypnospace outlaw, life is strange, mabinogi, muse dash, my fluffy life, needy streamer overload, neopets, <b>nintendo consoles and homebrew</b>, <b>overwatch 2</b>, papers please, pokemon, <b>psp/ps vita homebrew</b>, rainbow six extraction, rainbow six siege, the sims, spyro, stardew valley, subeta, toontown, webkinz, what remains of edith finch</p>
                 <h3>musicians</h3>
                 <p><b>björk</b>, say anything, nicole dollanganger, mitski, fall out boy, eminem, lil peep, britney spears, jasiah, jack off jill, kittie, gorillaz, linkin park, lily allen, deftones, lil bo weep, flower face, evanescence, poppy, gregory and the hawk, ethel cain, epic rap battles of history</p>
-                <h3 style="text-align:right;margin-top:5px;">albums</h3>
-                <p style="text-align:right;">utopia (björk), vespertine (björk), greatest hits (björk), homogenic (björk), infinity on high (fall out boy), fallen (evanescence), the fame monster (lady gaga), one-x (three days grace), hybrid theory (linkin park), emotion (carly rae jepsen), vulnicura (björk)</p>
-                <h3 style="margin-top:5px;">songs</h3>
-                <p>all is full of love (björk), saint (björk), come to me (björk), darling i want to destroy you (afi), i know i'm a wolf (discovery of an afterlife), knife prty (deftones), her (poppy), the sea is a good place to think of the future (los campesinos!), the carpal tunnel of love (fall out boy), jennifer's body (hole)</p>
-                <h3 style="text-align:right;margin-top:7px;">characters</h3>
-                <p style="text-align:right;"><b>lola pacini</b> (degrassi), widowmaker (overwatch), illari quispe ruiz (overwatch), mikuru asahina (tmohs)</p>
-                <h3 style="margin-top:5px;">other</h3>
-                <p>sociology, psychology, criminology, sanrio, barbie, poetry, piracy, roleplaying, graphic design, <b>web design</b>, creative writing, scrapbooking, typology, loving, caring, healing</p>
+                <h3 style="text-align:right;margin-top:5px;">songs</h3>
+                <p style="text-align:right;">all is full of love (björk), saint (björk), come to me (björk), darling i want to destroy you (afi), i know i'm a wolf (discovery of an afterlife), knife prty (deftones), her (poppy), the sea is a good place to think of the future (los campesinos!), the carpal tunnel of love (fall out boy), jennifer's body (hole)</p>
+                <h3 style="margin-top:7px;">characters</h3>
+                <p><b>lola pacini</b> (degrassi), widowmaker (overwatch), illari quispe ruiz (overwatch), mikuru asahina (tmohs)</p>
+                <h3 style="text-align:right;margin-top:8px;">other</h3>
+                <p style="text-align:right;">sociology, psychology, criminology, sanrio, barbie, poetry, piracy, roleplaying, graphic design, <b>web design</b>, creative writing, scrapbooking, typology, loving, caring, healing</p>
             </section>
             <section>
                 <h2>kinlist</h2>
@@ -183,6 +248,51 @@
               --> 
             </section>
             <section>
+              <h2 style="margin-bottom:25px;">albums</h2>
+              <div class="album-container">
+                  <div class="album" data-song="../gfx/tldods.mp3">
+                      <img src="../gfx/cds/departure songs.jpg" class="album-art" alt="Departure Songs - We Lost the Sea">
+                      <img src="../gfx/departuresongsvinyl.png" class="cd-art vinyl spin" alt="CD of Departure Songs">
+                      <button class="play-button"><i class="cp cp-volume"></i></button>
+                      <div class="album-info">
+                          <p><b>departure songs</b></p>
+                          <p>we lost the sea</p>
+                          <p><i>the last dive of david shaw</i></p>
+                      </div>
+                  </div>
+                  <div class="album" data-song="../shrines/bjork/saint.mp3">
+                      <img src="../shrines/bjork/utopia.png" class="album-art" alt="Utopia - Björk">
+                      <img src="../gfx/utopiavinyl.png" class="cd-art vinyl spin" alt="CD of Utopia">
+                      <button class="play-button"><i class="cp cp-volume"></i></button>
+                      <div class="album-info">
+                          <p><b>utopia</b></p>
+                          <p>björk</p>
+                          <p><i>saint</i></p>
+                      </div>
+                  </div>
+                  <div class="album" data-song="../gfx/allthat.mp3">
+                      <img src="../gfx/cds/emotion.jpg" class="album-art" alt="Emotion - Carly Rae Jepsen">
+                      <img src="../gfx/emotionvinyl.png" class="cd-art vinyl spin" alt="CD of Emotion">
+                      <button class="play-button"><i class="cp cp-volume"></i></button>
+                      <div class="album-info">
+                          <p><b>emotion</b></p>
+                          <p>carly rae jepsen</p>
+                          <p><i>all that</i></p>
+                      </div>
+                  </div>
+                  <div class="album" data-song="../gfx/nevertoolate.mp3">
+                      <img src="../gfx/cds/one-x.jpeg" class="album-art" alt="One-X - Three Days Grace">
+                      <img src="../gfx/onexvinyl.png" class="cd-art vinyl spin" alt="CD of One-X">
+                      <button class="play-button"><i class="cp cp-volume"></i></button>
+                      <div class="album-info">
+                          <p><b>one-x</b></p>
+                          <p>three days grace</p>
+                          <p><i>never too late</i></p>
+                      </div>
+                  </div>
+              </div>
+          </section>
+            <section>
                 <h2>quotations</h2>
                 <p style="margin-top:10px;margin-bottom:2px;"><q>but you have always been so; always you came trustingly to all that is terrible. you have always wanted to caress every monster. a touch of warm breath, a little soft fur on its paw — and immediately you have been ready to love and lure it.</q> — friedrich nietzsche, <i>thus spake zarathustra</i></p>
                 <p style="margin-bottom:2px;"><q>maybe you were put on this earth to be tender and loving during a time when you are expected to be cruel and calloused.</q> — tumblr user lonestarboyfriend</p>
@@ -258,3 +368,39 @@
     var year = age_dt.getUTCFullYear();
     var age = Math.abs(year - 1970);
     document.getElementById("age").innerHTML = age;</script>
+
+<script>
+document.querySelectorAll('.album').forEach(album => {
+    let isPlaying = false;
+    const audio = new Audio(album.dataset.song);
+    audio.volume = 0.50;
+    const playButton = album.querySelector('.play-button');
+      const albumArt = album.querySelector('.album-art');
+      const cdArt = album.querySelector('.cd-art');
+
+      album.addEventListener('mouseenter', () => {
+          albumArt.style.transform = 'translate(-10px, -10px)';
+          albumArt.style.opacity = '0';
+          cdArt.style.opacity = '1';
+      });
+      
+      album.addEventListener('mouseleave', () => {
+          albumArt.style.transform = 'translate(0, 0)';
+          albumArt.style.opacity = '1';
+          cdArt.style.opacity = '0';
+      });
+      
+      playButton.addEventListener('click', () => {
+    if (!isPlaying) {
+      audio.volume = 0.15;
+        audio.play();
+        playButton.innerHTML = '<i class="cp cp-mute"></i>';
+    } else {
+        audio.pause();
+        playButton.innerHTML = '<i class="cp cp-volume"></i>'; 
+    }
+    isPlaying = !isPlaying;
+});
+
+  });
+</script>
