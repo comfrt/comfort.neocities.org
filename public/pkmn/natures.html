@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>comfort's ♡ bedroom !</title>
+    <link rel="stylesheet" href="../interests.css">
+    <link rel="icon" type="image/x-icon" href="https://64.media.tumblr.com/tumblr_lkl5ovrP1S1qfamg6.gif">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://static.tumblr.com/svdghan/wUSr83npl/tempcf.css">
+    <script src="../heaven/load.js"></script>
+</head>
+<body>
+    <style>
+input[type=text]{
+    width:100%;
+    max-width: 1000px;
+    margin-bottom:10px;
+    border: 2px solid transparent;
+    border-image: linear-gradient(to right, #EF46BA, #FE6D7C, #F5F43A, #5CE073, #5880FE, #C74BDA) 1;
+    height:40px;
+    padding-left: 10px;
+margin-top:10px;
+margin-bottom:13px;
+}
+
+input[type=text]::placeholder{
+color: #838383;
+font-style: italic;
+padding-left:10px;
+font-family: "pixel";
+}
+
+input[type=text]:focus {
+  background-color: #EF46BA;
+  color:#ffffff;
+  padding-left:10px;
+  padding-right:10px;
+}
+
+.nature-result-card {
+  font-family: 'pixel';
+  background: #592B8D;
+  border: double 1px transparent;
+  border-image: linear-gradient(to right, #EF46BA, #FE6D7C, #F5F43A, #5CE073, #5880FE, #C74BDA) 1;
+  padding: 20px;
+  text-align: center;
+  max-width: 300px;
+  margin: 20px auto;
+  color: #ffffff;
+  box-shadow: 0 0 20px #C74BDA;
+  animation: popIn 0.3s ease-in-out;
+}
+
+.nature-result-name {
+  font-size: 24px;
+  font-family: 'starborn';
+  letter-spacing: 2px;
+  color: #ffffff;
+  text-shadow: -1px -1px 0 #EF46BA, 1px -1px 0 #FE6D7C, -1px 1px 0 #5CE073, 1px 1px 0 #C74BDA;
+  margin-bottom: 10px;
+}
+
+.nature-result-value {
+  font-size: 24px;
+  color: #EF46BA;
+  font-family: 'silverlining';
+  text-transform:lowercase;
+  font-weight: bold;
+  background-image: linear-gradient(to right, #EF46BA, #FE6D7C, #F5F43A, #5CE073, #5880FE, #C74BDA);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 2px #ffffff33;
+}
+
+.nature-not-found {
+  text-align: center;
+  margin-top: 15px;
+  font-family: 'pixel';
+  font-size: 14px;
+  color: #ffffff88;
+  text-shadow: 1px 1px 0 #411A69;
+}
+
+@keyframes popIn {
+  0% { transform: scale(0.95); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+
+    </style>
+</head>
+   <nav id="navbar"></nav>
+
+   <div class="container">
+       <main>
+           <section>
+               <h2>nature optimizer</h2>
+               <center><p><i>intended for the main series games, not competitive!</i></p></center>
+               <input 
+                   type="text" class="search-box" id="search" placeholder="search for a pokémon. . .">
+
+                   <div id="result" style="font-family: pixel; margin-top: 10px;"></div>
+
+    
+
+<div id="dhtmltooltip"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.2/papaparse.min.js"></script>
+<script>
+Papa.parse("https://docs.google.com/spreadsheets/d/e/2PACX-1vSrNHa-gVAAQBooULb9y0xPJvv6-nwdQenqFsKSJ-9OshIyWP34e9kETOSqWA_nYS5SRpGD2zYPx9zs/pub?output=csv", {
+  download: true,
+  header: true,
+  complete: function(results) {
+    const data = results.data;
+    initSearch(data);
+  }
+});
+function initSearch(data) {
+  const input = document.getElementById("search");
+  const resultDiv = document.getElementById("result");
+
+  input.addEventListener("input", () => {
+    const query = input.value.toLowerCase();
+    if (!query) {
+      resultDiv.innerHTML = "";
+      return;
+    }
+
+    const matches = data
+      .filter(row => row.pokemon.toLowerCase().includes(query))
+      .slice(0, 5);
+
+    if (matches.length > 0) {
+      resultDiv.innerHTML = matches.map(match => `
+        <div class="nature-result-card">
+          <div class="nature-result-name">${match.pokemon}</div>
+          <div class="nature-result-value">${match.nature}</div>
+        </div>
+      `).join("");
+      
+      if (data.filter(row => row.pokemon.toLowerCase().includes(query)).length > 10) {
+        resultDiv.innerHTML += `<div class="nature-overflow-note"><center>more results exist... try narrowing your search ♡</center></div>`;
+      }
+
+    } else {
+      resultDiv.innerHTML = `<div class="nature-not-found">no match... try again?</div>`;
+    }
+  });
+}
+
+</script>
+
+<script src="../heaven/dhtmltooltip.js"></script>
+</body>
+</html>
